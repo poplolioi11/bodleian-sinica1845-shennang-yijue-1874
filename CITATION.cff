@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+type: dataset
+title: '腎囊醫訣（1874；Bodleian Sinica 1845） / Shen nang yi jue: Transcription dataset'
+message: Please cite this fixed initial-transcription version and retain its quality
+  statement. Zenodo DOI is pending.
+authors:
+- family-names: Chu
+  given-names: Chen-Yu
+  orcid: https://orcid.org/0009-0003-9738-6914
+  website: https://github.com/poplolioi11
+version: 0.1.0
+abstract: Shen nang yi jue (1874), published by Ji ao xuan at [Amoy] according to
+  the Bodleian catalogue, is Patrick Manson’s Chinese translation and adaptation of
+  a work by Thomas Blizard Curling. Its English preface, signed at Amoy, describes
+  additional anatomical material and observations by Manson. The book discusses historical
+  conditions of the testis, scrotum and spermatic cord, case records, surgery and
+  illustrated explanations, with Chinese and English prefaces, a contents list and
+  a bilingual vocabulary. It can support research on late Qing medical translation,
+  terminology and medical illustration. This version provides JSON, TXT and TEI for
+  497 original printed text, caption and labelled illustration faces from the three
+  bound volumes of Bodleian Sinica 1845, retaining their physical order and conflicting
+  printed volume numbers. It is an AI-assisted initial transcription with uncertain
+  and unresolved readings; comparison with independent readings and full human collation
+  have not been completed for this version.
+keywords:
+- 腎囊醫訣
+- Shen nang yi jue
+- Sinica 1845
+- Patrick Manson
+- Curling
+- Thomas Blizard Curling
+- 晚清醫學史
+- history of medicine
+- 醫學翻譯
+- medical translation
+- 外科史
+- history of surgery
+- 中英醫學術語
+- bilingual medical terminology
+- 醫學圖像史
+- medical illustration
+- '1874'
+- TEI
+license: CC-BY-4.0
+url: https://github.com/poplolioi11/bodleian-sinica1845-shennang-yijue-1874/releases/tag/v0.1.0
+repository-code: https://github.com/poplolioi11/bodleian-sinica1845-shennang-yijue-1874
+date-released: '2026-11-12'

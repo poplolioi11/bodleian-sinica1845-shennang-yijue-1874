@@ -1,0 +1,1 @@
+Historical source text: no new exclusive restriction asserted. Modern original explanatory documentation only: CC BY 4.0, https://creativecommons.org/licenses/by/4.0/ . See RIGHTS.md for the full scope and Bodleian image attribution. Source images are excluded.

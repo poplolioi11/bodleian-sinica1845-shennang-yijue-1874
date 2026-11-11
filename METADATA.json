@@ -1,0 +1,194 @@
+{
+  "schema": "sinica1845-public-metadata/1",
+  "title": "腎囊醫訣（1874；Bodleian Sinica 1845） / Shen nang yi jue: Transcription dataset",
+  "version": "0.1.0",
+  "publication_state": "versioned text dataset; Zenodo DOI pending",
+  "prepared_date": "2026-11-12",
+  "creators": [
+    {
+      "family_name": "Chu",
+      "given_name": "Chen-Yu",
+      "name": "Chu, Chen-Yu",
+      "orcid": "0009-0003-9738-6914"
+    }
+  ],
+  "historical_responsibility": {
+    "preface_signature": "PATRICK MANSON.",
+    "preface_date_place": "Amoy, 7th March, 1874.",
+    "preface_described_source": "Curling, On Diseases of the Testis",
+    "historical_roles": "Manson describes translation and adaptation in the English preface; no modern editor is assigned historical authorship",
+    "author": "Thomas Blizard Curling",
+    "translator_and_adapter": "Patrick Manson",
+    "role_basis": "By T B Curling, tr. by P Manson",
+    "catalogue_note": "The XML lists both people as author elements; the catalogue note explicitly distinguishes translator. Modern dataset creator remains Chen-Yu Chu only."
+  },
+  "descriptions": [
+    {
+      "lang": "zh-Hant",
+      "type": "Abstract",
+      "text": "《腎囊醫訣》（Shen nang yi jue）是1874年由寄傲軒印行的中文外科譯著，牛津博德利館目記出版地為[Amoy]。原著者為Thomas Blizard Curling，Patrick Manson譯介並增補解剖及其自身觀察，英文序署Amoy（廈門）。內容涉及外腎、腎囊與腎系諸症、病例、歷史外科技術及圖說，前置文字另有中文序、英文序、總目與中英詞表，可供晚清醫學翻譯、術語及醫學圖像史研究。本版據牛津博德利圖書館Sinica 1845三冊掃描，提供497個原印文字、圖說及圖中文字面的JSON、TXT與TEI，保留裝訂冊原序及印本卷號衝突。文字為AI輔助初錄，保留疑讀與局部未解，尚未完成獨立稿比對及人類全文校勘。"
+    },
+    {
+      "lang": "en",
+      "type": "Abstract",
+      "text": "Shen nang yi jue (1874), published by Ji ao xuan at [Amoy] according to the Bodleian catalogue, is Patrick Manson’s Chinese translation and adaptation of a work by Thomas Blizard Curling. Its English preface, signed at Amoy, describes additional anatomical material and observations by Manson. The book discusses historical conditions of the testis, scrotum and spermatic cord, case records, surgery and illustrated explanations, with Chinese and English prefaces, a contents list and a bilingual vocabulary. It can support research on late Qing medical translation, terminology and medical illustration. This version provides JSON, TXT and TEI for 497 original printed text, caption and labelled illustration faces from the three bound volumes of Bodleian Sinica 1845, retaining their physical order and conflicting printed volume numbers. It is an AI-assisted initial transcription with uncertain and unresolved readings; comparison with independent readings and full human collation have not been completed for this version."
+    }
+  ],
+  "methods": "The source was read from fixed 1000px previews and their lossless 500px-wide half-face PNG splits, with full-frame context and selected centrally acquired original-region crops for local uncertainties. Actual preview heights vary and are recorded per source. Diagram text may extend across a geometric half and remains attached to its semantic source face. Four disjoint initial-reading parts were integrated by stable face and unit IDs without rewriting their text. Local rereads by the same initial reader are recorded separately from the original raw versions; they are not independent collation. AI source-reading and text-encoding assistance used an OpenAI native subscription service; the actual model identity, effort, tokens and cash are not exposed by the available execution evidence and remain null, rather than inferred from requested settings. No independent reading manuscript was used in this integration. Original selected codepoints, source punctuation, historical terminology, apparent errors and numerical inconsistencies are retained. Small notes, source marks, marginal writing of unknown responsibility, captions, diagram labels and imprints remain separate. Engineering checks cover exact text and ordered-ID roundtrips, source metadata, official TEI Relax NG and CFF schemas; they do not measure accuracy. Schematron, full scholarly apparatus, full human collation, expert review and a measured error rate are not provided. The private source images, complete working records, prompts and specialized production software are not public, so a complete image-to-text rerun is not supplied. This is a historical text resource, not modern clinical guidance.",
+  "notes": "Source: Bodleian Libraries, University of Oxford, Sinica 1845(1–3),497 original printed text/caption/labelled illustration faces in276 captures. Physical order is I / II+IV / III; the contents/body numbering conflict is preserved. Photographic images and crops are excluded. Historical text is supplied without a new exclusive restriction; CC BY 4.0 applies only to the modern original explanatory documentation. Source photographs retain the Bodleian CC BY-NC 4.0 attribution and terms. The source catalogue records shen nang yi jue; display capitalization only is changed. Its English source-work title is retained as a catalogue reference, not presented as the dataset’s own title. The catalogued publication place [Amoy] keeps its brackets; Aberdeen is the illustration imprint, not the book publication place.",
+  "languages": [
+    "lzh",
+    "en"
+  ],
+  "language_basis": "Chinese historical text and bilingual vocabulary; English preface and English documentation. Source manifests record Chinese and English.",
+  "keywords": [
+    "腎囊醫訣",
+    "Shen nang yi jue",
+    "Sinica 1845",
+    "Patrick Manson",
+    "Curling",
+    "Thomas Blizard Curling",
+    "晚清醫學史",
+    "history of medicine",
+    "醫學翻譯",
+    "medical translation",
+    "外科史",
+    "history of surgery",
+    "中英醫學術語",
+    "bilingual medical terminology",
+    "醫學圖像史",
+    "medical illustration",
+    "1874",
+    "TEI"
+  ],
+  "source": {
+    "institution": "Bodleian Libraries, University of Oxford",
+    "shelfmark": "Sinica 1845 (1–3)",
+    "objects": [
+      "https://digital.bodleian.ox.ac.uk/objects/9eeffa09-4a27-4644-a9aa-021d2ebe8795/",
+      "https://digital.bodleian.ox.ac.uk/objects/55f65128-5985-4f23-9acf-3a3574af751d/",
+      "https://digital.bodleian.ox.ac.uk/objects/94649ce0-6270-443b-bfe4-fb49da7edcb9/"
+    ],
+    "fixed_capture_count": 276,
+    "original_print_faces": 497,
+    "bound_volume_sequence": [
+      "I",
+      "II + IV",
+      "III"
+    ],
+    "numbering_conflict": {
+      "scope": "printed contents versus body-heading correspondence; no original characters changed",
+      "contents": {
+        "third": "卷參十章論腎袋瘤 atb01-f012-L",
+        "fourth": "卷肆一章論腎囊撞磕等傷 atb01-f014-R"
+      },
+      "body_heading_observations": {
+        "b02-f060-L": "卷四, chapter論腎袋瘤十章",
+        "b02-f103-R": "卷四終",
+        "b03-f003-L": "卷三, chapter一章論腎囊撞磕等傷",
+        "b03-f042-R": "卷三終"
+      },
+      "relationship_status": "conflicting printed numbering recorded; printing/binding/collation explanation unestablished",
+      "do_not_silently_reorder_or_correct_source": true,
+      "source_views_retained": true
+    }
+  },
+  "formats": [
+    "JSON",
+    "UTF-8 TXT",
+    "TEI XML"
+  ],
+  "rights": [
+    {
+      "identifier": "public-domain-historical-text",
+      "scope": "historical text; no new exclusive restriction asserted"
+    },
+    {
+      "identifier": "cc-by-4.0",
+      "scope": "modern original explanatory documentation only"
+    }
+  ],
+  "source_image_rights": {
+    "statement": "Photo: © Bodleian Libraries, University of Oxford. Terms of use: CC BY-NC4.0",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "terms": "https://digital.bodleian.ox.ac.uk/terms/",
+    "images_in_package": false
+  },
+  "quality": {
+    "initial_faces": 497,
+    "independent_collation": "not-completed-in-this-version",
+    "human_full_collation": "not-run",
+    "expert_review": "not-run",
+    "measured_accuracy": null,
+    "actual_model": null,
+    "effort": null,
+    "tokens": null,
+    "cash": null,
+    "scope_note": "Complete initial transcription of the497original printed text/caption/labelled illustration faces; this does not claim all glyphs resolved or full independent/human collation."
+  },
+  "counts": {
+    "faces": 497,
+    "parts": {
+      "root47": 47,
+      "vol1body172": 172,
+      "vol2body200": 200,
+      "vol3body78": 78
+    },
+    "units": 6238,
+    "all_layer_codepoints": 95546,
+    "body_codepoints": 80156,
+    "layers": {
+      "title-date": 1,
+      "title": 1,
+      "imprint": 1,
+      "heading": 2,
+      "English-preface": 9,
+      "author-signature": 1,
+      "preface-date": 1,
+      "vocabulary-table-cell": 268,
+      "main": 24,
+      "running-title": 918,
+      "contents": 126,
+      "body": 4050,
+      "printed-folio": 450,
+      "small-note": 90,
+      "source-mark": 53,
+      "marginal-writing": 55,
+      "section-marker": 5,
+      "colophon": 3,
+      "book-title": 2,
+      "responsibility-statement": 2,
+      "source-damage": 1,
+      "original-illustration-caption": 41,
+      "diagram-text-label": 98,
+      "engraver-imprint": 12,
+      "diagram-subfigure-index": 24
+    },
+    "small_note_anchors": 90,
+    "literal_gap_boxes": 22,
+    "gaiji_token_occurrences": 51,
+    "page_uncertainty_records": 432,
+    "source_addendum_events": 66,
+    "anchor_relationships": 103,
+    "other_anchors": 13
+  },
+  "doi": null,
+  "repository": "https://github.com/poplolioi11/bodleian-sinica1845-shennang-yijue-1874",
+  "source_bibliography": {
+    "original_title": "腎囊醫訣 四卷",
+    "catalogue_romanization_original": "shen nang yi jue",
+    "display_romanization": "Shen nang yi jue",
+    "place_as_catalogued": "[Amoy]",
+    "publisher_as_catalogued": "寄傲軒",
+    "publisher_romanization_as_catalogued": "ji ao xuan",
+    "date_as_catalogued": "同治甲戌[1874]",
+    "catalogue_commit_url": "https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201845.xml",
+    "catalogue_xml_sha256": "d420362f0f01481622fad3d88117656154fb4916aba40ab954cbab1d62e8e2c3",
+    "catalogue_url": "https://east-asian.bodleian.ox.ac.uk/catalog/volume_1602",
+    "SOLO": "https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221416830107026",
+    "English_source_work_title_note_240": "A practical treatise on the diseases of the testis and of the spermatic cord and scrotum"
+  },
+  "resource_type": "dataset",
+  "repository_url": "https://github.com/poplolioi11/bodleian-sinica1845-shennang-yijue-1874",
+  "version_release_url": "https://github.com/poplolioi11/bodleian-sinica1845-shennang-yijue-1874/releases/tag/v0.1.0"
+}

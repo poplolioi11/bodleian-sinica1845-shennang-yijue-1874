@@ -1,0 +1,829 @@
+{
+  "offset_basis": "Unicode codepoints; named1basedanchorsretainoriginalbasis",
+  "relationships": [
+    {
+      "unit_id": "b01-f015-L-n01",
+      "page_id": "b01-f015-L",
+      "parent_unit": "b01-f015-L-c06",
+      "anchor_after_text": "肉膜裹之",
+      "anchor_after_codepoint_1based": 21,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f017-R-n01",
+      "page_id": "b01-f017-R",
+      "parent_unit": "b01-f017-R-c05",
+      "anchor_after_text": "血脈管",
+      "anchor_after_codepoint_1based": 3,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f017-R-n02",
+      "page_id": "b01-f017-R",
+      "parent_unit": "b01-f017-R-c05",
+      "anchor_after_text": "腦氣筋",
+      "anchor_after_codepoint_1based": 6,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f020-R-n01",
+      "page_id": "b01-f020-R",
+      "parent_unit": "b01-f020-R-c07",
+      "anchor_after_text": "直管",
+      "anchor_after_codepoint_1based": 2,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f021-R-n01",
+      "page_id": "b01-f021-R",
+      "parent_unit": "b01-f021-R-c09",
+      "anchor_after_text": "肉曳腎而下",
+      "anchor_after_codepoint_1based": 5,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f022-R-n01",
+      "page_id": "b01-f022-R",
+      "parent_unit": "b01-f022-R-c01",
+      "anchor_after_text": "下至囊中",
+      "anchor_after_codepoint_1based": 13,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f024-R-n01",
+      "page_id": "b01-f024-R",
+      "parent_unit": "b01-f024-R-c02",
+      "anchor_after_text": "而半出",
+      "anchor_after_codepoint_1based": 11,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f024-R-n02",
+      "page_id": "b01-f024-R",
+      "parent_unit": "b01-f024-R-c02",
+      "anchor_after_text": "陽蒂之旁",
+      "anchor_after_codepoint_1based": 20,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f024-R-n03",
+      "page_id": "b01-f024-R",
+      "parent_unit": "b01-f024-R-c03",
+      "anchor_after_text": "腿之處",
+      "anchor_after_codepoint_1based": 13,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f024-R-n04",
+      "page_id": "b01-f024-R",
+      "parent_unit": "b01-f024-R-c06",
+      "anchor_after_text": "二十一人",
+      "anchor_after_codepoint_1based": 15,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f024-R-n05",
+      "page_id": "b01-f024-R",
+      "parent_unit": "b01-f024-R-c08",
+      "anchor_after_text": "者五人",
+      "anchor_after_codepoint_1based": 18,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f024-L-n01",
+      "page_id": "b01-f024-L",
+      "parent_unit": "b01-f024-L-c01",
+      "anchor_after_text": "二十五人",
+      "anchor_after_codepoint_1based": 7,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f025-R-n01",
+      "page_id": "b01-f025-R",
+      "parent_unit": "b01-f025-R-c05",
+      "anchor_after_text": "略下",
+      "anchor_after_codepoint_1based": 7,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f025-R-n02",
+      "page_id": "b01-f025-R",
+      "parent_unit": "b01-f025-R-c09",
+      "anchor_after_text": "外",
+      "anchor_after_codepoint_1based": 1,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f025-L-n01",
+      "page_id": "b01-f025-L",
+      "parent_unit": "b01-f025-L-c02",
+      "anchor_after_text": "肉",
+      "anchor_after_codepoint_1based": 1,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f026-L-n01",
+      "page_id": "b01-f026-L",
+      "parent_unit": "b01-f026-L-c04",
+      "anchor_after_text": "垂下",
+      "anchor_after_codepoint_1based": 16,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f026-L-n02",
+      "page_id": "b01-f026-L",
+      "parent_unit": "b01-f026-L-c09",
+      "anchor_after_text": "何能自下",
+      "anchor_after_codepoint_1based": 4,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f027-L-n01",
+      "page_id": "b01-f027-L",
+      "parent_unit": "b01-f027-L-c07",
+      "anchor_after_text": "制壓腎枚",
+      "anchor_after_codepoint_1based": 17,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f028-L-n01",
+      "page_id": "b01-f028-L",
+      "parent_unit": "b01-f028-L-c08",
+      "anchor_after_text": "下于胯",
+      "anchor_after_codepoint_1based": 3,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f028-L-n02",
+      "page_id": "b01-f028-L",
+      "parent_unit": "b01-f028-L-c09",
+      "anchor_after_text": "連痛極",
+      "anchor_after_codepoint_1based": 3,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f030-L-n01",
+      "page_id": "b01-f030-L",
+      "parent_unit": "b01-f030-L-c06",
+      "anchor_after_text": "肉絲",
+      "anchor_after_codepoint_1based": 14,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f033-R-n01",
+      "page_id": "b01-f033-R",
+      "parent_unit": "b01-f033-R-c01",
+      "anchor_after_text": "下一寸",
+      "anchor_after_codepoint_1based": 8,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f034-R-mark01",
+      "page_id": "b01-f034-R",
+      "parent_unit": "b01-f034-R-c04",
+      "anchor_after_text": "一",
+      "anchor_after_codepoint_1based": 1,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f034-L-mark01",
+      "page_id": "b01-f034-L",
+      "parent_unit": "b01-f034-L-c07",
+      "anchor_after_text": "腎肉",
+      "anchor_after_codepoint_1based": 2,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f035-R-mark01",
+      "page_id": "b01-f035-R",
+      "parent_unit": "b01-f035-R-c04",
+      "anchor_after_text": "童稚",
+      "anchor_after_codepoint_1based": 2,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f038-R-overwrite01",
+      "page_id": "b01-f038-R",
+      "parent_unit": "b01-f038-R-c06",
+      "anchor_after_text": "又",
+      "anchor_after_codepoint_1based": 10,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f039-R-overwrite01",
+      "page_id": "b01-f039-R",
+      "parent_unit": "b01-f039-R-c06",
+      "anchor_after_text": "埃阿",
+      "anchor_after_codepoint_1based": 9,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f041-L-n01",
+      "page_id": "b01-f041-L",
+      "parent_unit": "b01-f041-L-c03",
+      "anchor_after_text": "損壞腎體",
+      "anchor_after_codepoint_1based": 10,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f043-L-n01",
+      "page_id": "b01-f043-L",
+      "parent_unit": "b01-f043-L-c02",
+      "anchor_after_text": "舊症",
+      "anchor_after_codepoint_1based": 20,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f044-R-n01",
+      "page_id": "b01-f044-R",
+      "parent_unit": "b01-f044-R-c06",
+      "anchor_after_text": "諸處之炎爲最",
+      "anchor_after_codepoint_1based": 6,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f045-R-n01",
+      "page_id": "b01-f045-R",
+      "parent_unit": "b01-f045-R-c01",
+      "anchor_after_text": "加重廿四分",
+      "anchor_after_codepoint_1based": 8,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f045-R-n02",
+      "page_id": "b01-f045-R",
+      "parent_unit": "b01-f045-R-c05",
+      "anchor_after_text": "人",
+      "anchor_after_codepoint_1based": 1,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f045-R-n03",
+      "page_id": "b01-f045-R",
+      "parent_unit": "b01-f045-R-c07",
+      "anchor_after_text": "老人",
+      "anchor_after_codepoint_1based": 5,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f045-L-n01",
+      "page_id": "b01-f045-L",
+      "parent_unit": "b01-f045-L-c04",
+      "anchor_after_text": "餘兩者",
+      "anchor_after_codepoint_1based": 3,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f045-L-n02",
+      "page_id": "b01-f045-L",
+      "parent_unit": "b01-f045-L-c07",
+      "anchor_after_text": "其大相若",
+      "anchor_after_codepoint_1based": 16,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f047-L-n01",
+      "page_id": "b01-f047-L",
+      "parent_unit": "b01-f047-L-c06",
+      "anchor_after_text": "十六人",
+      "anchor_after_codepoint_1based": 16,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f047-L-n02",
+      "page_id": "b01-f047-L",
+      "parent_unit": "b01-f047-L-c08",
+      "anchor_after_text": "六十四人",
+      "anchor_after_codepoint_1based": 8,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f048-R-n01",
+      "page_id": "b01-f048-R",
+      "parent_unit": "b01-f048-R-c01",
+      "anchor_after_text": "十九人",
+      "anchor_after_codepoint_1based": 3,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f048-R-n02",
+      "page_id": "b01-f048-R",
+      "parent_unit": "b01-f048-R-c02",
+      "anchor_after_text": "九十九人",
+      "anchor_after_codepoint_1based": 21,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f048-R-n03",
+      "page_id": "b01-f048-R",
+      "parent_unit": "b01-f048-R-c04",
+      "anchor_after_text": "二十八人",
+      "anchor_after_codepoint_1based": 14,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f048-R-n04",
+      "page_id": "b01-f048-R",
+      "parent_unit": "b01-f048-R-c05",
+      "anchor_after_text": "一人",
+      "anchor_after_codepoint_1based": 22,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f050-R-n01",
+      "page_id": "b01-f050-R",
+      "parent_unit": "b01-f050-R-c07",
+      "anchor_after_text": "腎系",
+      "anchor_after_codepoint_1based": 19,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f050-L-n01",
+      "page_id": "b01-f050-L",
+      "parent_unit": "b01-f050-L-c01",
+      "anchor_after_text": "如瓠",
+      "anchor_after_codepoint_1based": 9,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f051-R-n01",
+      "page_id": "b01-f051-R",
+      "parent_unit": "b01-f051-R-c06",
+      "anchor_after_text": "可辨",
+      "anchor_after_codepoint_1based": 18,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f054-L-circle01",
+      "page_id": "b01-f054-L",
+      "parent_unit": "b01-f054-L-c06",
+      "anchor_after_text": "細心深究",
+      "anchor_after_codepoint_1based": 4,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f056-L-circle01",
+      "page_id": "b01-f056-L",
+      "parent_unit": "b01-f056-L-c06",
+      "anchor_after_text": "因",
+      "anchor_after_codepoint_1based": 5,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f056-L-n01",
+      "page_id": "b01-f056-L",
+      "parent_unit": "b01-f056-L-c01",
+      "anchor_after_text": "暢適矣",
+      "anchor_after_codepoint_1based": 6,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f057-R-n01",
+      "page_id": "b01-f057-R",
+      "parent_unit": "b01-f057-R-c03",
+      "anchor_after_text": "小子",
+      "anchor_after_codepoint_1based": 10,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f057-L-n01",
+      "page_id": "b01-f057-L",
+      "parent_unit": "b01-f057-L-c06",
+      "anchor_after_text": "至下",
+      "anchor_after_codepoint_1based": 8,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f058-R-mark01",
+      "page_id": "b01-f058-R",
+      "parent_unit": "b01-f058-R-c07",
+      "anchor_after_text": "如此",
+      "anchor_after_codepoint_1based": 17,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f059-R-n01",
+      "page_id": "b01-f059-R",
+      "parent_unit": "b01-f059-R-c06",
+      "anchor_after_text": "穿雙線",
+      "anchor_after_codepoint_1based": 8,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f059-L-n01",
+      "page_id": "b01-f059-L",
+      "parent_unit": "b01-f059-L-c05",
+      "anchor_after_text": "變成膿",
+      "anchor_after_codepoint_1based": 15,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f059-L-n02",
+      "page_id": "b01-f059-L",
+      "parent_unit": "b01-f059-L-c06",
+      "anchor_after_text": "重炎",
+      "anchor_after_codepoint_1based": 2,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f059-L-n03",
+      "page_id": "b01-f059-L",
+      "parent_unit": "b01-f059-L-c09",
+      "anchor_after_text": "牙硝或",
+      "anchor_after_codepoint_1based": 17,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f060-L-n01",
+      "page_id": "b01-f060-L",
+      "parent_unit": "b01-f060-L-c04",
+      "anchor_after_text": "巴禮林爲之",
+      "anchor_after_codepoint_1based": 10,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f061-L-circle01",
+      "page_id": "b01-f061-L",
+      "parent_unit": "b01-f061-L-c03",
+      "anchor_after_text": "他起",
+      "anchor_after_codepoint_1based": 2,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f061-L-n01",
+      "page_id": "b01-f061-L",
+      "parent_unit": "b01-f061-L-c06",
+      "anchor_after_text": "疑慮",
+      "anchor_after_codepoint_1based": 19,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f062-R-n01",
+      "page_id": "b01-f062-R",
+      "parent_unit": "b01-f062-R-c04",
+      "anchor_after_text": "證其畧",
+      "anchor_after_codepoint_1based": 9,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f062-L-n01",
+      "page_id": "b01-f062-L",
+      "parent_unit": "b01-f062-L-c06",
+      "anchor_after_text": "所致",
+      "anchor_after_codepoint_1based": 14,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f063-R-n01",
+      "page_id": "b01-f063-R",
+      "parent_unit": "b01-f063-R-c01",
+      "anchor_after_text": "物",
+      "anchor_after_codepoint_1based": 6,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f063-R-n02",
+      "page_id": "b01-f063-R",
+      "parent_unit": "b01-f063-R-c05",
+      "anchor_after_text": "加路米",
+      "anchor_after_codepoint_1based": 19,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f064-R-n01",
+      "page_id": "b01-f064-R",
+      "parent_unit": "b01-f064-R-c02",
+      "anchor_after_text": "復作",
+      "anchor_after_codepoint_1based": 3,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f066-R-n01",
+      "page_id": "b01-f066-R",
+      "parent_unit": "b01-f066-R-c02",
+      "anchor_after_text": "入腹之症",
+      "anchor_after_codepoint_1based": 6,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f068-L-n01",
+      "page_id": "b01-f068-L",
+      "parent_unit": "b01-f068-L-c07",
+      "anchor_after_text": "他處",
+      "anchor_after_codepoint_1based": 16,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f069-L-circle01",
+      "page_id": "b01-f069-L",
+      "parent_unit": "b01-f069-L-c02",
+      "anchor_after_text": "三人之",
+      "anchor_after_codepoint_1based": 19,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f069-L-n01",
+      "page_id": "b01-f069-L",
+      "parent_unit": "b01-f069-L-c09",
+      "anchor_after_text": "斜立",
+      "anchor_after_codepoint_1based": 6,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f070-R-n01",
+      "page_id": "b01-f070-R",
+      "parent_unit": "b01-f070-R-c02",
+      "anchor_after_text": "不平",
+      "anchor_after_codepoint_1based": 5,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f073-L-circle01",
+      "page_id": "b01-f073-L",
+      "parent_unit": "b01-f073-L-c05",
+      "anchor_after_text": "再射可",
+      "anchor_after_codepoint_1based": 9,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f073-L-n01",
+      "page_id": "b01-f073-L",
+      "parent_unit": "b01-f073-L-c02",
+      "anchor_after_text": "更危險",
+      "anchor_after_codepoint_1based": 18,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f075-R-n01",
+      "page_id": "b01-f075-R",
+      "parent_unit": "b01-f075-R-c03",
+      "anchor_after_text": "之形",
+      "anchor_after_codepoint_1based": 11,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f084-R-n01",
+      "page_id": "b01-f084-R",
+      "parent_unit": "b01-f084-R-section01",
+      "anchor_after_text": "八節",
+      "anchor_after_codepoint_1based": 10,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f084-L-n01",
+      "page_id": "b01-f084-L",
+      "parent_unit": "b01-f084-L-c09",
+      "anchor_after_text": "震動",
+      "anchor_after_codepoint_1based": 13,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f086-R-n01",
+      "page_id": "b01-f086-R",
+      "parent_unit": "b01-f086-R-list01",
+      "anchor_after_text": "血疝",
+      "anchor_after_codepoint_1based": 2,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f086-R-n02",
+      "page_id": "b01-f086-R",
+      "parent_unit": "b01-f086-R-u06",
+      "anchor_after_text": "論夾膜之血疝",
+      "anchor_after_codepoint_1based": 6,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f087-R-n01",
+      "page_id": "b01-f087-R",
+      "parent_unit": "b01-f087-R-c01",
+      "anchor_after_text": "壓住",
+      "anchor_after_codepoint_1based": 13,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f094-R-n01",
+      "page_id": "b01-f094-R",
+      "parent_unit": "b01-f094-R-c06",
+      "anchor_after_text": "金點",
+      "anchor_after_codepoint_1based": 20,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f096-R-section01",
+      "page_id": "b01-f096-R",
+      "parent_unit": "b01-f096-R-c05",
+      "anchor_after_text": "論腎胞血疝",
+      "anchor_after_codepoint_1based": 5,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f097-L-section01",
+      "page_id": "b01-f097-L",
+      "parent_unit": "b01-f097-L-c04",
+      "anchor_after_text": "論腎系血疝",
+      "anchor_after_codepoint_1based": 5,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b01-f097-L-n01",
+      "page_id": "b01-f097-L",
+      "parent_unit": "b01-f097-L-c04",
+      "anchor_after_text": "論腎系血疝",
+      "anchor_after_codepoint_1based": 5,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b02-f005-R-n01",
+      "page_id": "b02-f005-R",
+      "parent_unit": "b02-f005-R-c08",
+      "anchor_after_text": "糟",
+      "anchor_after_codepoint_1based": 3,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b02-f006-L-n01",
+      "page_id": "b02-f006-L",
+      "parent_unit": "b02-f006-L-c09",
+      "anchor_after_text": "疝腫",
+      "anchor_after_codepoint_1based": 4,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b02-f021-L-n01",
+      "page_id": "b02-f021-L",
+      "parent_unit": "b02-f021-L-c01",
+      "anchor_after_text": "腎",
+      "anchor_after_codepoint_1based": 3,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b02-f032-R-n01",
+      "page_id": "b02-f032-R",
+      "parent_unit": "b02-f032-R-c03",
+      "anchor_after_text": "之水",
+      "anchor_after_codepoint_1based": 2,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b02-f037-L-n01",
+      "page_id": "b02-f037-L",
+      "parent_unit": "b02-f037-L-c07",
+      "anchor_after_text": "薰",
+      "anchor_after_codepoint_1based": 7,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b02-f038-R-n01",
+      "page_id": "b02-f038-R",
+      "parent_unit": "b02-f038-R-c05",
+      "anchor_after_text": "嗎",
+      "anchor_after_codepoint_1based": 11,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b02-f040-L-n01",
+      "page_id": "b02-f040-L",
+      "parent_unit": "b02-f040-L-c03",
+      "anchor_after_text": "物",
+      "anchor_after_codepoint_1based": 16,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b02-f040-L-n02",
+      "page_id": "b02-f040-L",
+      "parent_unit": "b02-f040-L-c07",
+      "anchor_after_text": "膿瘡",
+      "anchor_after_codepoint_1based": 12,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b02-f041-L-n01",
+      "page_id": "b02-f041-L",
+      "parent_unit": "b02-f041-L-c05",
+      "anchor_after_text": "他質",
+      "anchor_after_codepoint_1based": 17,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b02-f052-L-n01",
+      "page_id": "b02-f052-L",
+      "parent_unit": "b02-f052-L-c03",
+      "anchor_after_text": "炎",
+      "anchor_after_codepoint_1based": 9,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b02-f053-R-n01",
+      "page_id": "b02-f053-R",
+      "parent_unit": "b02-f053-R-c04",
+      "anchor_after_text": "腎袋",
+      "anchor_after_codepoint_1based": 10,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b02-f056-L-n01",
+      "page_id": "b02-f056-L",
+      "parent_unit": "b02-f056-L-c08",
+      "anchor_after_text": "耳",
+      "anchor_after_codepoint_1based": 12,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b02-f057-R-n01",
+      "page_id": "b02-f057-R",
+      "parent_unit": "b02-f057-R-c03",
+      "anchor_after_text": "濟",
+      "anchor_after_codepoint_1based": 1,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b02-f063-L-n01",
+      "page_id": "b02-f063-L",
+      "parent_unit": "b02-f063-L-c03",
+      "anchor_after_text": "六磅",
+      "anchor_after_codepoint_1based": 5,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b02-f076-L-n01",
+      "page_id": "b02-f076-L",
+      "parent_unit": "b02-f076-L-c04",
+      "anchor_after_text": "不省人事",
+      "anchor_after_codepoint_1based": 17,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b02-f078-R-n01",
+      "page_id": "b02-f078-R",
+      "parent_unit": "b02-f078-R-c06",
+      "anchor_after_text": "病",
+      "anchor_after_codepoint_1based": 1,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b02-f078-L-n01",
+      "page_id": "b02-f078-L",
+      "parent_unit": "b02-f078-L-c07",
+      "anchor_after_text": "藥油抹之",
+      "anchor_after_codepoint_1based": 15,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b02-f079-R-n01",
+      "page_id": "b02-f079-R",
+      "parent_unit": "b02-f079-R-c09",
+      "anchor_after_text": "因里加膏",
+      "anchor_after_codepoint_1based": 4,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b02-f080-L-n01",
+      "page_id": "b02-f080-L",
+      "parent_unit": "b02-f080-L-c05",
+      "anchor_after_text": "棹上",
+      "anchor_after_codepoint_1based": 2,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b02-f085-R-n01",
+      "page_id": "b02-f085-R",
+      "parent_unit": "b02-f085-R-c02",
+      "anchor_after_text": "此",
+      "anchor_after_codepoint_1based": 18,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b02-f085-R-n02",
+      "page_id": "b02-f085-R",
+      "parent_unit": "b02-f085-R-c09",
+      "anchor_after_text": "干涉",
+      "anchor_after_codepoint_1based": 15,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b02-f096-R-n01",
+      "page_id": "b02-f096-R",
+      "parent_unit": "b02-f096-R-c03",
+      "anchor_after_text": "寸窄過",
+      "anchor_after_codepoint_1based": 3,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b03-f033-L-n01",
+      "page_id": "b03-f033-L",
+      "parent_unit": "b03-f033-L-c03",
+      "anchor_after_text": "腎囊",
+      "anchor_after_codepoint_1based": 7,
+      "basis": "Unicode codepoints; not source glyph count"
+    },
+    {
+      "unit_id": "b03-f037-L-n01",
+      "page_id": "b03-f037-L",
+      "parent_unit": "b03-f037-L-c09",
+      "anchor_after_text": "加勿力油",
+      "anchor_after_codepoint_1based": 8,
+      "basis": "Unicode codepoints; not source glyph count"
+    }
+  ]
+}

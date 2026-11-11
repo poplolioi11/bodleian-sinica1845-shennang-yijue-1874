@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Sinica1845 initial text public1",
+  "type": "object",
+  "required": [
+    "schema",
+    "privacy",
+    "id",
+    "title",
+    "version",
+    "source",
+    "pages",
+    "units"
+  ],
+  "properties": {
+    "schema": {
+      "const": "sinica1845-initial-text/1"
+    },
+    "privacy": {
+      "const": "public"
+    },
+    "version": {
+      "const": "0.1.0"
+    },
+    "pages": {
+      "type": "array",
+      "minItems": 497,
+      "maxItems": 497,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "order",
+          "source",
+          "coverage_state",
+          "uncertainties"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "order": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "source": {
+            "type": "object",
+            "required": [
+              "uri",
+              "image_uri",
+              "sha256",
+              "width",
+              "height"
+            ]
+          },
+          "uncertainties": {
+            "type": "array"
+          }
+        }
+      }
+    },
+    "units": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "page_id",
+          "order",
+          "text",
+          "layer",
+          "role",
+          "review_status",
+          "bbox",
+          "uncertainties",
+          "gaps"
+        ],
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "page_id": {
+            "type": "string"
+          },
+          "order": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "bbox": {
+            "type": [
+              "array",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

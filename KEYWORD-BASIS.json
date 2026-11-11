@@ -1,0 +1,30 @@
+{
+  "keywords": [
+    "腎囊醫訣",
+    "Sinica 1845",
+    "Patrick Manson",
+    "Curling",
+    "Thomas Blizard Curling",
+    "晚清醫學史",
+    "history of medicine",
+    "醫學翻譯",
+    "medical translation",
+    "外科史",
+    "history of surgery",
+    "中英醫學術語",
+    "bilingual medical terminology",
+    "醫學圖像史",
+    "medical illustration",
+    "1874",
+    "TEI"
+  ],
+  "basis": {
+    "book_identity": "title and source manifests",
+    "Patrick Manson and Curling": "English preface and signature",
+    "medical_translation_and_terminology": "English preface, Chinese preface and bilingual vocabulary",
+    "surgery_and_illustration_history": "body headings, captions and diagram labels",
+    "1874": "title同治甲戌 and Englishpreface date",
+    "TEI": "format actually included",
+    "Thomas Blizard Curling": "Fixed official catalogue XML, historical author; Patrick Manson translation role from explicit catalogue note"
+  }
+}

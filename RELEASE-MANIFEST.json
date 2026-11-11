@@ -1,0 +1,136 @@
+{
+  "schema": "sinica1845-public-release/1",
+  "version": "0.1.0",
+  "repository": "https://github.com/poplolioi11/bodleian-sinica1845-shennang-yijue-1874",
+  "version_release": "https://github.com/poplolioi11/bodleian-sinica1845-shennang-yijue-1874/releases/tag/v0.1.0",
+  "quality": "AI-assisted initial transcription; independent comparison and human full collation not completed for this version",
+  "source_images_included": false,
+  "private_programs_prompts_worklogs_included": false,
+  "files": [
+    {
+      "name": "ABSTRACT.zh-en.md",
+      "sha256": "261d4607c5a1e5b20b6e1440abd58d185871aa46c286877d013f2770a8591b88",
+      "bytes": 1822
+    },
+    {
+      "name": "CHANGELOG.md",
+      "sha256": "ce89ddb9c4c026463e391d197832c2085f5da98f168f1af7f210a580650b4c38",
+      "bytes": 293
+    },
+    {
+      "name": "CITATION.cff",
+      "sha256": "18dfd9e4ef6f5eadc78bcd6158729c88a27ff581fbdb60f7eb109be05132bedc",
+      "bytes": 2031
+    },
+    {
+      "name": "CORRECTIONS.json",
+      "sha256": "c43a1b1896ce836885ea985d2c0541dbbfcae54020b250962b3e45d1e2552e03",
+      "bytes": 35522
+    },
+    {
+      "name": "COUNTS.json",
+      "sha256": "44d67763c0e68b04f1a79b401b53fb1bd960b20817b26b88e073b01a2204e415",
+      "bytes": 1050
+    },
+    {
+      "name": "DATA-DICTIONARY.md",
+      "sha256": "0cd740fb041d3c29f746335fa2e986c86213985ecc1c310c69f1cc45fd4a3284",
+      "bytes": 1837
+    },
+    {
+      "name": "GAIJI.json",
+      "sha256": "aaf04d99a550852727c13bccdbfd8f14727da28b08e10115c35a5b921c900463",
+      "bytes": 87653
+    },
+    {
+      "name": "KEYWORD-BASIS.json",
+      "sha256": "4f6f56162639326ec9d168c69693c16c6a4416faba7b17043eda2efa691e6da8",
+      "bytes": 970
+    },
+    {
+      "name": "LICENSE.md",
+      "sha256": "4ea4160634181393fdbaddc167c57a51df2c3572a56cde067dc2670127bfecf0",
+      "bytes": 262
+    },
+    {
+      "name": "METADATA.json",
+      "sha256": "8ee6aaab55f29f33692ec2b8fe35b0ed1a3d31240b8d699239332b3755ed88ae",
+      "bytes": 11065
+    },
+    {
+      "name": "METHODS.md",
+      "sha256": "1cbee5639b512b2b1fca119b9575da0cf68c4ebb510f9b0ae918615f3fd57177",
+      "bytes": 2125
+    },
+    {
+      "name": "NOTE-ANCHORS.json",
+      "sha256": "fc1902e4a028e6cfedba4d19d9f9350339676841c3b81648788cf551f542004f",
+      "bytes": 26896
+    },
+    {
+      "name": "QUALITY.md",
+      "sha256": "dbd3d789bb6aff02f0fce0c9664c0b83f6467b2906c2b4034e7e4190260c3cd5",
+      "bytes": 1384
+    },
+    {
+      "name": "READING-GUIDE.md",
+      "sha256": "5fc71014b3af849959ba75445bdfe64be5642a1d80a52f6d3075a2d963cf7c93",
+      "bytes": 2560
+    },
+    {
+      "name": "README.md",
+      "sha256": "8bc29b380b7a717c9011647cd6be86a8f860e71e70c812c1ac3f7f0df4feade4",
+      "bytes": 3871
+    },
+    {
+      "name": "RIGHTS.md",
+      "sha256": "c8980568ec5ccce226434d8d5e34448ab01df651be1b65d65d76d93b3e041105",
+      "bytes": 1054
+    },
+    {
+      "name": "SOURCE.md",
+      "sha256": "cf2e6141dff27265f246a1ba4e27097af1ac3a57a754d7a6b5903b78a63c5827",
+      "bytes": 2472
+    },
+    {
+      "name": "TRANSCRIPTION-POLICY.md",
+      "sha256": "428321b070f04a280d772aa760b4fb6615356b484fa53d287196f982e66ed5ac",
+      "bytes": 1237
+    },
+    {
+      "name": "VALIDATION.json",
+      "sha256": "42a3c8c2c8b01f1748eb98a37009a4e3150d69915e821f97cab8b782e10baa31",
+      "bytes": 1743
+    },
+    {
+      "name": "document.json",
+      "sha256": "d0752f5889b9727368818b79f57cc0c82da883084982815826b98065423a53c7",
+      "bytes": 4254032
+    },
+    {
+      "name": "document.schema.json",
+      "sha256": "e046790d0cabe316b833d2899fa3dd540fca3f2baeb87e8f39257faaba874ff3",
+      "bytes": 1947
+    },
+    {
+      "name": "tei.sidecar.json",
+      "sha256": "dbb035a9cdfa80850287d4f1fe7eb51d2daca17d4e926cdae3314d48edaa0ea0",
+      "bytes": 799936
+    },
+    {
+      "name": "text.sidecar.json",
+      "sha256": "d71c2cc39c8118cbc70fbcc8ab91626337675e621c596458ef7ca3103d70e73a",
+      "bytes": 850543
+    },
+    {
+      "name": "text.tei.xml",
+      "sha256": "4f1b2c4306b673663504899d270d58dc0f05193bbcf544a612185d0db2bc4793",
+      "bytes": 903168
+    },
+    {
+      "name": "text.txt",
+      "sha256": "c5c31c9acc976aa030792325952fddbc39e76abcecc75dff4457b2639009bf3c",
+      "bytes": 277203
+    }
+  ]
+}
