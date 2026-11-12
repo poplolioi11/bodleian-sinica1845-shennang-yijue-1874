@@ -2,7 +2,7 @@ cff-version: 1.2.0
 type: dataset
 title: '腎囊醫訣（1874；Bodleian Sinica 1845） / Shen nang yi jue: Transcription dataset'
 message: Please cite the fixed version used and retain the AI nonblind source-adjudication
-  and human-review limitations. The DOI of this new version is pending verified reservation.
+  and human-review limitations. The DOI field identifies this published version; please cite the fixed version used.
 authors:
 - family-names: Chu
   given-names: Chen-Yu
@@ -45,3 +45,4 @@ license: CC-BY-4.0
 url: https://github.com/poplolioi11/bodleian-sinica1845-shennang-yijue-1874/releases/tag/v0.2.0
 repository-code: https://github.com/poplolioi11/bodleian-sinica1845-shennang-yijue-1874
 date-released: '2026-11-12'
+doi: 10.5281/zenodo.24149581

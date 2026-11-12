@@ -14,6 +14,10 @@ CHANGES-v0.1.0.json記錄相對固定v0.1.0的全部公開單位及頁metadata�
 
 來源：Bodleian Libraries, University of Oxford，Sinica 1845 (1–3)。館目、固定來源及影像條件見SOURCE.md。原圖、裁片與圖版重建不在本包；十九世紀原文不新增排他限制，自有原創說明CC BY 4.0。
 
-引用本版：Chu, Chen-Yu. 腎囊醫訣（1874；Bodleian Sinica 1845）修訂文字資料集，v0.2.0。新版DOI尚待核定。前版v0.1.0 DOI https://doi.org/10.5281/zenodo.24147498 ；全版本入口 https://doi.org/10.5281/zenodo.24147497 。公開庫 https://github.com/poplolioi11/bodleian-sinica1845-shennang-yijue-1874 。
+引用本版：Chu, Chen-Yu. 腎囊醫訣（1874；Bodleian Sinica 1845）修訂文字資料集，v0.2.0。本版 DOI：[v0.2.0](https://doi.org/10.5281/zenodo.24149581)。前版v0.1.0 DOI https://doi.org/10.5281/zenodo.24147498 ；全版本入口 https://doi.org/10.5281/zenodo.24147497 。公開庫 https://github.com/poplolioi11/bodleian-sinica1845-shennang-yijue-1874 。
 
 訂正請提供版本、page ID、unit ID、原讀、建議讀法與官方原圖可見證據，分開原刻讀字與編者解釋。歷史醫學內容不是現代臨床指引。完整私有影像到文字方法未公開，詳見METHODS.md。
+
+[0.1.0 DOI](https://doi.org/10.5281/zenodo.24147498) · [0.2.0 DOI](https://doi.org/10.5281/zenodo.24149581) · [所有版本](https://doi.org/10.5281/zenodo.24147497) · [GitHub v0.2.0](https://github.com/poplolioi11/bodleian-sinica1845-shennang-yijue-1874/releases/tag/v0.2.0) · [醫學史社群](https://zenodo.org/communities/late-qing-medical-history/)
+
+本主分支於固定版公開後補入 DOI 與引用連結。SHA256SUMS 驗證固定 release 內容；封存包保留製備時的文件，現行發布狀態以本頁與 DOI 頁為準。
