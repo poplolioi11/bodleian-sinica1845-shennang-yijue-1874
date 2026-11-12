@@ -1,15 +1,13 @@
 # 閱讀與定位
 
-先開text.txt直接讀文字；每個unit以換行相接，這些分隔換行是匯出呈現，不是新增古籍句讀。頁、欄與文字層定位在text.sidecar.json及document.json。英文段落內原換行與斷詞保留，詞表依中英對齊行序保存，圖中文字的排列是檢索順序而非臆造連貫句子。
+text.txt依主本units陣列逐單位輸出，以換行分隔；分隔符是匯出呈現，不是原刻句讀。小註、後加手寫、版心、圖中文字和來源墨跡另列，不能把相鄰輸出當作連讀校訂正文。原單位內換行、碼位、異體及標記保持不變。
 
-例如b01-f015-L為第一裝訂冊第015全幀之左語意面，b02-f060-L是第二冊正文卷四起處；R/L不是原印葉碼。document.json.pages[].source.uri是官方canvas，image_uri是當時固定1000px全幀。source.sha256固定該預覽。units[].bbox是同一全幀的[x1,y1,x2,y2]像素邊界，半面座標已平移，都是約略區域／欄定位，不是逐字偵測框。空值表示沒有可靠框；不要用預設框補出精確位置。source_geometry保存原閱讀尺寸及半面轉換。圖版語意面可能越x500，不能截成幾何半面解讀。
+page ID如b01-f015-L表示第一裝訂冊第015來源全幀的左語意面，R/L不是印葉碼。pages[].source.uri是官方canvas，image_uri是固定1000px全幀；SHA固定預覽來源。三冊I / II+IV / III的裝訂次序及卷號衝突保留。
 
-□表示局部尚不能可靠讀定的一印字或明記範圍，請查該頁uncertainties；未知字數與整區未處理不同。[[G...]]與⟦g-...⟧是兩份原初錄所用的穩定gaiji／來源痕跡標記，未正規化成單一字。GAIJI.json記每次出現的頁、unit、0起算Unicode碼位範圍、來源及候選；標記長度不是原印字數。
+units[].bbox是全幀預覽[x1,y1,x2,y2]邊界，通常只是手工約略欄／區域定位。首60面小註另有bbox_in_face_xywh，表示原閱讀半面內的約略子欄；它與沿用的whole-frame bbox用途和精度不同，不能假設逐點等同。source_geometry保留半面轉換與閱讀尺寸；無可靠框為null，不是空白或精確座標。fragments、source_segments與subcolumns保留跨欄／雙行小註的原片段與讀序，不能任意接到另一主欄。圖字的語意面可跨幾何半面。
 
-small-note是獨立小註單位；parent_unit指出主文，anchor_after_text及anchor_after_codepoint_1based指出所繫字串之後的位置。此錨點是1起算Unicode碼位，與sidecar的0起算半開範圍不同。fragments保留跨欄小註的分片及讀序，不把小註接到不相關的句末。NOTE-ANCHORS.json另列全部103個原有關係，其中90為小註。
+NOTE-ANCHORS.json同時保留native的anchor、parent_anchor、parent_unit、parent_unit_id及相關欄位。parent_anchor以start/end表示父字串的半開範圍，起終相同則為插入邊界；parent_anchor_text若有，須與該範圍原字串一致。anchor.offset與parent_offset依明示basis是Unicode碼位邊界；anchor_after_codepoint_1based是原有名稱，值表示所繫字串之後的邊界。不得用物理印字數代替包含gaiji標記字串的碼位數。superseded_initial_anchor_fields是已被現行anchor取代的舊欄位，不能作有效錨點。
 
-marginal-writing、source-mark、source-damage與印正文分層。圈墨、旁改字或欄外字的責任未知，不能用旁字直接替代不可見底印。章節題、版心、印葉碼、末題、圖說、圖內標示、分圖號與英文石印署名另有layer。可見印數、原刻訛字及III/IV卷號衝突原樣保存。
+GAIJI.json逐次記⟦g-…⟧、⟦mark-…⟧、⟦來源位置ID⟧、[[G…]]及本版明確登錄的〓覆墨未定字位置之原字串及0起算半開範圍。□及未知範圍依UNRESOLVED.json和主本uncertainties判讀；不把整區尚未處理偽裝成一字缺口。不同標記不自動視同一字，候選不自動替正文。b03-f024-R/f034-R未定葉碼及f063圖形方向標記維持原有未定語義。
 
-CORRECTIONS.json公開同一初讀者局部回圖的前後字串／觀察及理由，沒有獨立二校或人類裁定的意義。頁uncertainties是保留的初讀疑義，須連同後續事件讀，不能僅計筆數當錯字率。TEI與TXT本身不承載全部欄位，請一併保存主本和各sidecar。
-
-CORRECTIONS.json事件中的舊／新單位框保留初讀半面座標（500px寬，實高逐頁記錄），未假裝改字歷程的原框是全幀。document.json的正式unit框則已平移到全幀；兩種座標基準請分開讀。
+CHANGES-v0.1.0.json完整列相對前版公開欄位差異；CORRECTIONS.json是本輪改字摘要；CORRECTIONS-v0.1.0-old-initial-status.json只屬前版初錄歷史。q記錄的status分別保存未解讀法、碼位／字形關係未定、已回圖裁定而留存退回候選、來源圖形等狀態；不能把全部q當作仍未解或錯字。後墨不能自動替原刻。TEI為交換投影，請連同document.json及sidecars保存全部語義。RECONSTRUCTION.md說明僅用公開檔案恢復主本的方法。

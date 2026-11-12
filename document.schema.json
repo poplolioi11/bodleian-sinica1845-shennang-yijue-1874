@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Sinica1845 initial text public1",
+  "title": "Sinica 1845 revised public text 2",
   "type": "object",
   "required": [
     "schema",
@@ -14,13 +14,13 @@
   ],
   "properties": {
     "schema": {
-      "const": "sinica1845-initial-text/1"
+      "const": "sinica1845-revised-text/2"
     },
     "privacy": {
       "const": "public"
     },
     "version": {
-      "const": "0.1.0"
+      "const": "0.2.0"
     },
     "pages": {
       "type": "array",
@@ -73,7 +73,9 @@
           "review_status",
           "bbox",
           "uncertainties",
-          "gaps"
+          "gaps",
+          "native_order",
+          "projection_order"
         ],
         "properties": {
           "text": {
@@ -94,6 +96,16 @@
               "array",
               "null"
             ]
+          },
+          "native_order": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "projection_order": {
+            "type": "integer",
+            "minimum": 1
           }
         }
       }

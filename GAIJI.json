@@ -1,5 +1,5 @@
 {
-  "schema": "sinica1845-gaiji-occurrences/1",
+  "schema": "sinica1845-gaiji-occurrences/2",
   "occurrences": [
     {
       "token": "[[G1845-voc05-01]]",
@@ -17,7 +17,44 @@
       },
       "unit_bbox": null,
       "unit_layer": "vocabulary-table-cell",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
+      "native_records": [
+        {
+          "id": "G1845-voc05-01",
+          "unit_id": "b01-f004-L-r24-zh",
+          "token": "[[G1845-voc05-01]]",
+          "range_codepoint_0based": [
+            4,
+            22
+          ],
+          "layer": "vocabulary-table-cell",
+          "kind": "unresolved-original-glyph",
+          "native_records": [
+            {
+              "id": "G1845-voc05-01",
+              "unit_id": "b01-f004-L-r24-zh",
+              "candidates": [
+                "噒",
+                "嚙"
+              ]
+            }
+          ],
+          "uncertainties": [
+            {
+              "id": "U1845-voc05-01",
+              "unit_id": "b01-f004-L-r24-zh",
+              "gaiji": "G1845-voc05-01",
+              "extent_original_glyphs": 1,
+              "candidates": [
+                "噒",
+                "嚙"
+              ],
+              "reason": "本輪實看band2，可見口形左旁，右部密筆仍不強定碼位；退回獨立候選磷，不將整區改□。",
+              "status": "encoding-unresolved"
+            }
+          ],
+          "not_a_claim_of_literal_source_unicode": true
+        }
+      ],
       "unit_candidates": [
         {
           "id": "G1845-voc05-01",
@@ -28,7 +65,7 @@
           ]
         }
       ],
-      "page_uncertainties": [
+      "uncertainties": [
         {
           "id": "U1845-voc05-01",
           "unit_id": "b01-f004-L-r24-zh",
@@ -38,20 +75,11 @@
             "噒",
             "嚙"
           ],
-          "reason": "枯列失打後的口旁密筆暫不強繫碼位；新源可見米／齒形細節，模型仍未定。不是一整區未處理。"
-        },
-        {
-          "id": "U1845-voc05-02",
-          "unit_id": "b01-f004-L-r19-zh",
-          "span": "汚",
-          "preferred": "汚",
-          "candidates": [
-            "污"
-          ],
-          "extent_original_glyphs": 1,
-          "reason": "三點水右旁的細字樣暫以汚表示，另留污候選；不全域正規化。"
+          "reason": "本輪實看band2，可見口形左旁，右部密筆仍不強定碼位；退回獨立候選磷，不將整區改□。",
+          "status": "encoding-unresolved"
         }
-      ]
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "[[G1845-voc06-01]]",
@@ -69,7 +97,55 @@
       },
       "unit_bbox": null,
       "unit_layer": "vocabulary-table-cell",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
+      "native_records": [
+        {
+          "id": "G1845-voc06-01",
+          "unit_id": "b01-f005-R-r32-zh",
+          "token": "[[G1845-voc06-01]]",
+          "range_codepoint_0based": [
+            0,
+            18
+          ],
+          "layer": "vocabulary-table-cell",
+          "kind": "unresolved-original-glyph",
+          "native_records": [
+            {
+              "id": "G1845-voc06-01",
+              "unit_ids": [
+                "b01-f005-R-r32-zh",
+                "b01-f005-R-r33-zh",
+                "b01-f005-R-r34-zh",
+                "b01-f005-R-r35-zh",
+                "b01-f005-R-r36-zh"
+              ],
+              "candidates": [
+                "癰",
+                "癕"
+              ]
+            }
+          ],
+          "uncertainties": [
+            {
+              "id": "U1845-voc06-01",
+              "unit_ids": [
+                "b01-f005-R-r32-zh",
+                "b01-f005-R-r33-zh",
+                "b01-f005-R-r34-zh",
+                "b01-f005-R-r35-zh",
+                "b01-f005-R-r36-zh"
+              ],
+              "gaiji": "G1845-voc06-01",
+              "extent_original_glyphs_each": 1,
+              "candidates": [
+                "癰",
+                "癕"
+              ],
+              "reason": "五行相同字樣可見疒旁、右部隹形；未可靠定碼，逐次保留同組gaiji。不由英文Cancer回填癌。"
+            }
+          ],
+          "not_a_claim_of_literal_source_unicode": true
+        }
+      ],
       "unit_candidates": [
         {
           "id": "G1845-voc06-01",
@@ -86,7 +162,7 @@
           ]
         }
       ],
-      "page_uncertainties": [
+      "uncertainties": [
         {
           "id": "U1845-voc06-01",
           "unit_ids": [
@@ -103,49 +179,9 @@
             "癕"
           ],
           "reason": "五行相同字樣可見疒旁、右部隹形；未可靠定碼，逐次保留同組gaiji。不由英文Cancer回填癌。"
-        },
-        {
-          "id": "U1845-voc06-02",
-          "unit_id": "b01-f005-R-r37-zh",
-          "gaiji": "G1845-voc06-02",
-          "extent_original_glyphs": 1,
-          "candidates": [
-            "黭",
-            "黮"
-          ],
-          "reason": "煙後黑旁密字未強繫碼位，保留原圖定位。"
-        },
-        {
-          "id": "U1845-voc06-03",
-          "unit_id": "b01-f005-R-r17-en",
-          "span": "Hœ",
-          "preferred": "Hœ",
-          "candidates": [
-            "Hæ"
-          ],
-          "reason": "印體合字暫以œ表示，未以現代術語改拼。"
-        },
-        {
-          "id": "U1845-voc06-04",
-          "unit_id": "b01-f005-R-r07-en",
-          "span": "Vasdeferens",
-          "preferred": "Vasdeferens",
-          "candidates": [
-            "Vasdeférens"
-          ],
-          "reason": "字上有細墨痕，未確定是否刻意重音符號。"
-        },
-        {
-          "id": "U1845-voc06-05",
-          "unit_id": "b01-f005-R-r27-zh",
-          "span": "腮",
-          "preferred": "腮",
-          "candidates": [
-            "腮之異體字樣"
-          ],
-          "reason": "細字右旁字樣未完全確定，暫存讀法與候選，不統一到其他頁。"
         }
-      ]
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "[[G1845-voc06-01]]",
@@ -163,7 +199,55 @@
       },
       "unit_bbox": null,
       "unit_layer": "vocabulary-table-cell",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
+      "native_records": [
+        {
+          "id": "G1845-voc06-01",
+          "unit_id": "b01-f005-R-r33-zh",
+          "token": "[[G1845-voc06-01]]",
+          "range_codepoint_0based": [
+            1,
+            19
+          ],
+          "layer": "vocabulary-table-cell",
+          "kind": "unresolved-original-glyph",
+          "native_records": [
+            {
+              "id": "G1845-voc06-01",
+              "unit_ids": [
+                "b01-f005-R-r32-zh",
+                "b01-f005-R-r33-zh",
+                "b01-f005-R-r34-zh",
+                "b01-f005-R-r35-zh",
+                "b01-f005-R-r36-zh"
+              ],
+              "candidates": [
+                "癰",
+                "癕"
+              ]
+            }
+          ],
+          "uncertainties": [
+            {
+              "id": "U1845-voc06-01",
+              "unit_ids": [
+                "b01-f005-R-r32-zh",
+                "b01-f005-R-r33-zh",
+                "b01-f005-R-r34-zh",
+                "b01-f005-R-r35-zh",
+                "b01-f005-R-r36-zh"
+              ],
+              "gaiji": "G1845-voc06-01",
+              "extent_original_glyphs_each": 1,
+              "candidates": [
+                "癰",
+                "癕"
+              ],
+              "reason": "五行相同字樣可見疒旁、右部隹形；未可靠定碼，逐次保留同組gaiji。不由英文Cancer回填癌。"
+            }
+          ],
+          "not_a_claim_of_literal_source_unicode": true
+        }
+      ],
       "unit_candidates": [
         {
           "id": "G1845-voc06-01",
@@ -180,7 +264,7 @@
           ]
         }
       ],
-      "page_uncertainties": [
+      "uncertainties": [
         {
           "id": "U1845-voc06-01",
           "unit_ids": [
@@ -197,49 +281,9 @@
             "癕"
           ],
           "reason": "五行相同字樣可見疒旁、右部隹形；未可靠定碼，逐次保留同組gaiji。不由英文Cancer回填癌。"
-        },
-        {
-          "id": "U1845-voc06-02",
-          "unit_id": "b01-f005-R-r37-zh",
-          "gaiji": "G1845-voc06-02",
-          "extent_original_glyphs": 1,
-          "candidates": [
-            "黭",
-            "黮"
-          ],
-          "reason": "煙後黑旁密字未強繫碼位，保留原圖定位。"
-        },
-        {
-          "id": "U1845-voc06-03",
-          "unit_id": "b01-f005-R-r17-en",
-          "span": "Hœ",
-          "preferred": "Hœ",
-          "candidates": [
-            "Hæ"
-          ],
-          "reason": "印體合字暫以œ表示，未以現代術語改拼。"
-        },
-        {
-          "id": "U1845-voc06-04",
-          "unit_id": "b01-f005-R-r07-en",
-          "span": "Vasdeferens",
-          "preferred": "Vasdeferens",
-          "candidates": [
-            "Vasdeférens"
-          ],
-          "reason": "字上有細墨痕，未確定是否刻意重音符號。"
-        },
-        {
-          "id": "U1845-voc06-05",
-          "unit_id": "b01-f005-R-r27-zh",
-          "span": "腮",
-          "preferred": "腮",
-          "candidates": [
-            "腮之異體字樣"
-          ],
-          "reason": "細字右旁字樣未完全確定，暫存讀法與候選，不統一到其他頁。"
         }
-      ]
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "[[G1845-voc06-01]]",
@@ -257,7 +301,55 @@
       },
       "unit_bbox": null,
       "unit_layer": "vocabulary-table-cell",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
+      "native_records": [
+        {
+          "id": "G1845-voc06-01",
+          "unit_id": "b01-f005-R-r34-zh",
+          "token": "[[G1845-voc06-01]]",
+          "range_codepoint_0based": [
+            1,
+            19
+          ],
+          "layer": "vocabulary-table-cell",
+          "kind": "unresolved-original-glyph",
+          "native_records": [
+            {
+              "id": "G1845-voc06-01",
+              "unit_ids": [
+                "b01-f005-R-r32-zh",
+                "b01-f005-R-r33-zh",
+                "b01-f005-R-r34-zh",
+                "b01-f005-R-r35-zh",
+                "b01-f005-R-r36-zh"
+              ],
+              "candidates": [
+                "癰",
+                "癕"
+              ]
+            }
+          ],
+          "uncertainties": [
+            {
+              "id": "U1845-voc06-01",
+              "unit_ids": [
+                "b01-f005-R-r32-zh",
+                "b01-f005-R-r33-zh",
+                "b01-f005-R-r34-zh",
+                "b01-f005-R-r35-zh",
+                "b01-f005-R-r36-zh"
+              ],
+              "gaiji": "G1845-voc06-01",
+              "extent_original_glyphs_each": 1,
+              "candidates": [
+                "癰",
+                "癕"
+              ],
+              "reason": "五行相同字樣可見疒旁、右部隹形；未可靠定碼，逐次保留同組gaiji。不由英文Cancer回填癌。"
+            }
+          ],
+          "not_a_claim_of_literal_source_unicode": true
+        }
+      ],
       "unit_candidates": [
         {
           "id": "G1845-voc06-01",
@@ -274,7 +366,7 @@
           ]
         }
       ],
-      "page_uncertainties": [
+      "uncertainties": [
         {
           "id": "U1845-voc06-01",
           "unit_ids": [
@@ -291,49 +383,9 @@
             "癕"
           ],
           "reason": "五行相同字樣可見疒旁、右部隹形；未可靠定碼，逐次保留同組gaiji。不由英文Cancer回填癌。"
-        },
-        {
-          "id": "U1845-voc06-02",
-          "unit_id": "b01-f005-R-r37-zh",
-          "gaiji": "G1845-voc06-02",
-          "extent_original_glyphs": 1,
-          "candidates": [
-            "黭",
-            "黮"
-          ],
-          "reason": "煙後黑旁密字未強繫碼位，保留原圖定位。"
-        },
-        {
-          "id": "U1845-voc06-03",
-          "unit_id": "b01-f005-R-r17-en",
-          "span": "Hœ",
-          "preferred": "Hœ",
-          "candidates": [
-            "Hæ"
-          ],
-          "reason": "印體合字暫以œ表示，未以現代術語改拼。"
-        },
-        {
-          "id": "U1845-voc06-04",
-          "unit_id": "b01-f005-R-r07-en",
-          "span": "Vasdeferens",
-          "preferred": "Vasdeferens",
-          "candidates": [
-            "Vasdeférens"
-          ],
-          "reason": "字上有細墨痕，未確定是否刻意重音符號。"
-        },
-        {
-          "id": "U1845-voc06-05",
-          "unit_id": "b01-f005-R-r27-zh",
-          "span": "腮",
-          "preferred": "腮",
-          "candidates": [
-            "腮之異體字樣"
-          ],
-          "reason": "細字右旁字樣未完全確定，暫存讀法與候選，不統一到其他頁。"
         }
-      ]
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "[[G1845-voc06-01]]",
@@ -351,7 +403,55 @@
       },
       "unit_bbox": null,
       "unit_layer": "vocabulary-table-cell",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
+      "native_records": [
+        {
+          "id": "G1845-voc06-01",
+          "unit_id": "b01-f005-R-r35-zh",
+          "token": "[[G1845-voc06-01]]",
+          "range_codepoint_0based": [
+            1,
+            19
+          ],
+          "layer": "vocabulary-table-cell",
+          "kind": "unresolved-original-glyph",
+          "native_records": [
+            {
+              "id": "G1845-voc06-01",
+              "unit_ids": [
+                "b01-f005-R-r32-zh",
+                "b01-f005-R-r33-zh",
+                "b01-f005-R-r34-zh",
+                "b01-f005-R-r35-zh",
+                "b01-f005-R-r36-zh"
+              ],
+              "candidates": [
+                "癰",
+                "癕"
+              ]
+            }
+          ],
+          "uncertainties": [
+            {
+              "id": "U1845-voc06-01",
+              "unit_ids": [
+                "b01-f005-R-r32-zh",
+                "b01-f005-R-r33-zh",
+                "b01-f005-R-r34-zh",
+                "b01-f005-R-r35-zh",
+                "b01-f005-R-r36-zh"
+              ],
+              "gaiji": "G1845-voc06-01",
+              "extent_original_glyphs_each": 1,
+              "candidates": [
+                "癰",
+                "癕"
+              ],
+              "reason": "五行相同字樣可見疒旁、右部隹形；未可靠定碼，逐次保留同組gaiji。不由英文Cancer回填癌。"
+            }
+          ],
+          "not_a_claim_of_literal_source_unicode": true
+        }
+      ],
       "unit_candidates": [
         {
           "id": "G1845-voc06-01",
@@ -368,7 +468,7 @@
           ]
         }
       ],
-      "page_uncertainties": [
+      "uncertainties": [
         {
           "id": "U1845-voc06-01",
           "unit_ids": [
@@ -385,49 +485,9 @@
             "癕"
           ],
           "reason": "五行相同字樣可見疒旁、右部隹形；未可靠定碼，逐次保留同組gaiji。不由英文Cancer回填癌。"
-        },
-        {
-          "id": "U1845-voc06-02",
-          "unit_id": "b01-f005-R-r37-zh",
-          "gaiji": "G1845-voc06-02",
-          "extent_original_glyphs": 1,
-          "candidates": [
-            "黭",
-            "黮"
-          ],
-          "reason": "煙後黑旁密字未強繫碼位，保留原圖定位。"
-        },
-        {
-          "id": "U1845-voc06-03",
-          "unit_id": "b01-f005-R-r17-en",
-          "span": "Hœ",
-          "preferred": "Hœ",
-          "candidates": [
-            "Hæ"
-          ],
-          "reason": "印體合字暫以œ表示，未以現代術語改拼。"
-        },
-        {
-          "id": "U1845-voc06-04",
-          "unit_id": "b01-f005-R-r07-en",
-          "span": "Vasdeferens",
-          "preferred": "Vasdeferens",
-          "candidates": [
-            "Vasdeférens"
-          ],
-          "reason": "字上有細墨痕，未確定是否刻意重音符號。"
-        },
-        {
-          "id": "U1845-voc06-05",
-          "unit_id": "b01-f005-R-r27-zh",
-          "span": "腮",
-          "preferred": "腮",
-          "candidates": [
-            "腮之異體字樣"
-          ],
-          "reason": "細字右旁字樣未完全確定，暫存讀法與候選，不統一到其他頁。"
         }
-      ]
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "[[G1845-voc06-01]]",
@@ -445,7 +505,55 @@
       },
       "unit_bbox": null,
       "unit_layer": "vocabulary-table-cell",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
+      "native_records": [
+        {
+          "id": "G1845-voc06-01",
+          "unit_id": "b01-f005-R-r36-zh",
+          "token": "[[G1845-voc06-01]]",
+          "range_codepoint_0based": [
+            1,
+            19
+          ],
+          "layer": "vocabulary-table-cell",
+          "kind": "unresolved-original-glyph",
+          "native_records": [
+            {
+              "id": "G1845-voc06-01",
+              "unit_ids": [
+                "b01-f005-R-r32-zh",
+                "b01-f005-R-r33-zh",
+                "b01-f005-R-r34-zh",
+                "b01-f005-R-r35-zh",
+                "b01-f005-R-r36-zh"
+              ],
+              "candidates": [
+                "癰",
+                "癕"
+              ]
+            }
+          ],
+          "uncertainties": [
+            {
+              "id": "U1845-voc06-01",
+              "unit_ids": [
+                "b01-f005-R-r32-zh",
+                "b01-f005-R-r33-zh",
+                "b01-f005-R-r34-zh",
+                "b01-f005-R-r35-zh",
+                "b01-f005-R-r36-zh"
+              ],
+              "gaiji": "G1845-voc06-01",
+              "extent_original_glyphs_each": 1,
+              "candidates": [
+                "癰",
+                "癕"
+              ],
+              "reason": "五行相同字樣可見疒旁、右部隹形；未可靠定碼，逐次保留同組gaiji。不由英文Cancer回填癌。"
+            }
+          ],
+          "not_a_claim_of_literal_source_unicode": true
+        }
+      ],
       "unit_candidates": [
         {
           "id": "G1845-voc06-01",
@@ -462,7 +570,7 @@
           ]
         }
       ],
-      "page_uncertainties": [
+      "uncertainties": [
         {
           "id": "U1845-voc06-01",
           "unit_ids": [
@@ -479,49 +587,9 @@
             "癕"
           ],
           "reason": "五行相同字樣可見疒旁、右部隹形；未可靠定碼，逐次保留同組gaiji。不由英文Cancer回填癌。"
-        },
-        {
-          "id": "U1845-voc06-02",
-          "unit_id": "b01-f005-R-r37-zh",
-          "gaiji": "G1845-voc06-02",
-          "extent_original_glyphs": 1,
-          "candidates": [
-            "黭",
-            "黮"
-          ],
-          "reason": "煙後黑旁密字未強繫碼位，保留原圖定位。"
-        },
-        {
-          "id": "U1845-voc06-03",
-          "unit_id": "b01-f005-R-r17-en",
-          "span": "Hœ",
-          "preferred": "Hœ",
-          "candidates": [
-            "Hæ"
-          ],
-          "reason": "印體合字暫以œ表示，未以現代術語改拼。"
-        },
-        {
-          "id": "U1845-voc06-04",
-          "unit_id": "b01-f005-R-r07-en",
-          "span": "Vasdeferens",
-          "preferred": "Vasdeferens",
-          "candidates": [
-            "Vasdeférens"
-          ],
-          "reason": "字上有細墨痕，未確定是否刻意重音符號。"
-        },
-        {
-          "id": "U1845-voc06-05",
-          "unit_id": "b01-f005-R-r27-zh",
-          "span": "腮",
-          "preferred": "腮",
-          "candidates": [
-            "腮之異體字樣"
-          ],
-          "reason": "細字右旁字樣未完全確定，暫存讀法與候選，不統一到其他頁。"
         }
-      ]
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "[[G1845-voc06-02]]",
@@ -539,7 +607,43 @@
       },
       "unit_bbox": null,
       "unit_layer": "vocabulary-table-cell",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
+      "native_records": [
+        {
+          "id": "G1845-voc06-02",
+          "unit_id": "b01-f005-R-r37-zh",
+          "token": "[[G1845-voc06-02]]",
+          "range_codepoint_0based": [
+            1,
+            19
+          ],
+          "layer": "vocabulary-table-cell",
+          "kind": "unresolved-original-glyph",
+          "native_records": [
+            {
+              "id": "G1845-voc06-02",
+              "unit_id": "b01-f005-R-r37-zh",
+              "candidates": [
+                "黭",
+                "黮"
+              ]
+            }
+          ],
+          "uncertainties": [
+            {
+              "id": "U1845-voc06-02",
+              "unit_id": "b01-f005-R-r37-zh",
+              "gaiji": "G1845-voc06-02",
+              "extent_original_glyphs": 1,
+              "candidates": [
+                "黭",
+                "黮"
+              ],
+              "reason": "煙後黑旁密字未強繫碼位，保留原圖定位。"
+            }
+          ],
+          "not_a_claim_of_literal_source_unicode": true
+        }
+      ],
       "unit_candidates": [
         {
           "id": "G1845-voc06-02",
@@ -550,24 +654,7 @@
           ]
         }
       ],
-      "page_uncertainties": [
-        {
-          "id": "U1845-voc06-01",
-          "unit_ids": [
-            "b01-f005-R-r32-zh",
-            "b01-f005-R-r33-zh",
-            "b01-f005-R-r34-zh",
-            "b01-f005-R-r35-zh",
-            "b01-f005-R-r36-zh"
-          ],
-          "gaiji": "G1845-voc06-01",
-          "extent_original_glyphs_each": 1,
-          "candidates": [
-            "癰",
-            "癕"
-          ],
-          "reason": "五行相同字樣可見疒旁、右部隹形；未可靠定碼，逐次保留同組gaiji。不由英文Cancer回填癌。"
-        },
+      "uncertainties": [
         {
           "id": "U1845-voc06-02",
           "unit_id": "b01-f005-R-r37-zh",
@@ -578,38 +665,9 @@
             "黮"
           ],
           "reason": "煙後黑旁密字未強繫碼位，保留原圖定位。"
-        },
-        {
-          "id": "U1845-voc06-03",
-          "unit_id": "b01-f005-R-r17-en",
-          "span": "Hœ",
-          "preferred": "Hœ",
-          "candidates": [
-            "Hæ"
-          ],
-          "reason": "印體合字暫以œ表示，未以現代術語改拼。"
-        },
-        {
-          "id": "U1845-voc06-04",
-          "unit_id": "b01-f005-R-r07-en",
-          "span": "Vasdeferens",
-          "preferred": "Vasdeferens",
-          "candidates": [
-            "Vasdeférens"
-          ],
-          "reason": "字上有細墨痕，未確定是否刻意重音符號。"
-        },
-        {
-          "id": "U1845-voc06-05",
-          "unit_id": "b01-f005-R-r27-zh",
-          "span": "腮",
-          "preferred": "腮",
-          "candidates": [
-            "腮之異體字樣"
-          ],
-          "reason": "細字右旁字樣未完全確定，暫存讀法與候選，不統一到其他頁。"
         }
-      ]
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "[[G1845-voc07-01]]",
@@ -627,7 +685,43 @@
       },
       "unit_bbox": null,
       "unit_layer": "vocabulary-table-cell",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
+      "native_records": [
+        {
+          "id": "G1845-voc07-01",
+          "unit_id": "b01-f005-L-r25-zh",
+          "token": "[[G1845-voc07-01]]",
+          "range_codepoint_0based": [
+            0,
+            18
+          ],
+          "layer": "vocabulary-table-cell",
+          "kind": "unresolved-original-glyph",
+          "native_records": [
+            {
+              "id": "G1845-voc07-01",
+              "unit_id": "b01-f005-L-r25-zh",
+              "candidates": [
+                "嗅",
+                "吸"
+              ]
+            }
+          ],
+          "uncertainties": [
+            {
+              "id": "U1845-voc07-01",
+              "unit_id": "b01-f005-L-r25-zh",
+              "gaiji": "G1845-voc07-01",
+              "extent_original_glyphs": 1,
+              "candidates": [
+                "嗅",
+                "吸"
+              ],
+              "reason": "首字口旁右部密筆未定，不依英文或通行醫語代換。"
+            }
+          ],
+          "not_a_claim_of_literal_source_unicode": true
+        }
+      ],
       "unit_candidates": [
         {
           "id": "G1845-voc07-01",
@@ -646,7 +740,7 @@
           ]
         }
       ],
-      "page_uncertainties": [
+      "uncertainties": [
         {
           "id": "U1845-voc07-01",
           "unit_id": "b01-f005-L-r25-zh",
@@ -657,221 +751,9 @@
             "吸"
           ],
           "reason": "首字口旁右部密筆未定，不依英文或通行醫語代換。"
-        },
-        {
-          "id": "U1845-voc07-02",
-          "unit_id": "b01-f005-L-r25-zh",
-          "gaiji": "G1845-voc07-02",
-          "extent_original_glyphs": 1,
-          "candidates": [
-            "吮",
-            "沆"
-          ],
-          "reason": "第三字左部口／氵筆畫較淺、右下鉤形未定，存gaiji。"
-        },
-        {
-          "id": "U1845-voc07-03",
-          "unit_id": "b01-f005-L-r29-zh",
-          "span": "革",
-          "preferred": "革",
-          "candidates": [
-            "華"
-          ],
-          "reason": "字樣暫以革表示，未按通行藥名正規化。"
-        },
-        {
-          "id": "U1845-voc07-04",
-          "unit_id": "b01-f005-L-r40-zh",
-          "span": "叻",
-          "preferred": "叻",
-          "candidates": [
-            "吶"
-          ],
-          "reason": "末字右旁形近，依當頁字樣暫存叻，不以音譯猜定。"
-        },
-        {
-          "id": "U1845-voc07-05",
-          "unit_id": "b01-f005-L-r46-zh",
-          "span": "哞",
-          "preferred": "哞",
-          "candidates": [
-            "咩"
-          ],
-          "reason": "毛後口旁字暫以哞表示，細筆未完全定。"
-        }
-      ]
-    },
-    {
-      "token": "[[G1845-voc07-02]]",
-      "unit_id": "b01-f005-L-r25-zh",
-      "page_id": "b01-f005-L",
-      "start": 19,
-      "end": 37,
-      "offset_basis": "0-based Unicode codepoints, half-open",
-      "source": {
-        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/580f311c-f32f-4b0f-8576-8be710097bc1.json",
-        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/580f311c-f32f-4b0f-8576-8be710097bc1/full/1000,/0/default.jpg",
-        "sha256": "de151be1c25d67ab314fca2f91743e2749c15ad08ea93f009951dc5d3840944e",
-        "width": 1000,
-        "height": 1054
-      },
-      "unit_bbox": null,
-      "unit_layer": "vocabulary-table-cell",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [
-        {
-          "id": "G1845-voc07-01",
-          "unit_id": "b01-f005-L-r25-zh",
-          "candidates": [
-            "嗅",
-            "吸"
-          ]
-        },
-        {
-          "id": "G1845-voc07-02",
-          "unit_id": "b01-f005-L-r25-zh",
-          "candidates": [
-            "吮",
-            "沆"
-          ]
         }
       ],
-      "page_uncertainties": [
-        {
-          "id": "U1845-voc07-01",
-          "unit_id": "b01-f005-L-r25-zh",
-          "gaiji": "G1845-voc07-01",
-          "extent_original_glyphs": 1,
-          "candidates": [
-            "嗅",
-            "吸"
-          ],
-          "reason": "首字口旁右部密筆未定，不依英文或通行醫語代換。"
-        },
-        {
-          "id": "U1845-voc07-02",
-          "unit_id": "b01-f005-L-r25-zh",
-          "gaiji": "G1845-voc07-02",
-          "extent_original_glyphs": 1,
-          "candidates": [
-            "吮",
-            "沆"
-          ],
-          "reason": "第三字左部口／氵筆畫較淺、右下鉤形未定，存gaiji。"
-        },
-        {
-          "id": "U1845-voc07-03",
-          "unit_id": "b01-f005-L-r29-zh",
-          "span": "革",
-          "preferred": "革",
-          "candidates": [
-            "華"
-          ],
-          "reason": "字樣暫以革表示，未按通行藥名正規化。"
-        },
-        {
-          "id": "U1845-voc07-04",
-          "unit_id": "b01-f005-L-r40-zh",
-          "span": "叻",
-          "preferred": "叻",
-          "candidates": [
-            "吶"
-          ],
-          "reason": "末字右旁形近，依當頁字樣暫存叻，不以音譯猜定。"
-        },
-        {
-          "id": "U1845-voc07-05",
-          "unit_id": "b01-f005-L-r46-zh",
-          "span": "哞",
-          "preferred": "哞",
-          "candidates": [
-            "咩"
-          ],
-          "reason": "毛後口旁字暫以哞表示，細筆未完全定。"
-        }
-      ]
-    },
-    {
-      "token": "[[G1845-pref12-01]]",
-      "unit_id": "b01-f008-R-c03",
-      "page_id": "b01-f008-R",
-      "start": 10,
-      "end": 29,
-      "offset_basis": "0-based Unicode codepoints, half-open",
-      "source": {
-        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/301d803b-bc8a-4a1f-bb8e-254b2b86eccc.json",
-        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/301d803b-bc8a-4a1f-bb8e-254b2b86eccc/full/1000,/0/default.jpg",
-        "sha256": "1e6b3a85cc6496d2dcd3311a125c020ddec07d0538ce4c6121544ba5e349ab22",
-        "width": 1000,
-        "height": 1054
-      },
-      "unit_bbox": null,
-      "unit_layer": "main",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [
-        {
-          "id": "G1845-pref12-01",
-          "page_id": "b01-f008-R",
-          "unit_id": "b01-f008-R-c03",
-          "source_region_whole_preview_xywh": [
-            765,
-            610,
-            35,
-            55
-          ],
-          "possible_readings": [
-            "劂",
-            "橛"
-          ],
-          "native_codepoint_not_decided": true
-        }
-      ],
-      "page_uncertainties": [
-        {
-          "id": "U1845-pref12-01",
-          "page_id": "b01-f008-R",
-          "unit_id": "b01-f008-R-c02",
-          "observed_reading": "禆",
-          "candidates": [
-            "裨"
-          ],
-          "span": "禆",
-          "extent_codepoints": 1,
-          "reason": "1000px來源可見卑旁，但左偏旁細筆不足以確定礻或衤；保留暫讀，需原區域圖核對。",
-          "source_region_whole_preview_xywh": [
-            815,
-            405,
-            36,
-            49
-          ],
-          "original_source_region_whole_preview_xywh": [
-            815,
-            370,
-            35,
-            50
-          ],
-          "coordinate_amendment_note": "Manually marked provisional source region tightened after counting the original visible column; body/codepoints unchanged, original batch retained."
-        },
-        {
-          "id": "U1845-pref12-02",
-          "page_id": "b01-f008-R",
-          "unit_id": "b01-f008-R-c03",
-          "observed_reading": null,
-          "gaiji": "G1845-pref12-01",
-          "candidates": [
-            "劂",
-            "橛"
-          ],
-          "extent_original_glyphs": 1,
-          "reason": "梓與以之間一印字密筆在預覽不足，沒有據成句直接定為候選；尚需原區域來源。",
-          "source_region_whole_preview_xywh": [
-            765,
-            610,
-            35,
-            55
-          ]
-        }
-      ]
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "[[G1845-toc26-01]]",
@@ -889,9 +771,38 @@
       },
       "unit_bbox": null,
       "unit_layer": "contents",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
+      "native_records": [
+        {
+          "id": "G1845-toc26-01",
+          "unit_id": "b01-f015-R-c04",
+          "token": "[[G1845-toc26-01]]",
+          "range_codepoint_0based": [
+            8,
+            26
+          ],
+          "layer": "contents",
+          "kind": "unresolved-original-glyph",
+          "native_records": [],
+          "uncertainties": [
+            {
+              "id": "U1845-toc26-01",
+              "unit_id": "b01-f015-R-c04",
+              "gaiji": "G1845-toc26-01",
+              "extent_original_glyphs": 1,
+              "candidates": [
+                "癨",
+                "癧",
+                "癰",
+                "癕"
+              ],
+              "reason": "本次實看疒內密筆但精確碼位未定，保留單字gaiji；加入獨立讀法作候選而不直接定字。"
+            }
+          ],
+          "not_a_claim_of_literal_source_unicode": true
+        }
+      ],
       "unit_candidates": [],
-      "page_uncertainties": [
+      "uncertainties": [
         {
           "id": "U1845-toc26-01",
           "unit_id": "b01-f015-R-c04",
@@ -899,22 +810,14 @@
           "extent_original_glyphs": 1,
           "candidates": [
             "癨",
-            "癧"
+            "癧",
+            "癰",
+            "癕"
           ],
-          "reason": "疒內密筆在1000px預覽不決，需原區域；不能由病名上下文補。"
-        },
-        {
-          "id": "U1845-toc26-02",
-          "unit_id": "b01-f015-R-c05",
-          "gaiji": "G1845-toc26-02",
-          "extent_original_glyphs": 1,
-          "candidates": [
-            "癨",
-            "癧"
-          ],
-          "reason": "皮後、疽前的單字密筆待原區域；與前項候選分開，不直接當同字。"
+          "reason": "本次實看疒內密筆但精確碼位未定，保留單字gaiji；加入獨立讀法作候選而不直接定字。"
         }
-      ]
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "[[G1845-toc26-02]]",
@@ -932,20 +835,38 @@
       },
       "unit_bbox": null,
       "unit_layer": "contents",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "native_records": [
         {
-          "id": "U1845-toc26-01",
-          "unit_id": "b01-f015-R-c04",
-          "gaiji": "G1845-toc26-01",
-          "extent_original_glyphs": 1,
-          "candidates": [
-            "癨",
-            "癧"
+          "id": "G1845-toc26-02",
+          "unit_id": "b01-f015-R-c05",
+          "token": "[[G1845-toc26-02]]",
+          "range_codepoint_0based": [
+            4,
+            22
           ],
-          "reason": "疒內密筆在1000px預覽不決，需原區域；不能由病名上下文補。"
-        },
+          "layer": "contents",
+          "kind": "unresolved-original-glyph",
+          "native_records": [],
+          "uncertainties": [
+            {
+              "id": "U1845-toc26-02",
+              "unit_id": "b01-f015-R-c05",
+              "gaiji": "G1845-toc26-02",
+              "extent_original_glyphs": 1,
+              "candidates": [
+                "癨",
+                "癧",
+                "癰",
+                "癕"
+              ],
+              "reason": "本次實看疒內密筆但精確碼位未定，保留單字gaiji；加入獨立讀法作候選而不直接定字。"
+            }
+          ],
+          "not_a_claim_of_literal_source_unicode": true
+        }
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
         {
           "id": "U1845-toc26-02",
           "unit_id": "b01-f015-R-c05",
@@ -953,11 +874,14 @@
           "extent_original_glyphs": 1,
           "candidates": [
             "癨",
-            "癧"
+            "癧",
+            "癰",
+            "癕"
           ],
-          "reason": "皮後、疽前的單字密筆待原區域；與前項候選分開，不直接當同字。"
+          "reason": "本次實看疒內密筆但精確碼位未定，保留單字gaiji；加入獨立讀法作候選而不直接定字。"
         }
-      ]
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "⟦g-f039R-overwrite01⟧",
@@ -979,45 +903,33 @@
         690,
         528
       ],
-      "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "unit_layer": "later-manuscript-mark",
+      "native_records": [
         {
-          "id": "f039R-01",
-          "cause": "reading-unresolved",
-          "locator": "c06 □ after 埃阿",
-          "extent": 1,
-          "retained_candidates": [],
-          "observation": "一個字形有黑墨覆寫，局部留未解；不使用現代藥名回填。"
-        },
-        {
-          "id": "f039R-02",
-          "cause": "reading-unresolved",
-          "locator": "c04 住宿相",
-          "retained_candidates": [
-            "住宿相"
+          "id": "g-f039R-overwrite01",
+          "unit_id": "b01-f039-R-overwrite01",
+          "token": "⟦g-f039R-overwrite01⟧",
+          "range_codepoint_0based": [
+            0,
+            21
           ],
-          "observation": "初讀住宿相，未因語境校成他詞。"
-        },
-        {
-          "id": "f039R-03",
-          "cause": "reading-unresolved",
-          "locator": "side01",
-          "extent": "unknown",
-          "retained_candidates": [
-            "窒"
-          ],
-          "observation": "小字區已觀察，字數與編碼未確，穩定gaiji保留全區；不是未處理整欄。"
+          "layer": "later-manuscript-mark",
+          "kind": "source-mark-transcription-symbol",
+          "native_records": [],
+          "uncertainties": [],
+          "not_a_claim_of_literal_source_unicode": true
         }
-      ]
+      ],
+      "unit_candidates": [],
+      "uncertainties": [],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
-      "token": "⟦g-f044R-marked-note01⟧",
+      "token": "⟦g-f044R-marked-note01-rest⟧",
       "unit_id": "b01-f044-R-marked-note01",
       "page_id": "b01-f044-R",
-      "start": 0,
-      "end": 23,
+      "start": 1,
+      "end": 29,
       "offset_basis": "0-based Unicode codepoints, half-open",
       "source": {
         "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/39c04ae9-c177-4733-bbaa-30b59c7624f8.json",
@@ -1032,21 +944,50 @@
         748,
         319
       ],
-      "unit_layer": "marginal-writing",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "unit_layer": "later-manuscript-overprint",
+      "native_records": [
         {
-          "id": "f044R-01",
-          "cause": "reading-unresolved",
-          "locator": "marked-note01",
-          "extent": "unknown",
-          "retained_candidates": [
-            "水疝"
+          "id": "g-f044R-marked-note01-rest",
+          "unit_id": "b01-f044-R-marked-note01",
+          "token": "⟦g-f044R-marked-note01-rest⟧",
+          "range_codepoint_0based": [
+            1,
+            29
           ],
-          "observation": "小字／劃改讀序與字數未確，來源gaiji保留此局部全區，非未處理整頁。"
+          "layer": "later-manuscript-overprint",
+          "kind": "source-mark-transcription-symbol",
+          "native_records": [],
+          "uncertainties": [
+            {
+              "id": "Q-adj-b01-f044-R-02",
+              "unit_id": "b01-f044-R-marked-note01",
+              "span": "⟦g-f044R-marked-note01-rest⟧",
+              "extent": null,
+              "candidates": [
+                "疝"
+              ],
+              "reason": "後加水已讀，剩餘墨圈／細筆仍無可確字數，不按篇題補疝。",
+              "status": "later-ink-strokes-unresolved"
+            }
+          ],
+          "not_a_claim_of_literal_source_unicode": true
         }
-      ]
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "Q-adj-b01-f044-R-02",
+          "unit_id": "b01-f044-R-marked-note01",
+          "span": "⟦g-f044R-marked-note01-rest⟧",
+          "extent": null,
+          "candidates": [
+            "疝"
+          ],
+          "reason": "後加水已讀，剩餘墨圈／細筆仍無可確字數，不按篇題補疝。",
+          "status": "later-ink-strokes-unresolved"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "⟦g-f058R-mark01⟧",
@@ -1068,66 +1009,67 @@
         654,
         719
       ],
-      "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "unit_layer": "later-manuscript-overprint",
+      "native_records": [
         {
-          "id": "f058R-01",
-          "cause": "reading-unresolved",
-          "locator": "c07 然法然 與mark01",
-          "retained_candidates": [
-            "然法然"
+          "id": "g-f058R-mark01",
+          "unit_id": "b01-f058-R-mark01",
+          "token": "⟦g-f058R-mark01⟧",
+          "range_codepoint_0based": [
+            0,
+            16
           ],
-          "observation": "正文及旁墨分開，不用手改痕自動決定原刻讀法。"
-        },
-        {
-          "id": "f058R-02",
-          "cause": "reading-unresolved",
-          "locator": "c09 各烏的",
-          "retained_candidates": [
-            "各烏的"
-          ],
-          "observation": "原圖藥名音譯初讀，未依現代名稱補寫。"
+          "layer": "later-manuscript-overprint",
+          "kind": "source-mark-transcription-symbol",
+          "native_records": [],
+          "uncertainties": [],
+          "not_a_claim_of_literal_source_unicode": true
         }
-      ]
+      ],
+      "unit_candidates": [],
+      "uncertainties": [],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
-      "token": "⟦g-f076R-side01⟧",
-      "unit_id": "b01-f076-R-side01",
-      "page_id": "b01-f076-R",
+      "token": "⟦mark-f080R-open-frame⟧",
+      "unit_id": "b01-f080-R-rule01",
+      "page_id": "b01-f080-R",
       "start": 0,
-      "end": 16,
+      "end": 23,
       "offset_basis": "0-based Unicode codepoints, half-open",
       "source": {
-        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/cbd9f441-3095-4bbc-9dcf-97ad08569e56.json",
-        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/cbd9f441-3095-4bbc-9dcf-97ad08569e56/full/1000,/0/default.jpg",
-        "sha256": "47790c5b408b03b23c59910302b599984d339ce1b451d6ee0aeb3f1adf82eeee",
+        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/68b0fa65-bba7-44e9-b454-f341c197e087.json",
+        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/68b0fa65-bba7-44e9-b454-f341c197e087/full/1000,/0/default.jpg",
+        "sha256": "7d6d298d6093ad10b0946131ecbc7909a291c47fe4bf6fb521b334c71cb9682f",
         "width": 1000,
         "height": 1054
       },
       "unit_bbox": [
-        774,
-        566,
-        816,
-        617
+        772,
+        642,
+        842,
+        819
       ],
-      "unit_layer": "marginal-writing",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "unit_layer": "source-graphic-rule",
+      "native_records": [
         {
-          "id": "f076R-01",
-          "cause": "reading-unresolved",
-          "locator": "side01",
-          "extent": "unknown",
-          "retained_candidates": [
-            "辨",
-            "者"
+          "id": "mark-f080R-open-frame",
+          "unit_id": "b01-f080-R-rule01",
+          "token": "⟦mark-f080R-open-frame⟧",
+          "range_codepoint_0based": [
+            0,
+            23
           ],
-          "observation": "只存可見候選，不標作者或校字者。"
+          "layer": "source-graphic-rule",
+          "kind": "source-mark-transcription-symbol",
+          "native_records": [],
+          "uncertainties": [],
+          "not_a_claim_of_literal_source_unicode": true
         }
-      ]
+      ],
+      "unit_candidates": [],
+      "uncertainties": [],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "⟦g-f080L-mark01⟧",
@@ -1149,17 +1091,33 @@
         352,
         290
       ],
-      "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
+      "unit_layer": "source-ink-mark",
+      "native_records": [
+        {
+          "id": "g-f080L-mark01",
+          "unit_id": "b01-f080-L-mark01",
+          "token": "⟦g-f080L-mark01⟧",
+          "range_codepoint_0based": [
+            0,
+            16
+          ],
+          "layer": "source-ink-mark",
+          "kind": "source-mark-transcription-symbol",
+          "native_records": [],
+          "uncertainties": [],
+          "not_a_claim_of_literal_source_unicode": true
+        }
+      ],
       "unit_candidates": [],
-      "page_uncertainties": []
+      "uncertainties": [],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
-      "token": "⟦g-f083L-ink01⟧",
-      "unit_id": "b01-f083-L-mark01",
-      "page_id": "b01-f083-L",
+      "token": "⟦mark-f083R-curve01⟧",
+      "unit_id": "b01-f083-R-mark01",
+      "page_id": "b01-f083-R",
       "start": 0,
-      "end": 15,
+      "end": 20,
       "offset_basis": "0-based Unicode codepoints, half-open",
       "source": {
         "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/5f139491-ce4e-4f8d-8d35-92956350d23a.json",
@@ -1169,68 +1127,31 @@
         "height": 1054
       },
       "unit_bbox": [
-        331,
-        426,
-        354,
-        459
+        763,
+        503,
+        800,
+        555
       ],
-      "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "unit_layer": "later-manuscript-mark",
+      "native_records": [
         {
-          "id": "f083L-01",
-          "cause": "reading-unresolved",
-          "locator": "c03 after 物",
-          "extent": 1,
-          "retained_candidates": [],
-          "observation": "墨筆遮蓋局部一字，餘欄已讀；不從文意補字。"
-        },
-        {
-          "id": "f083L-02",
-          "cause": "reading-unresolved",
-          "locator": "c04 卓割; c05 障隙",
-          "retained_candidates": [
-            "卓割",
-            "障隙"
+          "id": "mark-f083R-curve01",
+          "unit_id": "b01-f083-R-mark01",
+          "token": "⟦mark-f083R-curve01⟧",
+          "range_codepoint_0based": [
+            0,
+            20
           ],
-          "observation": "字形初讀保留，未換成習慣手術用語。"
+          "layer": "later-manuscript-mark",
+          "kind": "source-mark-transcription-symbol",
+          "native_records": [],
+          "uncertainties": [],
+          "not_a_claim_of_literal_source_unicode": true
         }
-      ]
-    },
-    {
-      "token": "⟦g-f095L-ink01⟧",
-      "unit_id": "b01-f095-L-ink01",
-      "page_id": "b01-f095-L",
-      "start": 0,
-      "end": 15,
-      "offset_basis": "0-based Unicode codepoints, half-open",
-      "source": {
-        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/290fd77f-2257-4e92-ae7c-1a9f7aef08fc.json",
-        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/290fd77f-2257-4e92-ae7c-1a9f7aef08fc/full/1000,/0/default.jpg",
-        "sha256": "e328a94c5ae874290b36eb4f5e44a165068a48ce7b093fac1bfc2cb55e958b0c",
-        "width": 1000,
-        "height": 1054
-      },
-      "unit_bbox": [
-        94,
-        764,
-        128,
-        795
       ],
-      "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
       "unit_candidates": [],
-      "page_uncertainties": [
-        {
-          "id": "f095L-01",
-          "cause": "reading-unresolved",
-          "locator": "c09 after final 紅",
-          "extent": 1,
-          "retained_candidates": [],
-          "observation": "一字受黑墨覆蓋，保留局部□與獨立墨跡，不補字。"
-        }
-      ]
+      "uncertainties": [],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "⟦g-f099L-ink01⟧",
@@ -1252,30 +1173,187 @@
         441,
         554
       ],
-      "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "unit_layer": "later-manuscript-mark",
+      "native_records": [
         {
-          "id": "f099L-01",
-          "cause": "reading-unresolved",
-          "locator": "c01右 and side01左",
-          "retained_candidates": [
-            "右",
-            "左"
+          "id": "g-f099L-ink01",
+          "unit_id": "b01-f099-L-ink01",
+          "token": "⟦g-f099L-ink01⟧",
+          "range_codepoint_0based": [
+            0,
+            15
           ],
-          "observation": "原印位置及旁小墨字分開保存，無從確定責任，不選臨床合理側別。"
-        },
-        {
-          "id": "f099L-02",
-          "cause": "reading-unresolved",
-          "locator": "c09得于膝蓋",
-          "retained_candidates": [
-            "得于膝蓋"
-          ],
-          "observation": "跨欄語句依原見初錄，未校語序。"
+          "layer": "later-manuscript-mark",
+          "kind": "source-mark-transcription-symbol",
+          "native_records": [],
+          "uncertainties": [],
+          "not_a_claim_of_literal_source_unicode": true
         }
-      ]
+      ],
+      "unit_candidates": [],
+      "uncertainties": [],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
+    },
+    {
+      "token": "⟦mark-b02f003L-collection-stamp⟧",
+      "unit_id": "b02-f003-L-adj-stamp01",
+      "page_id": "b02-f003-L",
+      "start": 0,
+      "end": 32,
+      "offset_basis": "0-based Unicode codepoints, half-open",
+      "source": {
+        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/1ee88922-a9da-4a4e-94e8-a8237890099e.json",
+        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/1ee88922-a9da-4a4e-94e8-a8237890099e/full/1000,/0/default.jpg",
+        "sha256": "72a5bb860d48af59b2ac2dbe3a55b42b9f90c3eb617ca391c97c6b8c81fe5114",
+        "width": 1000,
+        "height": 1054
+      },
+      "unit_bbox": [
+        204,
+        855,
+        259,
+        910
+      ],
+      "unit_layer": "source-mark",
+      "native_records": [
+        {
+          "id": "mark-b02f003L-collection-stamp",
+          "extent_original_glyphs": null,
+          "extent_description": "nontext mark or undetermined mark text; token length is not glyph count",
+          "observation": "印章外形標識，非原印正文；未以館名猜補章內文字",
+          "unit_id": "b02-f003-L-adj-stamp01",
+          "page_id": "b02-f003-L",
+          "start": 0,
+          "end": 32,
+          "token": "⟦mark-b02f003L-collection-stamp⟧",
+          "source_responsibility": "non-original-or-undetermined-mark",
+          "locator": {
+            "source_image_sha256": "72a5bb860d48af59b2ac2dbe3a55b42b9f90c3eb617ca391c97c6b8c81fe5114",
+            "bbox_whole1000_xyxy": [
+              204,
+              855,
+              259,
+              910
+            ],
+            "precision": "manual-approximate-source-locator"
+          }
+        }
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "reason": "館藏圓印文字未確定",
+          "extent": null,
+          "reading": "⟦mark-b02f003L-collection-stamp⟧",
+          "representation_kind": "nontext-mark-placeholder-not-transcribed-characters",
+          "id": "q-b02-f003-L-adj-stamp01-01",
+          "unit_id": "b02-f003-L-adj-stamp01",
+          "page_id": "b02-f003-L",
+          "start": 0,
+          "end": 32,
+          "span": "⟦mark-b02f003L-collection-stamp⟧",
+          "string_range_codepoints_0based": [
+            0,
+            32
+          ],
+          "status": "unresolved-local-source-reading-or-codepoint-mapping",
+          "locator": {
+            "source_image_sha256": "72a5bb860d48af59b2ac2dbe3a55b42b9f90c3eb617ca391c97c6b8c81fe5114",
+            "source_frame_id": "b02-f003",
+            "bbox_whole1000_xyxy": [
+              204,
+              855,
+              259,
+              910
+            ],
+            "precision": "manual-approximate-source-locator"
+          },
+          "gaiji_id": "mark-b02f003L-collection-stamp"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
+    },
+    {
+      "token": "〓",
+      "unit_id": "b02-f005-L-c08",
+      "page_id": "b02-f005-L",
+      "start": 15,
+      "end": 16,
+      "offset_basis": "0-based Unicode codepoints, half-open",
+      "source": {
+        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/eca858a1-3441-4e91-8e51-410e576db693.json",
+        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/eca858a1-3441-4e91-8e51-410e576db693/full/1000,/0/default.jpg",
+        "sha256": "351653b993c21ea1b9ad82026c412b808265391229e633c1292a588f98c81d1a",
+        "width": 1000,
+        "height": 1054
+      },
+      "unit_bbox": [
+        113,
+        265,
+        147,
+        817
+      ],
+      "unit_layer": "body",
+      "native_records": [
+        {
+          "id": "g-b02-f005-L-c08-overlay01",
+          "extent_original_glyphs": 1,
+          "extent_description": "one located printed position; overwritten or unresolved, not an unprocessed region",
+          "observation": "因久後單字被後加墨覆，原格可定位；gaiji g-b02-f005-L-c08-overlay01。",
+          "unit_id": "b02-f005-L-c08",
+          "page_id": "b02-f005-L",
+          "start": 15,
+          "end": 16,
+          "token": "〓",
+          "source_responsibility": "original-print-obscured",
+          "locator": {
+            "source_image_sha256": "351653b993c21ea1b9ad82026c412b808265391229e633c1292a588f98c81d1a",
+            "bbox_whole1000_xyxy": [
+              124,
+              638,
+              146,
+              670
+            ],
+            "precision": "source-mark-region"
+          }
+        }
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "unit_id": "b02-f005-L-c08",
+          "string_range_codepoints_0based": [
+            15,
+            16
+          ],
+          "reading": "〓",
+          "candidates": [
+            "痛"
+          ],
+          "reason": "因久後單字被後加墨覆，原格可定位；gaiji g-b02-f005-L-c08-overlay01。",
+          "extent": 1,
+          "independent_unit_id": "b02-f005-L-u008",
+          "id": "q-b02-f005-L-c08-01",
+          "page_id": "b02-f005-L",
+          "start": 15,
+          "end": 16,
+          "span": "〓",
+          "status": "unresolved-local-source-reading-or-codepoint-mapping",
+          "locator": {
+            "source_image_sha256": "351653b993c21ea1b9ad82026c412b808265391229e633c1292a588f98c81d1a",
+            "source_frame_id": "b02-f005",
+            "bbox_whole1000_xyxy": [
+              113,
+              265,
+              147,
+              817
+            ],
+            "precision": "manual-approximate-column-locator"
+          },
+          "gaiji_id": "g-b02-f005-L-c08-overlay01"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "⟦g-b02f007R-ink01⟧",
@@ -1298,30 +1376,33 @@
         617
       ],
       "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "native_records": [
         {
-          "id": "f007R-01",
-          "cause": "reading-unresolved",
-          "locator": "c03 and adjacent ink/foot01",
-          "retained_candidates": [
-            "疝",
-            "炎",
-            "腺"
-          ],
-          "observation": "原印受墨處局部缺讀，旁添／覆寫字獨立保留，涵括下框外文字；未認定作者註。"
-        },
-        {
-          "id": "f007R-02",
-          "cause": "reading-unresolved",
-          "locator": "c05 一四十五歲",
-          "retained_candidates": [
-            "一四十五歲"
-          ],
-          "observation": "原數字與欄序照錄，不依年齡分布改。"
+          "id": "g-b02f007R-ink01",
+          "extent_original_glyphs": null,
+          "extent_description": "nontext mark or undetermined mark text; token length is not glyph count",
+          "observation": "原印痄字上後加圈墨，責任未定，與原印文字分層。",
+          "unit_id": "b02-f007-R-ink01",
+          "page_id": "b02-f007-R",
+          "start": 0,
+          "end": 18,
+          "token": "⟦g-b02f007R-ink01⟧",
+          "source_responsibility": "non-original-or-undetermined-mark",
+          "locator": {
+            "source_image_sha256": "0ab4acc689560f107bc1a2ea13d6b6888e30d7a5e9ae042df5feaa493c6c8a40",
+            "bbox_whole1000_xyxy": [
+              792,
+              554,
+              830,
+              617
+            ],
+            "precision": "manual-approximate-source-region-not-character-segmentation"
+          }
         }
-      ]
+      ],
+      "unit_candidates": [],
+      "uncertainties": [],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "⟦g-b02f007R-ink02⟧",
@@ -1344,76 +1425,246 @@
         697
       ],
       "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "native_records": [
         {
-          "id": "f007R-01",
-          "cause": "reading-unresolved",
-          "locator": "c03 and adjacent ink/foot01",
-          "retained_candidates": [
-            "疝",
-            "炎",
-            "腺"
-          ],
-          "observation": "原印受墨處局部缺讀，旁添／覆寫字獨立保留，涵括下框外文字；未認定作者註。"
-        },
-        {
-          "id": "f007R-02",
-          "cause": "reading-unresolved",
-          "locator": "c05 一四十五歲",
-          "retained_candidates": [
-            "一四十五歲"
-          ],
-          "observation": "原數字與欄序照錄，不依年齡分布改。"
+          "id": "g-b02f007R-ink02",
+          "extent_original_glyphs": null,
+          "extent_description": "nontext mark or undetermined mark text; token length is not glyph count",
+          "observation": "原印腮字上後加圈墨，責任未定，與原印文字分層。",
+          "unit_id": "b02-f007-R-ink02",
+          "page_id": "b02-f007-R",
+          "start": 0,
+          "end": 18,
+          "token": "⟦g-b02f007R-ink02⟧",
+          "source_responsibility": "non-original-or-undetermined-mark",
+          "locator": {
+            "source_image_sha256": "0ab4acc689560f107bc1a2ea13d6b6888e30d7a5e9ae042df5feaa493c6c8a40",
+            "bbox_whole1000_xyxy": [
+              792,
+              638,
+              831,
+              697
+            ],
+            "precision": "manual-approximate-source-region-not-character-segmentation"
+          }
         }
-      ]
+      ],
+      "unit_candidates": [],
+      "uncertainties": [],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
-      "token": "⟦g-b02f007R-smallside01⟧",
-      "unit_id": "b02-f007-R-smallside01",
-      "page_id": "b02-f007-R",
+      "token": "⟦mark-b02f018L-bracket01⟧",
+      "unit_id": "b02-f018-L-bracket01",
+      "page_id": "b02-f018-L",
       "start": 0,
-      "end": 24,
+      "end": 25,
       "offset_basis": "0-based Unicode codepoints, half-open",
       "source": {
-        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/631b59f4-065e-4fca-a133-bdbbe083bff6.json",
-        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/631b59f4-065e-4fca-a133-bdbbe083bff6/full/1000,/0/default.jpg",
-        "sha256": "0ab4acc689560f107bc1a2ea13d6b6888e30d7a5e9ae042df5feaa493c6c8a40",
+        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2e93476c-eb25-48b3-9c56-b2393a65ac62.json",
+        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/2e93476c-eb25-48b3-9c56-b2393a65ac62/full/1000,/0/default.jpg",
+        "sha256": "be62555889bce4c165fef8f62b27b148e1377abc7cd8c20ef5f5a7a9da918716",
         "width": 1000,
         "height": 1054
       },
       "unit_bbox": [
-        818,
-        785,
-        850,
-        820
+        247,
+        281,
+        297,
+        435
       ],
-      "unit_layer": "marginal-writing",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "unit_layer": "source-mark",
+      "native_records": [
         {
-          "id": "f007R-01",
-          "cause": "reading-unresolved",
-          "locator": "c03 and adjacent ink/foot01",
-          "retained_candidates": [
-            "疝",
-            "炎",
-            "腺"
-          ],
-          "observation": "原印受墨處局部缺讀，旁添／覆寫字獨立保留，涵括下框外文字；未認定作者註。"
-        },
-        {
-          "id": "f007R-02",
-          "cause": "reading-unresolved",
-          "locator": "c05 一四十五歲",
-          "retained_candidates": [
-            "一四十五歲"
-          ],
-          "observation": "原數字與欄序照錄，不依年齡分布改。"
+          "id": "mark-b02f018L-bracket01",
+          "extent_original_glyphs": null,
+          "extent_description": "nontext mark or undetermined mark text; token length is not glyph count",
+          "observation": "Ink bracket/underline adjoining small 當服 and printed 補血之劑; manual approximate region",
+          "unit_id": "b02-f018-L-bracket01",
+          "page_id": "b02-f018-L",
+          "start": 0,
+          "end": 25,
+          "token": "⟦mark-b02f018L-bracket01⟧",
+          "source_responsibility": "non-original-or-undetermined-mark",
+          "locator": {
+            "source_image_sha256": "be62555889bce4c165fef8f62b27b148e1377abc7cd8c20ef5f5a7a9da918716",
+            "bbox_whole1000_xyxy": [
+              247,
+              281,
+              297,
+              435
+            ],
+            "precision": "manual-approximate-source-region-not-character-segmentation"
+          }
         }
-      ]
+      ],
+      "unit_candidates": [],
+      "uncertainties": [],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
+    },
+    {
+      "token": "〓",
+      "unit_id": "b02-f020-L-c06",
+      "page_id": "b02-f020-L",
+      "start": 2,
+      "end": 3,
+      "offset_basis": "0-based Unicode codepoints, half-open",
+      "source": {
+        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/37520d25-dc2f-40dd-9321-eee3242b8204.json",
+        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/37520d25-dc2f-40dd-9321-eee3242b8204/full/1000,/0/default.jpg",
+        "sha256": "5ed300fd1bfd5b9a428b8a85f3938101cb33597cb566084299047859de0fea0f",
+        "width": 1000,
+        "height": 1054
+      },
+      "unit_bbox": [
+        193,
+        265,
+        227,
+        817
+      ],
+      "unit_layer": "body",
+      "native_records": [
+        {
+          "id": "g-b02-f020-L-c06-overlay01",
+          "extent_original_glyphs": 1,
+          "extent_description": "one located printed position; overwritten or unresolved, not an unprocessed region",
+          "observation": "割裂後單字被後加圈墨遮住，旁有補字；gaiji g-b02-f020-L-c06-overlay01，不據墨改原刻。",
+          "unit_id": "b02-f020-L-c06",
+          "page_id": "b02-f020-L",
+          "start": 2,
+          "end": 3,
+          "token": "〓",
+          "source_responsibility": "original-print-obscured",
+          "locator": {
+            "source_image_sha256": "5ed300fd1bfd5b9a428b8a85f3938101cb33597cb566084299047859de0fea0f",
+            "bbox_whole1000_xyxy": [
+              195,
+              314,
+              222,
+              349
+            ],
+            "precision": "source-mark-region"
+          }
+        }
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "unit_id": "b02-f020-L-c06",
+          "string_range_codepoints_0based": [
+            2,
+            3
+          ],
+          "reading": "〓",
+          "candidates": [
+            "單"
+          ],
+          "reason": "割裂後單字被後加圈墨遮住，旁有補字；gaiji g-b02-f020-L-c06-overlay01，不據墨改原刻。",
+          "extent": 1,
+          "independent_unit_id": "b02-f020-L-u006",
+          "id": "q-b02-f020-L-c06-01",
+          "page_id": "b02-f020-L",
+          "start": 2,
+          "end": 3,
+          "span": "〓",
+          "status": "unresolved-local-source-reading-or-codepoint-mapping",
+          "locator": {
+            "source_image_sha256": "5ed300fd1bfd5b9a428b8a85f3938101cb33597cb566084299047859de0fea0f",
+            "source_frame_id": "b02-f020",
+            "bbox_whole1000_xyxy": [
+              193,
+              265,
+              227,
+              817
+            ],
+            "precision": "manual-approximate-column-locator"
+          },
+          "gaiji_id": "g-b02-f020-L-c06-overlay01"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
+    },
+    {
+      "token": "〓",
+      "unit_id": "b02-f024-R-c02",
+      "page_id": "b02-f024-R",
+      "start": 17,
+      "end": 18,
+      "offset_basis": "0-based Unicode codepoints, half-open",
+      "source": {
+        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/a93aca15-0bc9-42da-849f-8dab4c8e641b.json",
+        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/a93aca15-0bc9-42da-849f-8dab4c8e641b/full/1000,/0/default.jpg",
+        "sha256": "4c0a8d66045048152ae3357f18c1eddd9653d495988a56215464b560bb932716",
+        "width": 1000,
+        "height": 1054
+      },
+      "unit_bbox": [
+        833,
+        265,
+        867,
+        817
+      ],
+      "unit_layer": "body",
+      "native_records": [
+        {
+          "id": "g-b02-f024-R-c02-overlay01",
+          "extent_original_glyphs": 1,
+          "extent_description": "one located printed position; overwritten or unresolved, not an unprocessed region",
+          "observation": "若後一字被圈墨覆蓋，原印格可定位；gaiji g-b02-f024-R-c02-overlay01，不採後墨補原字。",
+          "unit_id": "b02-f024-R-c02",
+          "page_id": "b02-f024-R",
+          "start": 17,
+          "end": 18,
+          "token": "〓",
+          "source_responsibility": "original-print-obscured",
+          "locator": {
+            "source_image_sha256": "4c0a8d66045048152ae3357f18c1eddd9653d495988a56215464b560bb932716",
+            "bbox_whole1000_xyxy": [
+              837,
+              567,
+              865,
+              598
+            ],
+            "precision": "source-mark-region"
+          }
+        }
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "unit_id": "b02-f024-R-c02",
+          "string_range_codepoints_0based": [
+            17,
+            18
+          ],
+          "reading": "〓",
+          "candidates": [
+            "有"
+          ],
+          "reason": "若後一字被圈墨覆蓋，原印格可定位；gaiji g-b02-f024-R-c02-overlay01，不採後墨補原字。",
+          "extent": 1,
+          "independent_unit_id": "b02-f024-R-u002",
+          "id": "q-b02-f024-R-c02-01",
+          "page_id": "b02-f024-R",
+          "start": 17,
+          "end": 18,
+          "span": "〓",
+          "status": "unresolved-local-source-reading-or-codepoint-mapping",
+          "locator": {
+            "source_image_sha256": "4c0a8d66045048152ae3357f18c1eddd9653d495988a56215464b560bb932716",
+            "source_frame_id": "b02-f024",
+            "bbox_whole1000_xyxy": [
+              833,
+              265,
+              867,
+              817
+            ],
+            "precision": "manual-approximate-column-locator"
+          },
+          "gaiji_id": "g-b02-f024-R-c02-overlay01"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "⟦g-b02f036R-ink01⟧",
@@ -1429,26 +1680,82 @@
         "width": 1000,
         "height": 1054
       },
+      "unit_bbox": null,
+      "unit_layer": "source-mark",
+      "native_records": [
+        {
+          "unit_id": "b02-f036-R-ink01",
+          "page_id": "b02-f036-R",
+          "text": "⟦g-b02f036R-ink01⟧",
+          "bbox": null,
+          "note": "Stable initial markID retained separately from print; no guessed ideograph."
+        }
+      ],
+      "unit_candidates": [],
+      "uncertainties": [],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
+    },
+    {
+      "token": "⟦mark-b02f046R-open-frame⟧",
+      "unit_id": "b02-f046-R-rule01",
+      "page_id": "b02-f046-R",
+      "start": 0,
+      "end": 26,
+      "offset_basis": "0-based Unicode codepoints, half-open",
+      "source": {
+        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/e025d8c5-0fde-4226-a839-ce82c72e9203.json",
+        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/e025d8c5-0fde-4226-a839-ce82c72e9203/full/1000,/0/default.jpg",
+        "sha256": "7c1c501dc969bf01af7356f96a29649f901e321d258d8b90e8827cf690706442",
+        "width": 1000,
+        "height": 1054
+      },
       "unit_bbox": [
-        792,
-        265,
-        825,
-        295
+        681,
+        675,
+        786,
+        827
       ],
       "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "native_records": [
         {
-          "id": "f036R-01",
-          "cause": "reading-unresolved",
-          "locator": "c04此書者",
-          "retained_candidates": [
-            "此書者"
+          "id": "mark-b02f046R-open-frame",
+          "unit_id": "b02-f046-R-rule01",
+          "page_id": "b02-f046-R",
+          "token": "⟦mark-b02f046R-open-frame⟧",
+          "start": 0,
+          "end": 26,
+          "bbox": [
+            681,
+            675,
+            786,
+            827
           ],
-          "observation": "照初見刻字保存，不以語意填寫或換字。"
+          "extent": "visible source region,not an assertion of one glyph",
+          "status": "nonlexical-or-unresolved-source-mark"
         }
-      ]
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-current-b02-f046-R-rule01-0",
+          "unit_id": "b02-f046-R-rule01",
+          "page_id": "b02-f046-R",
+          "start": 0,
+          "end": 26,
+          "span": "⟦mark-b02f046R-open-frame⟧",
+          "candidates": [],
+          "reason": "Stable source-mark region; not interpreted as author text or invented missing character.",
+          "status": "unresolved-local-source-mark-or-gaiji",
+          "bbox": [
+            681,
+            675,
+            786,
+            827
+          ],
+          "offset_basis": "zero-based half-open Unicode codepoints"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "⟦g-b02f051R-ink01⟧",
@@ -1471,33 +1778,46 @@
         707
       ],
       "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "native_records": [
         {
-          "id": "f051R-01",
-          "cause": "reading-unresolved",
-          "locator": "c07 after 身雖",
-          "extent": 2,
-          "retained_candidates": [
-            "健壯",
-            "壯健"
+          "id": "g-b02f051R-ink01",
+          "unit_id": "b02-f051-R-ink01",
+          "page_id": "b02-f051-R",
+          "token": "⟦g-b02f051R-ink01⟧",
+          "start": 0,
+          "end": 18,
+          "bbox": [
+            635,
+            628,
+            676,
+            707
           ],
-          "observation": "兩個局部位受墨，保留□□及獨立墨記，不依病例語意選候選。"
-        },
-        {
-          "id": "f051R-02",
-          "cause": "reading-unresolved",
-          "locator": "n01 and c07咽痛",
-          "retained_candidates": [
-            "可得",
-            "可得摸",
-            "咽痛",
-            "恆痛"
-          ],
-          "observation": "小註與正文摸字邊界未定，保留錨點與候選，需窄區核。"
+          "extent": "visible source region,not an assertion of one glyph",
+          "status": "nonlexical-or-unresolved-source-mark"
         }
-      ]
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-current-b02-f051-R-ink01-0",
+          "unit_id": "b02-f051-R-ink01",
+          "page_id": "b02-f051-R",
+          "start": 0,
+          "end": 18,
+          "span": "⟦g-b02f051R-ink01⟧",
+          "candidates": [],
+          "reason": "Stable source-mark region; not interpreted as author text or invented missing character.",
+          "status": "unresolved-local-source-mark-or-gaiji",
+          "bbox": [
+            635,
+            628,
+            676,
+            707
+          ],
+          "offset_basis": "zero-based half-open Unicode codepoints"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "⟦g-b02f057R-ink01⟧",
@@ -1520,20 +1840,108 @@
         602
       ],
       "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "native_records": [
         {
-          "id": "f057R-01",
-          "cause": "covered-print",
-          "locator": "c09 after 此人",
-          "extent": 1,
-          "retained_candidates": [
-            "□"
+          "id": "g-b02f057R-ink01",
+          "unit_id": "b02-f057-R-ink01",
+          "page_id": "b02-f057-R",
+          "token": "⟦g-b02f057R-ink01⟧",
+          "start": 0,
+          "end": 18,
+          "bbox": [
+            555,
+            566,
+            585,
+            602
           ],
-          "observation": "疊墨字不補；欄側茲字獨立保存，責任未知。"
+          "extent": "visible source region,not an assertion of one glyph",
+          "status": "nonlexical-or-unresolved-source-mark"
         }
-      ]
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-current-b02-f057-R-ink01-0",
+          "unit_id": "b02-f057-R-ink01",
+          "page_id": "b02-f057-R",
+          "start": 0,
+          "end": 18,
+          "span": "⟦g-b02f057R-ink01⟧",
+          "candidates": [],
+          "reason": "Stable source-mark region; not interpreted as author text or invented missing character.",
+          "status": "unresolved-local-source-mark-or-gaiji",
+          "bbox": [
+            555,
+            566,
+            585,
+            602
+          ],
+          "offset_basis": "zero-based half-open Unicode codepoints"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
+    },
+    {
+      "token": "⟦b02-f059-L-inkspot01⟧",
+      "unit_id": "b02-f059-L-mark01",
+      "page_id": "b02-f059-L",
+      "start": 0,
+      "end": 22,
+      "offset_basis": "0-based Unicode codepoints, half-open",
+      "source": {
+        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/90315197-5b8a-47b1-91c0-d5ed61edd2e7.json",
+        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/90315197-5b8a-47b1-91c0-d5ed61edd2e7/full/1000,/0/default.jpg",
+        "sha256": "416399f34d95fb24e3e717c9dbf1c5120ef086a9a1e93db56a70f058528e1c24",
+        "width": 1000,
+        "height": 1054
+      },
+      "unit_bbox": [
+        119,
+        456,
+        147,
+        493
+      ],
+      "unit_layer": "source-mark",
+      "native_records": [
+        {
+          "id": "b02-f059-L-inkspot01",
+          "unit_id": "b02-f059-L-mark01",
+          "page_id": "b02-f059-L",
+          "token": "⟦b02-f059-L-inkspot01⟧",
+          "start": 0,
+          "end": 22,
+          "bbox": [
+            119,
+            456,
+            147,
+            493
+          ],
+          "extent": "visible source region,not an assertion of one glyph",
+          "status": "nonlexical-or-unresolved-source-mark"
+        }
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-current-b02-f059-L-mark01-0",
+          "unit_id": "b02-f059-L-mark01",
+          "page_id": "b02-f059-L",
+          "start": 0,
+          "end": 22,
+          "span": "⟦b02-f059-L-inkspot01⟧",
+          "candidates": [],
+          "reason": "Stable source-mark region; not interpreted as author text or invented missing character.",
+          "status": "unresolved-local-source-mark-or-gaiji",
+          "bbox": [
+            119,
+            456,
+            147,
+            493
+          ],
+          "offset_basis": "zero-based half-open Unicode codepoints"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "⟦g-b02f060R-ink01⟧",
@@ -1556,19 +1964,46 @@
         628
       ],
       "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "native_records": [
         {
-          "id": "f060R-01",
-          "cause": "folio-low-resolution",
-          "locator": "printed-folio",
-          "retained_candidates": [
-            "五十七"
+          "id": "g-b02f060R-ink01",
+          "unit_id": "b02-f060-R-ink01",
+          "page_id": "b02-f060-R",
+          "token": "⟦g-b02f060R-ink01⟧",
+          "start": 0,
+          "end": 18,
+          "bbox": [
+            814,
+            541,
+            834,
+            628
           ],
-          "observation": "末題頁版心頁碼初讀候選；透背文字不當成本面新正文。"
+          "extent": "visible source region,not an assertion of one glyph",
+          "status": "nonlexical-or-unresolved-source-mark"
         }
-      ]
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-current-b02-f060-R-ink01-0",
+          "unit_id": "b02-f060-R-ink01",
+          "page_id": "b02-f060-R",
+          "start": 0,
+          "end": 18,
+          "span": "⟦g-b02f060R-ink01⟧",
+          "candidates": [],
+          "reason": "Stable source-mark region; not interpreted as author text or invented missing character.",
+          "status": "unresolved-local-source-mark-or-gaiji",
+          "bbox": [
+            814,
+            541,
+            834,
+            628
+          ],
+          "offset_basis": "zero-based half-open Unicode codepoints"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "⟦g-b02f070R-ink01⟧",
@@ -1591,26 +2026,51 @@
         725
       ],
       "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "native_records": [
         {
-          "id": "f070R-01",
-          "cause": "covered-print",
-          "locator": "c09 before 孔",
-          "extent": 1,
-          "observation": "一底字有疊墨，留□；墨寫管另層。"
-        },
-        {
-          "id": "f070R-02",
-          "cause": "reading-unresolved",
-          "locator": "c05/c06/c08洒墨稿",
-          "retained_candidates": [
-            "洒墨稿"
+          "id": "g-b02f070R-ink01",
+          "unit_id": "b02-f070-R-ink01",
+          "page_id": "b02-f070-R",
+          "start": 0,
+          "end": 18,
+          "token": "⟦g-b02f070R-ink01⟧",
+          "bbox": [
+            553,
+            693,
+            576,
+            725
           ],
-          "observation": "舊譯字串照見，不以現代名稱置換。"
+          "extent": "visible-source-region; not necessarily one glyph",
+          "status": "retained-source-mark-or-unencoded-sign",
+          "reason": "Original-source geometric mark or covered ink region; do not guess authorial function or lexical expansion."
         }
-      ]
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-current-b02-f070-R-ink01-0-18",
+          "page_id": "b02-f070-R",
+          "unit_id": "b02-f070-R-ink01",
+          "start": 0,
+          "end": 18,
+          "span": "⟦g-b02f070R-ink01⟧",
+          "candidates": [],
+          "status": "unresolved-local-source-mark-or-gaiji",
+          "reason": "Stable source-mark/gaiji region; lexical identity or function unresolved. Extent is a visible region, not an assertion of one printed character.",
+          "bbox": [
+            553,
+            693,
+            576,
+            725
+          ],
+          "source_dimensions": [
+            1000,
+            1054
+          ],
+          "offset_basis": "zero-based half-open Unicode codepoints"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "⟦g-b02f071R-ink01⟧",
@@ -1633,20 +2093,103 @@
         803
       ],
       "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "native_records": [
         {
-          "id": "f071R-01",
-          "cause": "reading-unresolved",
-          "locator": "c02胞骨 and side01",
-          "retained_candidates": [
-            "胞骨",
-            "脆骨"
+          "id": "g-b02f071R-ink01",
+          "unit_id": "b02-f071-R-circle01",
+          "page_id": "b02-f071-R",
+          "start": 0,
+          "end": 18,
+          "token": "⟦g-b02f071R-ink01⟧",
+          "bbox": [
+            828,
+            775,
+            860,
+            803
           ],
-          "observation": "印刷初讀胞骨及欄側墨脆分開保存，不直接相互替換。"
+          "extent": "visible-source-region; not necessarily one glyph",
+          "status": "retained-source-mark-or-unencoded-sign",
+          "reason": "Original-source geometric mark or covered ink region; do not guess authorial function or lexical expansion."
         }
-      ]
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-current-b02-f071-R-circle01-0-18",
+          "page_id": "b02-f071-R",
+          "unit_id": "b02-f071-R-circle01",
+          "start": 0,
+          "end": 18,
+          "span": "⟦g-b02f071R-ink01⟧",
+          "candidates": [],
+          "status": "unresolved-local-source-mark-or-gaiji",
+          "reason": "Stable source-mark/gaiji region; lexical identity or function unresolved. Extent is a visible region, not an assertion of one printed character.",
+          "bbox": [
+            828,
+            775,
+            860,
+            803
+          ],
+          "source_dimensions": [
+            1000,
+            1054
+          ],
+          "offset_basis": "zero-based half-open Unicode codepoints"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
+    },
+    {
+      "token": "⟦b02-f076-L-mark01⟧",
+      "unit_id": "b02-f076-L-sourcemark01",
+      "page_id": "b02-f076-L",
+      "start": 0,
+      "end": 19,
+      "offset_basis": "0-based Unicode codepoints, half-open",
+      "source": {
+        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/9ce73472-dd58-48bf-b9c8-b7d7083f456e.json",
+        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/9ce73472-dd58-48bf-b9c8-b7d7083f456e/full/1000,/0/default.jpg",
+        "sha256": "f0d369e85e379e91dcc05020d8448d3ee076110a316070f325d1167d7b9098f3",
+        "width": 1000,
+        "height": 1054
+      },
+      "unit_bbox": null,
+      "unit_layer": "print-source-mark",
+      "native_records": [
+        {
+          "id": "b02-f076-L-mark01",
+          "unit_id": "b02-f076-L-sourcemark01",
+          "page_id": "b02-f076-L",
+          "start": 0,
+          "end": 19,
+          "token": "⟦b02-f076-L-mark01⟧",
+          "bbox": null,
+          "extent": "visible-source-region; not necessarily one glyph",
+          "status": "retained-source-mark-or-unencoded-sign",
+          "reason": "Original-source geometric mark or covered ink region; do not guess authorial function or lexical expansion."
+        }
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-current-b02-f076-L-sourcemark01-0-19",
+          "page_id": "b02-f076-L",
+          "unit_id": "b02-f076-L-sourcemark01",
+          "start": 0,
+          "end": 19,
+          "span": "⟦b02-f076-L-mark01⟧",
+          "candidates": [],
+          "status": "unresolved-local-source-mark-or-gaiji",
+          "reason": "Stable source-mark/gaiji region; lexical identity or function unresolved. Extent is a visible region, not an assertion of one printed character.",
+          "bbox": null,
+          "source_dimensions": [
+            1000,
+            1054
+          ],
+          "offset_basis": "zero-based half-open Unicode codepoints"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "⟦g-b02f076L-margin01⟧",
@@ -1669,21 +2212,51 @@
         126
       ],
       "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "native_records": [
         {
-          "id": "f076L-01",
-          "cause": "reading-unresolved",
-          "locator": "c02/c03/c09",
-          "retained_candidates": [
-            "不獲陽",
-            "甚大的無管",
-            "定鴨"
+          "id": "g-b02f076L-margin01",
+          "unit_id": "b02-f076-L-margin01",
+          "page_id": "b02-f076-L",
+          "start": 0,
+          "end": 21,
+          "token": "⟦g-b02f076L-margin01⟧",
+          "bbox": [
+            78,
+            87,
+            95,
+            126
           ],
-          "observation": "不順字串按所見初錄，未按常識改寫。"
+          "extent": "visible-source-region; not necessarily one glyph",
+          "status": "retained-source-mark-or-unencoded-sign",
+          "reason": "Thin red or brown curved mark in upper outer margin, not confident lexical writing."
         }
-      ]
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-current-b02-f076-L-margin01-0-21",
+          "page_id": "b02-f076-L",
+          "unit_id": "b02-f076-L-margin01",
+          "start": 0,
+          "end": 21,
+          "span": "⟦g-b02f076L-margin01⟧",
+          "candidates": [],
+          "status": "unresolved-local-source-mark-or-gaiji",
+          "reason": "Stable source-mark/gaiji region; lexical identity or function unresolved. Extent is a visible region, not an assertion of one printed character.",
+          "bbox": [
+            78,
+            87,
+            95,
+            126
+          ],
+          "source_dimensions": [
+            1000,
+            1054
+          ],
+          "offset_basis": "zero-based half-open Unicode codepoints"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "⟦g-b02f080R-mark01⟧",
@@ -1706,9 +2279,51 @@
         535
       ],
       "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
+      "native_records": [
+        {
+          "id": "g-b02f080R-mark01",
+          "unit_id": "b02-f080-R-mark01",
+          "page_id": "b02-f080-R",
+          "start": 0,
+          "end": 19,
+          "token": "⟦g-b02f080R-mark01⟧",
+          "bbox": [
+            868,
+            418,
+            900,
+            535
+          ],
+          "extent": "visible-source-region; not necessarily one glyph",
+          "status": "retained-source-mark-or-unencoded-sign",
+          "reason": "Fine scattered dark strokes beneath first short column; not confident lexical writing."
+        }
+      ],
       "unit_candidates": [],
-      "page_uncertainties": []
+      "uncertainties": [
+        {
+          "id": "q-current-b02-f080-R-mark01-0-19",
+          "page_id": "b02-f080-R",
+          "unit_id": "b02-f080-R-mark01",
+          "start": 0,
+          "end": 19,
+          "span": "⟦g-b02f080R-mark01⟧",
+          "candidates": [],
+          "status": "unresolved-local-source-mark-or-gaiji",
+          "reason": "Stable source-mark/gaiji region; lexical identity or function unresolved. Extent is a visible region, not an assertion of one printed character.",
+          "bbox": [
+            868,
+            418,
+            900,
+            535
+          ],
+          "source_dimensions": [
+            1000,
+            1054
+          ],
+          "offset_basis": "zero-based half-open Unicode codepoints"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "⟦g-b02f084R-mark01⟧",
@@ -1731,20 +2346,51 @@
         809
       ],
       "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "native_records": [
         {
-          "id": "f084R-01",
-          "cause": "reading-unresolved",
-          "locator": "c07章數",
-          "retained_candidates": [
-            "二章",
-            "二十章"
+          "id": "g-b02f084R-mark01",
+          "unit_id": "b02-f084-R-mark01",
+          "page_id": "b02-f084-R",
+          "start": 0,
+          "end": 19,
+          "token": "⟦g-b02f084R-mark01⟧",
+          "bbox": [
+            643,
+            726,
+            675,
+            809
           ],
-          "observation": "標題章數初見二章，未依前後章序補十，保留候選待源覆核。"
+          "extent": "visible-source-region; not necessarily one glyph",
+          "status": "retained-source-mark-or-unencoded-sign",
+          "reason": "Scattered thin dark marks below heading, not confident lexical writing."
         }
-      ]
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-current-b02-f084-R-mark01-0-19",
+          "page_id": "b02-f084-R",
+          "unit_id": "b02-f084-R-mark01",
+          "start": 0,
+          "end": 19,
+          "span": "⟦g-b02f084R-mark01⟧",
+          "candidates": [],
+          "status": "unresolved-local-source-mark-or-gaiji",
+          "reason": "Stable source-mark/gaiji region; lexical identity or function unresolved. Extent is a visible region, not an assertion of one printed character.",
+          "bbox": [
+            643,
+            726,
+            675,
+            809
+          ],
+          "source_dimensions": [
+            1000,
+            1054
+          ],
+          "offset_basis": "zero-based half-open Unicode codepoints"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "⟦g-b02f093L-ink01⟧",
@@ -1767,17 +2413,51 @@
         353
       ],
       "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "native_records": [
         {
-          "id": "f093L-01",
-          "cause": "covered-print",
-          "locator": "c02 after 穩",
-          "extent": 1,
-          "observation": "一印字受墨遮留□，欄側妥候選另層責任未知。"
+          "id": "g-b02f093L-ink01",
+          "unit_id": "b02-f093-L-ink01",
+          "page_id": "b02-f093-L",
+          "start": 0,
+          "end": 18,
+          "token": "⟦g-b02f093L-ink01⟧",
+          "bbox": [
+            355,
+            327,
+            382,
+            353
+          ],
+          "extent": "visible-source-region; not necessarily one glyph",
+          "status": "retained-source-mark-or-unencoded-sign",
+          "reason": "Original-source geometric mark or covered ink region; do not guess authorial function or lexical expansion."
         }
-      ]
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-current-b02-f093-L-ink01-0-18",
+          "page_id": "b02-f093-L",
+          "unit_id": "b02-f093-L-ink01",
+          "start": 0,
+          "end": 18,
+          "span": "⟦g-b02f093L-ink01⟧",
+          "candidates": [],
+          "status": "unresolved-local-source-mark-or-gaiji",
+          "reason": "Stable source-mark/gaiji region; lexical identity or function unresolved. Extent is a visible region, not an assertion of one printed character.",
+          "bbox": [
+            355,
+            327,
+            382,
+            353
+          ],
+          "source_dimensions": [
+            1000,
+            1054
+          ],
+          "offset_basis": "zero-based half-open Unicode codepoints"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "⟦g-b02f094L-ink01⟧",
@@ -1800,17 +2480,51 @@
         534
       ],
       "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "native_records": [
         {
-          "id": "f094L-01",
-          "cause": "covered-print",
-          "locator": "c09 after 設",
-          "extent": 1,
-          "observation": "單字有疊墨，不依欄側欲字擅補底字。"
+          "id": "g-b02f094L-ink01",
+          "unit_id": "b02-f094-L-ink01",
+          "page_id": "b02-f094-L",
+          "start": 0,
+          "end": 18,
+          "token": "⟦g-b02f094L-ink01⟧",
+          "bbox": [
+            92,
+            508,
+            117,
+            534
+          ],
+          "extent": "visible-source-region; not necessarily one glyph",
+          "status": "retained-source-mark-or-unencoded-sign",
+          "reason": "Original-source geometric mark or covered ink region; do not guess authorial function or lexical expansion."
         }
-      ]
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-current-b02-f094-L-ink01-0-18",
+          "page_id": "b02-f094-L",
+          "unit_id": "b02-f094-L-ink01",
+          "start": 0,
+          "end": 18,
+          "span": "⟦g-b02f094L-ink01⟧",
+          "candidates": [],
+          "status": "unresolved-local-source-mark-or-gaiji",
+          "reason": "Stable source-mark/gaiji region; lexical identity or function unresolved. Extent is a visible region, not an assertion of one printed character.",
+          "bbox": [
+            92,
+            508,
+            117,
+            534
+          ],
+          "source_dimensions": [
+            1000,
+            1054
+          ],
+          "offset_basis": "zero-based half-open Unicode codepoints"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "⟦g-b02f095L-ink01⟧",
@@ -1833,17 +2547,51 @@
         479
       ],
       "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "native_records": [
         {
-          "id": "f095L-01",
-          "cause": "covered-print",
-          "locator": "c09 before 手",
-          "extent": 1,
-          "observation": "手前底字疊墨留□，欄側字責任未知，不按操作左右推定。"
+          "id": "g-b02f095L-ink01",
+          "unit_id": "b02-f095-L-ink01",
+          "page_id": "b02-f095-L",
+          "start": 0,
+          "end": 18,
+          "token": "⟦g-b02f095L-ink01⟧",
+          "bbox": [
+            91,
+            454,
+            117,
+            479
+          ],
+          "extent": "visible-source-region; not necessarily one glyph",
+          "status": "retained-source-mark-or-unencoded-sign",
+          "reason": "Original-source geometric mark or covered ink region; do not guess authorial function or lexical expansion."
         }
-      ]
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-current-b02-f095-L-ink01-0-18",
+          "page_id": "b02-f095-L",
+          "unit_id": "b02-f095-L-ink01",
+          "start": 0,
+          "end": 18,
+          "span": "⟦g-b02f095L-ink01⟧",
+          "candidates": [],
+          "status": "unresolved-local-source-mark-or-gaiji",
+          "reason": "Stable source-mark/gaiji region; lexical identity or function unresolved. Extent is a visible region, not an assertion of one printed character.",
+          "bbox": [
+            91,
+            454,
+            117,
+            479
+          ],
+          "source_dimensions": [
+            1000,
+            1054
+          ],
+          "offset_basis": "zero-based half-open Unicode codepoints"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "⟦g-b02f103R-mark01⟧",
@@ -1866,16 +2614,51 @@
         797
       ],
       "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "native_records": [
         {
-          "id": "f103R-01",
-          "cause": "nonlexical-mark-or-offset",
-          "locator": "mark01",
-          "observation": "完整全幀及半面已看，下空欄有淡墨／透印，未見可可靠分字之文字；以來源痕跡單元保存，不轉為整頁缺文。"
+          "id": "g-b02f103R-mark01",
+          "unit_id": "b02-f103-R-mark01",
+          "page_id": "b02-f103-R",
+          "start": 0,
+          "end": 19,
+          "token": "⟦g-b02f103R-mark01⟧",
+          "bbox": [
+            587,
+            638,
+            656,
+            797
+          ],
+          "extent": "visible-source-region; not necessarily one glyph",
+          "status": "retained-source-mark-or-unencoded-sign",
+          "reason": "Faint dark irregular impression in lower empty columns; no confidently legible words; possible offset/ink mark, not presumed author annotation."
         }
-      ]
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-current-b02-f103-R-mark01-0-19",
+          "page_id": "b02-f103-R",
+          "unit_id": "b02-f103-R-mark01",
+          "start": 0,
+          "end": 19,
+          "span": "⟦g-b02f103R-mark01⟧",
+          "candidates": [],
+          "status": "unresolved-local-source-mark-or-gaiji",
+          "reason": "Stable source-mark/gaiji region; lexical identity or function unresolved. Extent is a visible region, not an assertion of one printed character.",
+          "bbox": [
+            587,
+            638,
+            656,
+            797
+          ],
+          "source_dimensions": [
+            1000,
+            1054
+          ],
+          "offset_basis": "zero-based half-open Unicode codepoints"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "⟦g-b03f003L-stamp01⟧",
@@ -1897,29 +2680,50 @@
         290,
         878
       ],
-      "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "unit_layer": "later-library-stamp",
+      "native_records": [
         {
-          "id": "f003L-01",
-          "cause": "reading-unresolved",
-          "locator": "c05軋/腎杖;editor",
-          "retained_candidates": [
-            "軋見",
-            "腎杖",
-            "許椒軒"
-          ],
-          "observation": "局部字形與署名初候選保存，不依常識或別冊署名補改。"
+          "id": "g-b03f003L-stamp01",
+          "extent_original_glyphs": null,
+          "extent_description": "source mark/stamp, not an asserted count of original printed glyphs",
+          "observation": "Small circular impression below lower border; fine text not legible at fixed1000 preview resolution.",
+          "unit_id": "b03-f003-L-stamp01",
+          "page_id": "b03-f003-L",
+          "start": 0,
+          "end": 20,
+          "token": "⟦g-b03f003L-stamp01⟧",
+          "source_responsibility": "later-or-marginal-mark; actor unknown",
+          "locator": {
+            "whole1000_xyxy": [
+              244,
+              828,
+              290,
+              878
+            ]
+          }
         }
-      ]
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-g-b03f003L-stamp01",
+          "unit_id": "b03-f003-L-stamp01",
+          "start": 0,
+          "end": 20,
+          "span": "⟦g-b03f003L-stamp01⟧",
+          "gaiji_id": "g-b03f003L-stamp01",
+          "status": "unresolved-local-source-glyph-or-mark",
+          "reason": "Small circular impression below lower border; fine text not legible at fixed1000 preview resolution."
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
-      "token": "⟦g-b03f005L-box01⟧",
-      "unit_id": "b03-f005-L-box01",
+      "token": "⟦g-adj-f005L-morph⟧",
+      "unit_id": "b03-f005-L-c02",
       "page_id": "b03-f005-L",
-      "start": 0,
-      "end": 18,
+      "start": 10,
+      "end": 29,
       "offset_basis": "0-based Unicode codepoints, half-open",
       "source": {
         "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/dd9ffe19-ced2-48b6-b78c-8d04202cecf0.json",
@@ -1929,28 +2733,242 @@
         "height": 1056
       },
       "unit_bbox": [
-        286,
-        278,
-        326,
-        813
+        373,
+        277,
+        407,
+        817
       ],
-      "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "unit_layer": "body",
+      "native_records": [
         {
-          "id": "f005L-01",
-          "cause": "reading-unresolved",
-          "locator": "c02/c04-c07音譯及框欄",
-          "retained_candidates": [
-            "高老啦海巾",
-            "雪文注律每體拜坐溫水三次癢憊皆用加多習拾勿里",
-            "吃醴哩嗪油",
-            "酥勃烈保叮士"
-          ],
-          "observation": "音譯及框中密字逐處候選保留，整區已看，未以現代藥名補字。將向root提框欄最小源區。"
+          "id": "g-adj-f005L-morph",
+          "page_id": "b03-f005-L",
+          "unit_id": "b03-f005-L-c02",
+          "extent": "1 visible glyph",
+          "locator": {
+            "description": "宜服後、啡亞前；whole約[380,520,412,550]；native f005 x1570..1800 y1180..1490",
+            "whole1000_xyxy": [
+              373,
+              277,
+              407,
+              817
+            ]
+          },
+          "observation": "口旁，右部近麽／麼形；與c05可見嗎不同，保留字形疑讀，不強配嗎或噙。",
+          "start": 10,
+          "end": 29,
+          "token": "⟦g-adj-f005L-morph⟧",
+          "source_responsibility": "original-print"
         }
-      ]
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-g-adj-f005L-morph",
+          "unit_id": "b03-f005-L-c02",
+          "start": 10,
+          "end": 29,
+          "span": "⟦g-adj-f005L-morph⟧",
+          "gaiji_id": "g-adj-f005L-morph",
+          "status": "unresolved-local-source-glyph-or-mark",
+          "reason": "口旁，右部近麽／麼形；與c05可見嗎不同，保留字形疑讀，不強配嗎或噙。"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
+    },
+    {
+      "token": "⟦g-adj-f005L-mouth-li⟧",
+      "unit_id": "b03-f005-L-c06",
+      "page_id": "b03-f005-L",
+      "start": 1,
+      "end": 23,
+      "offset_basis": "0-based Unicode codepoints, half-open",
+      "source": {
+        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/dd9ffe19-ced2-48b6-b78c-8d04202cecf0.json",
+        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/dd9ffe19-ced2-48b6-b78c-8d04202cecf0/full/1000,/0/default.jpg",
+        "sha256": "9e3744d15fb86eaf9a97f57846efc0eedeb52bb5188610d4093b44eb9e87308a",
+        "width": 1000,
+        "height": 1056
+      },
+      "unit_bbox": [
+        213,
+        277,
+        247,
+        817
+      ],
+      "unit_layer": "body",
+      "native_records": [
+        {
+          "id": "g-adj-f005L-mouth-li",
+          "page_id": "b03-f005-L",
+          "unit_id": "b03-f005-L-c06",
+          "extent": "1 visible glyph",
+          "locator": {
+            "description": "吃後；native f005 x590..850 y160..400",
+            "whole1000_xyxy": [
+              213,
+              277,
+              247,
+              817
+            ]
+          },
+          "observation": "⿰口禮形，未能確定Unicode原字，不取初稿醴的酉旁。",
+          "start": 1,
+          "end": 23,
+          "token": "⟦g-adj-f005L-mouth-li⟧",
+          "source_responsibility": "original-print"
+        }
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-g-adj-f005L-mouth-li",
+          "unit_id": "b03-f005-L-c06",
+          "start": 1,
+          "end": 23,
+          "span": "⟦g-adj-f005L-mouth-li⟧",
+          "gaiji_id": "g-adj-f005L-mouth-li",
+          "status": "unresolved-local-source-glyph-or-mark",
+          "reason": "⿰口禮形，未能確定Unicode原字，不取初稿醴的酉旁。"
+        },
+        {
+          "id": "q-g-adj-f005L-mouth-xie",
+          "unit_id": "b03-f005-L-c06",
+          "start": 23,
+          "end": 46,
+          "span": "⟦g-adj-f005L-mouth-xie⟧",
+          "gaiji_id": "g-adj-f005L-mouth-xie",
+          "status": "unresolved-local-source-glyph-or-mark",
+          "reason": "左口右些形；不省口旁作些或哩。"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
+    },
+    {
+      "token": "⟦g-adj-f005L-mouth-xie⟧",
+      "unit_id": "b03-f005-L-c06",
+      "page_id": "b03-f005-L",
+      "start": 23,
+      "end": 46,
+      "offset_basis": "0-based Unicode codepoints, half-open",
+      "source": {
+        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/dd9ffe19-ced2-48b6-b78c-8d04202cecf0.json",
+        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/dd9ffe19-ced2-48b6-b78c-8d04202cecf0/full/1000,/0/default.jpg",
+        "sha256": "9e3744d15fb86eaf9a97f57846efc0eedeb52bb5188610d4093b44eb9e87308a",
+        "width": 1000,
+        "height": 1056
+      },
+      "unit_bbox": [
+        213,
+        277,
+        247,
+        817
+      ],
+      "unit_layer": "body",
+      "native_records": [
+        {
+          "id": "g-adj-f005L-mouth-xie",
+          "page_id": "b03-f005-L",
+          "unit_id": "b03-f005-L-c06",
+          "extent": "1 visible glyph",
+          "locator": {
+            "description": "上一gaiji後、噒前；native f005 x590..850 y390..600",
+            "whole1000_xyxy": [
+              213,
+              277,
+              247,
+              817
+            ]
+          },
+          "observation": "左口右些形；不省口旁作些或哩。",
+          "start": 23,
+          "end": 46,
+          "token": "⟦g-adj-f005L-mouth-xie⟧",
+          "source_responsibility": "original-print"
+        }
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-g-adj-f005L-mouth-li",
+          "unit_id": "b03-f005-L-c06",
+          "start": 1,
+          "end": 23,
+          "span": "⟦g-adj-f005L-mouth-li⟧",
+          "gaiji_id": "g-adj-f005L-mouth-li",
+          "status": "unresolved-local-source-glyph-or-mark",
+          "reason": "⿰口禮形，未能確定Unicode原字，不取初稿醴的酉旁。"
+        },
+        {
+          "id": "q-g-adj-f005L-mouth-xie",
+          "unit_id": "b03-f005-L-c06",
+          "start": 23,
+          "end": 46,
+          "span": "⟦g-adj-f005L-mouth-xie⟧",
+          "gaiji_id": "g-adj-f005L-mouth-xie",
+          "status": "unresolved-local-source-glyph-or-mark",
+          "reason": "左口右些形；不省口旁作些或哩。"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
+    },
+    {
+      "token": "⟦g-adj-f007L-covered⟧",
+      "unit_id": "b03-f007-L-c07",
+      "page_id": "b03-f007-L",
+      "start": 11,
+      "end": 32,
+      "offset_basis": "0-based Unicode codepoints, half-open",
+      "source": {
+        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/f9ae487b-87b7-49d7-acf8-397f6fd1d07a.json",
+        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/f9ae487b-87b7-49d7-acf8-397f6fd1d07a/full/1000,/0/default.jpg",
+        "sha256": "341b1fbfdb487ee352a6ca0770bf394e24ac5a11b2862a47d03bb6e515d00020",
+        "width": 1000,
+        "height": 1056
+      },
+      "unit_bbox": [
+        173,
+        277,
+        207,
+        817
+      ],
+      "unit_layer": "body",
+      "native_records": [
+        {
+          "id": "g-adj-f007L-covered",
+          "page_id": "b03-f007-L",
+          "unit_id": "b03-f007-L-c07",
+          "extent": "1 primary-print glyph under later ink",
+          "locator": {
+            "description": "以其有後、而有定形前，whole約[183,550,219,584]",
+            "whole1000_xyxy": [
+              173,
+              277,
+              207,
+              817
+            ]
+          },
+          "observation": "原刻被墨圈遮；旁補包另屬後加手寫，原刻不以該候選恢復。",
+          "start": 11,
+          "end": 32,
+          "token": "⟦g-adj-f007L-covered⟧",
+          "source_responsibility": "original-print"
+        }
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-g-adj-f007L-covered",
+          "unit_id": "b03-f007-L-c07",
+          "start": 11,
+          "end": 32,
+          "span": "⟦g-adj-f007L-covered⟧",
+          "gaiji_id": "g-adj-f007L-covered",
+          "status": "unresolved-local-source-glyph-or-mark",
+          "reason": "原刻被墨圈遮；旁補包另屬後加手寫，原刻不以該候選恢復。"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "⟦g-b03f013R-stamp01⟧",
@@ -1972,22 +2990,101 @@
         732,
         671
       ],
-      "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "unit_layer": "later-library-stamp",
+      "native_records": [
         {
-          "id": "f013R-01",
-          "cause": "overlapping-impression",
-          "locator": "c05 after 二三天",
-          "extent": 2,
-          "retained_candidates": [
-            "寒熱",
-            "□□"
-          ],
-          "observation": "淡橢圓印與底字疊，局部先留兩□並列候選，不依發熱病程補字。"
+          "id": "g-b03f013R-stamp01",
+          "extent_original_glyphs": null,
+          "extent_description": "source mark/stamp, not an asserted count of original printed glyphs",
+          "observation": "Faint oval impression overlapping body; fine impression text not confidently deciphered at this resolution.",
+          "unit_id": "b03-f013-R-stamp01",
+          "page_id": "b03-f013-R",
+          "start": 0,
+          "end": 20,
+          "token": "⟦g-b03f013R-stamp01⟧",
+          "source_responsibility": "later-or-marginal-mark; actor unknown",
+          "locator": {
+            "whole1000_xyxy": [
+              685,
+              531,
+              732,
+              671
+            ]
+          }
         }
-      ]
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-g-b03f013R-stamp01",
+          "unit_id": "b03-f013-R-stamp01",
+          "start": 0,
+          "end": 20,
+          "span": "⟦g-b03f013R-stamp01⟧",
+          "gaiji_id": "g-b03f013R-stamp01",
+          "status": "unresolved-local-source-glyph-or-mark",
+          "reason": "Faint oval impression overlapping body; fine impression text not confidently deciphered at this resolution."
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
+    },
+    {
+      "token": "⟦g-adj-f015L-covered⟧",
+      "unit_id": "b03-f015-L-c03",
+      "page_id": "b03-f015-L",
+      "start": 13,
+      "end": 34,
+      "offset_basis": "0-based Unicode codepoints, half-open",
+      "source": {
+        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/69d23329-e6bd-41af-8593-d3b65a3c186d.json",
+        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/69d23329-e6bd-41af-8593-d3b65a3c186d/full/1000,/0/default.jpg",
+        "sha256": "3550b0ecf7b5df3a73f61bc5a61b356d2efc0a7719c7f05689517fd3f08ff717",
+        "width": 1000,
+        "height": 1055
+      },
+      "unit_bbox": [
+        333,
+        277,
+        367,
+        817
+      ],
+      "unit_layer": "body",
+      "native_records": [
+        {
+          "id": "g-adj-f015L-covered",
+          "page_id": "b03-f015-L",
+          "unit_id": "b03-f015-L-c03",
+          "extent": "1 primary-print glyph partially covered by later ink",
+          "locator": {
+            "description": "不後、待前；whole約[344,588,374,617]",
+            "whole1000_xyxy": [
+              333,
+              277,
+              367,
+              817
+            ]
+          },
+          "observation": "底層能形尚有筆畫，後墨干擾；保留可定位原刻疑字，右側宜另屬手寫。",
+          "start": 13,
+          "end": 34,
+          "token": "⟦g-adj-f015L-covered⟧",
+          "source_responsibility": "original-print"
+        }
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-g-adj-f015L-covered",
+          "unit_id": "b03-f015-L-c03",
+          "start": 13,
+          "end": 34,
+          "span": "⟦g-adj-f015L-covered⟧",
+          "gaiji_id": "g-adj-f015L-covered",
+          "status": "unresolved-local-source-glyph-or-mark",
+          "reason": "底層能形尚有筆畫，後墨干擾；保留可定位原刻疑字，右側宜另屬手寫。"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "⟦g-b03f015L-ink01⟧",
@@ -2009,31 +3106,101 @@
         373,
         591
       ],
-      "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "unit_layer": "later-ink-mark",
+      "native_records": [
         {
-          "id": "f015L-01",
-          "cause": "covered-print",
-          "locator": "c03 after 不",
-          "extent": 1,
-          "retained_candidates": [
-            "必",
-            "□"
-          ],
-          "observation": "單字有圈墨，墨宜獨立層，不代入底印。"
-        },
-        {
-          "id": "f015L-02",
-          "cause": "reading-unresolved",
-          "locator": "c06年廿七處",
-          "retained_candidates": [
-            "年廿七處"
-          ],
-          "observation": "接欄不順字依原見保留。"
+          "id": "g-b03f015L-ink01",
+          "extent_original_glyphs": null,
+          "extent_description": "source mark/stamp, not an asserted count of original printed glyphs",
+          "observation": "Nonprimary source mark retained separately from original print.",
+          "unit_id": "b03-f015-L-ink01",
+          "page_id": "b03-f015-L",
+          "start": 0,
+          "end": 18,
+          "token": "⟦g-b03f015L-ink01⟧",
+          "source_responsibility": "later-or-marginal-mark; actor unknown",
+          "locator": {
+            "whole1000_xyxy": [
+              345,
+              565,
+              373,
+              591
+            ]
+          }
         }
-      ]
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-g-b03f015L-ink01",
+          "unit_id": "b03-f015-L-ink01",
+          "start": 0,
+          "end": 18,
+          "span": "⟦g-b03f015L-ink01⟧",
+          "gaiji_id": "g-b03f015L-ink01",
+          "status": "unresolved-local-source-glyph-or-mark",
+          "reason": "Nonprimary source mark retained separately from original print."
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
+    },
+    {
+      "token": "⟦g-adj-f019R-covered⟧",
+      "unit_id": "b03-f019-R-c05",
+      "page_id": "b03-f019-R",
+      "start": 19,
+      "end": 40,
+      "offset_basis": "0-based Unicode codepoints, half-open",
+      "source": {
+        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c7239f6d-305c-452d-9c5f-2c50f91f7e26.json",
+        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/c7239f6d-305c-452d-9c5f-2c50f91f7e26/full/1000,/0/default.jpg",
+        "sha256": "47fcadd17fac15e7fec641a65f3e2920089b7b7bdf1f2f4db4f40bc755cd358e",
+        "width": 1000,
+        "height": 1056
+      },
+      "unit_bbox": [
+        693,
+        277,
+        727,
+        817
+      ],
+      "unit_layer": "body",
+      "native_records": [
+        {
+          "id": "g-adj-f019R-covered",
+          "page_id": "b03-f019-R",
+          "unit_id": "b03-f019-R-c05",
+          "extent": "contiguous obscured primary-print span; exact glyph count not asserted",
+          "locator": {
+            "description": "乳後可見長之後、膝前；whole約[707,737,738,793]",
+            "whole1000_xyxy": [
+              693,
+              277,
+              727,
+              817
+            ]
+          },
+          "observation": "被後加墨遮，無法可靠還原整段；後手垂下兩另列，不移入原刻正文。",
+          "start": 19,
+          "end": 40,
+          "token": "⟦g-adj-f019R-covered⟧",
+          "source_responsibility": "original-print"
+        }
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-g-adj-f019R-covered",
+          "unit_id": "b03-f019-R-c05",
+          "start": 19,
+          "end": 40,
+          "span": "⟦g-adj-f019R-covered⟧",
+          "gaiji_id": "g-adj-f019R-covered",
+          "status": "unresolved-local-source-glyph-or-mark",
+          "reason": "被後加墨遮，無法可靠還原整段；後手垂下兩另列，不移入原刻正文。"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "⟦g-b03f019R-ink01⟧",
@@ -2055,19 +3222,164 @@
         731,
         802
       ],
-      "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "unit_layer": "later-ink-mark",
+      "native_records": [
         {
-          "id": "f019R-01",
-          "cause": "covered-print",
-          "locator": "c05 between 乳 and 膝",
-          "extent": 3,
-          "extent_status": "provisional pending narrow source",
-          "observation": "局部約三字受疊墨遮，留局部□□□，旁墨另層不當作者文字；字數須源區核定。"
+          "id": "g-b03f019R-ink01",
+          "extent_original_glyphs": null,
+          "extent_description": "source mark/stamp, not an asserted count of original printed glyphs",
+          "observation": "Nonprimary source mark retained separately from original print.",
+          "unit_id": "b03-f019-R-ink01",
+          "page_id": "b03-f019-R",
+          "start": 0,
+          "end": 18,
+          "token": "⟦g-b03f019R-ink01⟧",
+          "source_responsibility": "later-or-marginal-mark; actor unknown",
+          "locator": {
+            "whole1000_xyxy": [
+              698,
+              707,
+              731,
+              802
+            ]
+          }
         }
-      ]
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-g-b03f019R-ink01",
+          "unit_id": "b03-f019-R-ink01",
+          "start": 0,
+          "end": 18,
+          "span": "⟦g-b03f019R-ink01⟧",
+          "gaiji_id": "g-b03f019R-ink01",
+          "status": "unresolved-local-source-glyph-or-mark",
+          "reason": "Nonprimary source mark retained separately from original print."
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
+    },
+    {
+      "token": "⟦g-adj-f024R-folio-tens⟧",
+      "unit_id": "b03-f024-R-folio",
+      "page_id": "b03-f024-R",
+      "start": 0,
+      "end": 24,
+      "offset_basis": "0-based Unicode codepoints, half-open",
+      "source": {
+        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2425721b-6445-413e-b1e7-3af736804fab.json",
+        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/2425721b-6445-413e-b1e7-3af736804fab/full/1000,/0/default.jpg",
+        "sha256": "cf58a733ac878df51e3d1ee74b01a59e2cbb9b9836bf21ccd9a3d15e34c347ef",
+        "width": 1000,
+        "height": 1056
+      },
+      "unit_bbox": [
+        899,
+        690,
+        916,
+        730
+      ],
+      "unit_layer": "printed-folio",
+      "native_records": [
+        {
+          "id": "g-adj-f024R-folio-tens",
+          "page_id": "b03-f024-R",
+          "unit_id": "b03-f024-R-folio",
+          "extent_original_glyphs": null,
+          "extent_description": "版心上部相連的十位數筆畫群；原字數不斷定，下方一字可辨",
+          "locator": {
+            "whole1000_xyxy": [
+              895,
+              683,
+              924,
+              718
+            ]
+          },
+          "candidates": [
+            "廿",
+            "二十"
+          ],
+          "preferred": null,
+          "observation": "原像素完整欄已實看：靠右書葉邊緣有數條橫筆及相連直筆，與折邊／欄界緊接；不能確定緊縮數字或分字表示。來源取得成功但判讀仍未定；保留可辨末一，不用算術或相鄰葉碼補定。",
+          "start": 0,
+          "end": 24,
+          "token": "⟦g-adj-f024R-folio-tens⟧",
+          "source_responsibility": "original-print"
+        }
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-g-adj-f024R-folio-tens",
+          "unit_id": "b03-f024-R-folio",
+          "start": 0,
+          "end": 24,
+          "span": "⟦g-adj-f024R-folio-tens⟧",
+          "gaiji_id": "g-adj-f024R-folio-tens",
+          "status": "unresolved-local-source-glyph-or-mark",
+          "reason": "原像素完整欄已實看：靠右書葉邊緣有數條橫筆及相連直筆，與折邊／欄界緊接；不能確定緊縮數字或分字表示。來源取得成功但判讀仍未定；保留可辨末一，不用算術或相鄰葉碼補定。"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
+    },
+    {
+      "token": "⟦g-adj-f026R-covered⟧",
+      "unit_id": "b03-f026-R-c03",
+      "page_id": "b03-f026-R",
+      "start": 4,
+      "end": 25,
+      "offset_basis": "0-based Unicode codepoints, half-open",
+      "source": {
+        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/1979c263-8165-4b17-81f8-07ee1201801f.json",
+        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/1979c263-8165-4b17-81f8-07ee1201801f/full/1000,/0/default.jpg",
+        "sha256": "e80060a689893f5329b2a5f859860dfe849b0aee8cea999e5671be684922f995",
+        "width": 1000,
+        "height": 1056
+      },
+      "unit_bbox": [
+        773,
+        277,
+        807,
+        817
+      ],
+      "unit_layer": "body",
+      "native_records": [
+        {
+          "id": "g-adj-f026R-covered",
+          "page_id": "b03-f026-R",
+          "unit_id": "b03-f026-R-c03",
+          "extent": "1 primary-print glyph covered by later ink",
+          "locator": {
+            "description": "如後、色前；whole約[780,377,811,403]",
+            "whole1000_xyxy": [
+              773,
+              277,
+              807,
+              817
+            ]
+          },
+          "observation": "後墨覆原字，右側灰另列後加手寫，不據灰還原原刻。",
+          "start": 4,
+          "end": 25,
+          "token": "⟦g-adj-f026R-covered⟧",
+          "source_responsibility": "original-print"
+        }
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-g-adj-f026R-covered",
+          "unit_id": "b03-f026-R-c03",
+          "start": 4,
+          "end": 25,
+          "span": "⟦g-adj-f026R-covered⟧",
+          "gaiji_id": "g-adj-f026R-covered",
+          "status": "unresolved-local-source-glyph-or-mark",
+          "reason": "後墨覆原字，右側灰另列後加手寫，不據灰還原原刻。"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
       "token": "⟦g-b03f026R-ink01⟧",
@@ -2089,29 +3401,287 @@
         803,
         405
       ],
-      "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
+      "unit_layer": "later-ink-mark",
+      "native_records": [
         {
-          "id": "f026R-01",
-          "cause": "covered-print",
-          "locator": "c03 before 色",
-          "extent": 1,
-          "retained_candidates": [
-            "灰",
-            "□"
-          ],
-          "observation": "色前一底字有圈墨，旁灰候選另層，不代填正文。"
+          "id": "g-b03f026R-ink01",
+          "extent_original_glyphs": null,
+          "extent_description": "source mark/stamp, not an asserted count of original printed glyphs",
+          "observation": "Nonprimary source mark retained separately from original print.",
+          "unit_id": "b03-f026-R-ink01",
+          "page_id": "b03-f026-R",
+          "start": 0,
+          "end": 18,
+          "token": "⟦g-b03f026R-ink01⟧",
+          "source_responsibility": "later-or-marginal-mark; actor unknown",
+          "locator": {
+            "whole1000_xyxy": [
+              778,
+              378,
+              803,
+              405
+            ]
+          }
         }
-      ]
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-g-b03f026R-ink01",
+          "unit_id": "b03-f026-R-ink01",
+          "start": 0,
+          "end": 18,
+          "span": "⟦g-b03f026R-ink01⟧",
+          "gaiji_id": "g-b03f026R-ink01",
+          "status": "unresolved-local-source-glyph-or-mark",
+          "reason": "Nonprimary source mark retained separately from original print."
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
-      "token": "⟦g-b03f039R-mark02⟧",
+      "token": "⟦g-adj-f027R-covered⟧",
+      "unit_id": "b03-f027-R-c04",
+      "page_id": "b03-f027-R",
+      "start": 1,
+      "end": 22,
+      "offset_basis": "0-based Unicode codepoints, half-open",
+      "source": {
+        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3137a6f3-ef4e-460b-844e-631af5e15118.json",
+        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/3137a6f3-ef4e-460b-844e-631af5e15118/full/1000,/0/default.jpg",
+        "sha256": "97ce408115d85f3ca91e582b01cde7ec0ebb8cd7645dc3ec56a3444984231a9f",
+        "width": 1000,
+        "height": 1056
+      },
+      "unit_bbox": [
+        733,
+        277,
+        767,
+        817
+      ],
+      "unit_layer": "body",
+      "native_records": [
+        {
+          "id": "g-adj-f027R-covered",
+          "page_id": "b03-f027-R",
+          "unit_id": "b03-f027-R-c04",
+          "extent": "1 primary-print glyph with later correction interference",
+          "locator": {
+            "description": "取後、毒前；whole約[746,306,777,338]",
+            "whole1000_xyxy": [
+              733,
+              277,
+              767,
+              817
+            ]
+          },
+          "observation": "烏形候讀有改筆干擾，保持gaiji；旁小為另屬注記，不用它替原刻。",
+          "start": 1,
+          "end": 22,
+          "token": "⟦g-adj-f027R-covered⟧",
+          "source_responsibility": "original-print"
+        }
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-g-adj-f027R-covered",
+          "unit_id": "b03-f027-R-c04",
+          "start": 1,
+          "end": 22,
+          "span": "⟦g-adj-f027R-covered⟧",
+          "gaiji_id": "g-adj-f027R-covered",
+          "status": "unresolved-local-source-glyph-or-mark",
+          "reason": "烏形候讀有改筆干擾，保持gaiji；旁小為另屬注記，不用它替原刻。"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
+    },
+    {
+      "token": "⟦g-adj-f028R-side⟧",
+      "unit_id": "b03-f028-R-side01",
+      "page_id": "b03-f028-R",
+      "start": 0,
+      "end": 18,
+      "offset_basis": "0-based Unicode codepoints, half-open",
+      "source": {
+        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c49c533f-f472-4685-9536-414d7f9fa7de.json",
+        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/c49c533f-f472-4685-9536-414d7f9fa7de/full/1000,/0/default.jpg",
+        "sha256": "a421494a66378b665b03467f6b5a23b1b2730c1aae3ffc8f6b65dc0e896f4c87",
+        "width": 1000,
+        "height": 1056
+      },
+      "unit_bbox": [
+        774,
+        284,
+        793,
+        310
+      ],
+      "unit_layer": "marginal-writing",
+      "native_records": [
+        {
+          "id": "g-adj-f028R-side",
+          "page_id": "b03-f028-R",
+          "unit_id": "b03-f028-R-side01",
+          "extent": "1 visible small marginal glyph",
+          "locator": {
+            "description": "c04起首因旁小字，whole約[774,286,795,311]",
+            "whole1000_xyxy": [
+              774,
+              284,
+              793,
+              310
+            ]
+          },
+          "observation": "兩稿自/即不同，小字局部仍不確定；不把它移入或替換主行因。",
+          "start": 0,
+          "end": 18,
+          "token": "⟦g-adj-f028R-side⟧",
+          "source_responsibility": "later-or-marginal-mark; actor unknown"
+        }
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-g-adj-f028R-side",
+          "unit_id": "b03-f028-R-side01",
+          "start": 0,
+          "end": 18,
+          "span": "⟦g-adj-f028R-side⟧",
+          "gaiji_id": "g-adj-f028R-side",
+          "status": "unresolved-local-source-glyph-or-mark",
+          "reason": "兩稿自/即不同，小字局部仍不確定；不把它移入或替換主行因。"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
+    },
+    {
+      "token": "⟦g-adj-f034R-folio-tens⟧",
+      "unit_id": "b03-f034-R-folio",
+      "page_id": "b03-f034-R",
+      "start": 0,
+      "end": 24,
+      "offset_basis": "0-based Unicode codepoints, half-open",
+      "source": {
+        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/27a85884-7153-47f2-bf1f-3a1c371ccd70.json",
+        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/27a85884-7153-47f2-bf1f-3a1c371ccd70/full/1000,/0/default.jpg",
+        "sha256": "056fdeb7675965647da5a2cf0dc9fd77bbeaa8b89a5b2d5afd2b98669b3df3e0",
+        "width": 1000,
+        "height": 1055
+      },
+      "unit_bbox": [
+        899,
+        690,
+        916,
+        730
+      ],
+      "unit_layer": "printed-folio",
+      "native_records": [
+        {
+          "id": "g-adj-f034R-folio-tens",
+          "page_id": "b03-f034-R",
+          "unit_id": "b03-f034-R-folio",
+          "extent_original_glyphs": null,
+          "extent_description": "版心上部相連的十位數筆畫群；原字數不斷定，下方一字可辨",
+          "locator": {
+            "whole1000_xyxy": [
+              895,
+              683,
+              924,
+              718
+            ]
+          },
+          "candidates": [
+            "卅",
+            "三十"
+          ],
+          "preferred": null,
+          "observation": "原像素完整欄已實看：靠右書葉邊緣有數條橫筆及相連直筆，與折邊／欄界緊接；不能確定緊縮數字或分字表示。來源取得成功但判讀仍未定；保留可辨末一，不用算術或相鄰葉碼補定。",
+          "start": 0,
+          "end": 24,
+          "token": "⟦g-adj-f034R-folio-tens⟧",
+          "source_responsibility": "original-print"
+        }
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-g-adj-f034R-folio-tens",
+          "unit_id": "b03-f034-R-folio",
+          "start": 0,
+          "end": 24,
+          "span": "⟦g-adj-f034R-folio-tens⟧",
+          "gaiji_id": "g-adj-f034R-folio-tens",
+          "status": "unresolved-local-source-glyph-or-mark",
+          "reason": "原像素完整欄已實看：靠右書葉邊緣有數條橫筆及相連直筆，與折邊／欄界緊接；不能確定緊縮數字或分字表示。來源取得成功但判讀仍未定；保留可辨末一，不用算術或相鄰葉碼補定。"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
+    },
+    {
+      "token": "⟦g-adj-f038L-covered⟧",
+      "unit_id": "b03-f038-L-c06",
+      "page_id": "b03-f038-L",
+      "start": 8,
+      "end": 29,
+      "offset_basis": "0-based Unicode codepoints, half-open",
+      "source": {
+        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/a8f821c9-c21a-4ed0-b1b6-defdcc0f9360.json",
+        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/a8f821c9-c21a-4ed0-b1b6-defdcc0f9360/full/1000,/0/default.jpg",
+        "sha256": "3158f7739e8bb0eaf5d13716e43bba1a7700684885d29279fb87ab00593efa01",
+        "width": 1000,
+        "height": 1055
+      },
+      "unit_bbox": [
+        213,
+        277,
+        247,
+        817
+      ],
+      "unit_layer": "body",
+      "native_records": [
+        {
+          "id": "g-adj-f038L-covered",
+          "page_id": "b03-f038-L",
+          "unit_id": "b03-f038-L-c06",
+          "extent": "1 primary-print glyph with later ink overlay",
+          "locator": {
+            "description": "相後、在其中前；whole約[223,477,253,508]；requested f038 native",
+            "whole1000_xyxy": [
+              213,
+              277,
+              247,
+              817
+            ]
+          },
+          "observation": "底層字有殘筆但圈改干擾，旁小雜另外保存。",
+          "start": 8,
+          "end": 29,
+          "token": "⟦g-adj-f038L-covered⟧",
+          "source_responsibility": "original-print"
+        }
+      ],
+      "unit_candidates": [],
+      "uncertainties": [
+        {
+          "id": "q-g-adj-f038L-covered",
+          "unit_id": "b03-f038-L-c06",
+          "start": 8,
+          "end": 29,
+          "span": "⟦g-adj-f038L-covered⟧",
+          "gaiji_id": "g-adj-f038L-covered",
+          "status": "unresolved-local-source-glyph-or-mark",
+          "reason": "底層字有殘筆但圈改干擾，旁小雜另外保存。"
+        }
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
+    },
+    {
+      "token": "⟦g-adj-f039R-margin⟧",
       "unit_id": "b03-f039-R-mark02",
       "page_id": "b03-f039-R",
       "start": 0,
-      "end": 19,
+      "end": 20,
       "offset_basis": "0-based Unicode codepoints, half-open",
       "source": {
         "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/31549e68-b602-4dfa-b019-1f47bed656b9.json",
@@ -2126,299 +3696,50 @@
         912,
         738
       ],
-      "unit_layer": "source-mark",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
+      "unit_layer": "marginal-writing",
+      "native_records": [
+        {
+          "id": "g-adj-f039R-margin",
+          "page_id": "b03-f039-R",
+          "unit_id": "b03-f039-R-mark02",
+          "extent": "1 visible small marginal glyph",
+          "locator": {
+            "description": "c01過多/溺死旁，whole約[886,731,908,761]；requested f039 native",
+            "whole1000_xyxy": [
+              892,
+              723,
+              912,
+              738
+            ]
+          },
+          "observation": "原像素仍未能確定全字；險形候選不入正文；保留為獨立後加小字。",
+          "start": 0,
+          "end": 20,
+          "token": "⟦g-adj-f039R-margin⟧",
+          "source_responsibility": "later-or-marginal-mark; actor unknown"
+        }
+      ],
       "unit_candidates": [],
-      "page_uncertainties": [
+      "uncertainties": [
         {
-          "id": "f039R-01",
-          "cause": "reading-unresolved",
-          "locator": "c01難罕;c07竇江醫館;side01",
-          "retained_candidates": [
-            "難罕",
-            "竇江醫館"
-          ],
-          "observation": "原字初候選及細側墨保存，不依醫學或書史改字。"
-        }
-      ]
-    },
-    {
-      "token": "⟦g-b03f042R-damage01⟧",
-      "unit_id": "b03-f042-R-damage01",
-      "page_id": "b03-f042-R",
-      "start": 0,
-      "end": 21,
-      "offset_basis": "0-based Unicode codepoints, half-open",
-      "source": {
-        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0ddc3699-85a5-4cf5-bcf9-2401d5a7a580.json",
-        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/0ddc3699-85a5-4cf5-bcf9-2401d5a7a580/full/1000,/0/default.jpg",
-        "sha256": "4255c5eb4bf6a3874e4044b5c4696c5fe80c313f332283d812c73434900caa00",
-        "width": 1000,
-        "height": 1055
-      },
-      "unit_bbox": [
-        618,
-        383,
-        681,
-        667
-      ],
-      "unit_layer": "source-damage",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [],
-      "page_uncertainties": [
-        {
-          "id": "f042R-01",
-          "cause": "source-damage-observation",
-          "locator": "damage01",
-          "observation": "全幀與完整半面可見左空欄裂口，未見該區原有字跡，不補失文也不稱全頁未讀；左對面圖說已屬root，不重抄。"
-        }
-      ]
-    },
-    {
-      "token": "[[G1845-fig01-01]]",
-      "unit_id": "b03-f043-L-label07",
-      "page_id": "b03-f043-L",
-      "start": 10,
-      "end": 28,
-      "offset_basis": "0-based Unicode codepoints, half-open",
-      "source": {
-        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/603fed6d-fbf4-4b2b-8eb2-9c7ba646a394.json",
-        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/603fed6d-fbf4-4b2b-8eb2-9c7ba646a394/full/1000,/0/default.jpg",
-        "sha256": "324646a9430a330f1617d1f957225bd27aed837f59b5bb1285481c81fdffabeb",
-        "width": 1000,
-        "height": 1055
-      },
-      "unit_bbox": null,
-      "unit_layer": "diagram-text-label",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [
-        {
-          "id": "G1845-fig01-01",
-          "unit_id": "b03-f043-L-label07",
-          "candidates": [
-            "窩",
-            "層"
-          ]
-        },
-        {
-          "id": "G1845-fig01-02",
-          "unit_id": "b03-f043-L-label07",
-          "candidates": [
-            "滙",
-            "匯"
-          ]
+          "id": "q-g-adj-f039R-margin",
+          "unit_id": "b03-f039-R-mark02",
+          "start": 0,
+          "end": 20,
+          "span": "⟦g-adj-f039R-margin⟧",
+          "gaiji_id": "g-adj-f039R-margin",
+          "status": "unresolved-local-source-glyph-or-mark",
+          "reason": "原像素仍未能確定全字；險形候選不入正文；保留為獨立後加小字。"
         }
       ],
-      "page_uncertainties": [
-        {
-          "id": "b03-f043-L-U-imprintpunct",
-          "unit_id": "b03-f043-L-imprint",
-          "start": 21,
-          "end": 21,
-          "span": "",
-          "preferred": "",
-          "candidates": [
-            "."
-          ],
-          "reason": "After superscript rs a verysmall dot/inkspot is not confidently distinguished; no punctuation silently supplied. Endfullstop afterAberdeen observed."
-        },
-        {
-          "id": "U1845-fig01-01",
-          "unit_id": "b03-f043-L-label07",
-          "gaiji": "G1845-fig01-01",
-          "extent_original_glyphs": 1,
-          "candidates": [
-            "窩",
-            "層"
-          ],
-          "reason": "Source oneglyph after之 has dense/connected strokes; no anatomical terminology used to settle it."
-        },
-        {
-          "id": "U1845-fig01-02",
-          "unit_id": "b03-f043-L-label07",
-          "gaiji": "G1845-fig01-02",
-          "extent_original_glyphs": 1,
-          "candidates": [
-            "滙",
-            "匯"
-          ],
-          "reason": "Same source line visible water/enclosure/radical grouping not confidently encoded; preserve stablegaiji."
-        }
-      ]
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
-      "token": "[[G1845-fig01-02]]",
-      "unit_id": "b03-f043-L-label07",
-      "page_id": "b03-f043-L",
-      "start": 28,
-      "end": 46,
-      "offset_basis": "0-based Unicode codepoints, half-open",
-      "source": {
-        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/603fed6d-fbf4-4b2b-8eb2-9c7ba646a394.json",
-        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/603fed6d-fbf4-4b2b-8eb2-9c7ba646a394/full/1000,/0/default.jpg",
-        "sha256": "324646a9430a330f1617d1f957225bd27aed837f59b5bb1285481c81fdffabeb",
-        "width": 1000,
-        "height": 1055
-      },
-      "unit_bbox": null,
-      "unit_layer": "diagram-text-label",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [
-        {
-          "id": "G1845-fig01-01",
-          "unit_id": "b03-f043-L-label07",
-          "candidates": [
-            "窩",
-            "層"
-          ]
-        },
-        {
-          "id": "G1845-fig01-02",
-          "unit_id": "b03-f043-L-label07",
-          "candidates": [
-            "滙",
-            "匯"
-          ]
-        }
-      ],
-      "page_uncertainties": [
-        {
-          "id": "b03-f043-L-U-imprintpunct",
-          "unit_id": "b03-f043-L-imprint",
-          "start": 21,
-          "end": 21,
-          "span": "",
-          "preferred": "",
-          "candidates": [
-            "."
-          ],
-          "reason": "After superscript rs a verysmall dot/inkspot is not confidently distinguished; no punctuation silently supplied. Endfullstop afterAberdeen observed."
-        },
-        {
-          "id": "U1845-fig01-01",
-          "unit_id": "b03-f043-L-label07",
-          "gaiji": "G1845-fig01-01",
-          "extent_original_glyphs": 1,
-          "candidates": [
-            "窩",
-            "層"
-          ],
-          "reason": "Source oneglyph after之 has dense/connected strokes; no anatomical terminology used to settle it."
-        },
-        {
-          "id": "U1845-fig01-02",
-          "unit_id": "b03-f043-L-label07",
-          "gaiji": "G1845-fig01-02",
-          "extent_original_glyphs": 1,
-          "candidates": [
-            "滙",
-            "匯"
-          ],
-          "reason": "Same source line visible water/enclosure/radical grouping not confidently encoded; preserve stablegaiji."
-        }
-      ]
-    },
-    {
-      "token": "[[G1845-caption06-01]]",
-      "unit_id": "b03-f052-L-c04",
-      "page_id": "b03-f052-L",
-      "start": 0,
-      "end": 22,
-      "offset_basis": "0-based Unicode codepoints, half-open",
-      "source": {
-        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/1e1d7b94-b561-4e9e-ae29-49f7ca1d7efa.json",
-        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/1e1d7b94-b561-4e9e-ae29-49f7ca1d7efa/full/1000,/0/default.jpg",
-        "sha256": "85a047d11bda8d54254f85140cb4de8a6bdc8409da20912063013313f2983291",
-        "width": 1000,
-        "height": 1055
-      },
-      "unit_bbox": null,
-      "unit_layer": "original-illustration-caption",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [
-        {
-          "id": "G1845-caption06-01",
-          "unit_id": "b03-f052-L-c04",
-          "candidates": [
-            "症",
-            "疽"
-          ]
-        }
-      ],
-      "page_uncertainties": [
-        {
-          "id": "U1845-caption06-01",
-          "unit_id": "b03-f052-L-c04",
-          "gaiji": "G1845-caption06-01",
-          "extent_original_glyphs": 1,
-          "candidates": [
-            "症",
-            "疽"
-          ],
-          "reason": "末欄單字內部細筆未可靠定碼，不用病名推斷；不是未讀整欄。"
-        }
-      ]
-    },
-    {
-      "token": "[[G1845-fig09-01]]",
-      "unit_id": "b03-f059-L-panel三-label03",
-      "page_id": "b03-f059-L",
-      "start": 0,
-      "end": 18,
-      "offset_basis": "0-based Unicode codepoints, half-open",
-      "source": {
-        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3e2ac301-15ae-44f6-9a31-f06fb4f07a7c.json",
-        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/3e2ac301-15ae-44f6-9a31-f06fb4f07a7c/full/1000,/0/default.jpg",
-        "sha256": "ef953e25eb667de45af858ebb363447cf10d050f0303d56facf914b41eb1ce3d",
-        "width": 1000,
-        "height": 1054
-      },
-      "unit_bbox": null,
-      "unit_layer": "diagram-text-label",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [
-        {
-          "id": "G1845-fig09-01",
-          "unit_id": "b03-f059-L-panel三-label03",
-          "extent_original_glyphs": 1,
-          "candidates": [
-            "灌",
-            "積"
-          ],
-          "reason": "Dense first glyph before 炎; native source read attempted but radical grouping unresolved."
-        }
-      ],
-      "page_uncertainties": [
-        {
-          "id": "b03-f059-L-U-imprintpunct",
-          "unit_id": "b03-f059-L-imprint",
-          "start": 21,
-          "end": 21,
-          "span": "",
-          "preferred": "",
-          "candidates": [
-            "."
-          ],
-          "reason": "Tiny dot after superscript rs not confidently separated from ink; not supplied."
-        },
-        {
-          "id": "U1845-fig09-01",
-          "unit_id": "b03-f059-L-panel三-label03",
-          "extent_original_glyphs": 1,
-          "candidates": [
-            "灌",
-            "積"
-          ],
-          "reason": "Dense first glyph before 炎; native source read attempted but radical grouping unresolved."
-        }
-      ]
-    },
-    {
-      "token": "[[G1845-fig10-01]]",
-      "unit_id": "b03-f061-L-panel一-label01",
+      "token": "⟦g-adj-f061L-orientation⟧",
+      "unit_id": "b03-f061-L-panel三-label03",
       "page_id": "b03-f061-L",
-      "start": 2,
-      "end": 20,
+      "start": 0,
+      "end": 25,
       "offset_basis": "0-based Unicode codepoints, half-open",
       "source": {
         "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/f65bba22-578a-44d3-a4c5-c00201528863.json",
@@ -2429,140 +3750,48 @@
       },
       "unit_bbox": null,
       "unit_layer": "diagram-text-label",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [
+      "native_records": [
         {
-          "id": "G1845-fig10-01",
-          "unit_ids": [
-            "b03-f061-L-panel一-label01",
-            "b03-f061-L-panel三-label02"
-          ],
+          "id": "g-adj-f061L-orientation",
+          "page_id": "b03-f061-L",
+          "unit_id": "b03-f061-L-panel三-label03",
           "extent_original_glyphs": 1,
-          "candidates": [
-            "稿",
-            "槁",
-            "稠"
-          ],
-          "reason": "Repeated printed glyph after 酒墨; no modern disease terminology used to choose."
+          "locator": {
+            "whole1000_xyxy": [
+              83,
+              617,
+              110,
+              647
+            ]
+          },
+          "observation": "左側一字可見大形加上方短筆，不能確定是大／天／夭形；保留一字形，不用方向常識修字。",
+          "start": 0,
+          "end": 25,
+          "token": "⟦g-adj-f061L-orientation⟧",
+          "source_responsibility": "original-print"
         }
       ],
-      "page_uncertainties": [
+      "unit_candidates": [],
+      "uncertainties": [
         {
-          "id": "b03-f061-L-U-imprintpunct",
-          "unit_id": "b03-f061-L-imprint",
-          "start": 21,
-          "end": 21,
-          "span": "",
-          "preferred": "",
-          "candidates": [
-            "."
-          ],
-          "reason": "Tiny dot after superscript rs not confidently separated from ink; not supplied."
-        },
-        {
-          "id": "U1845-fig10-01",
-          "unit_ids": [
-            "b03-f061-L-panel一-label01",
-            "b03-f061-L-panel三-label02"
-          ],
-          "extent_original_glyphs": 1,
-          "candidates": [
-            "稿",
-            "槁",
-            "稠"
-          ],
-          "reason": "Repeated printed glyph after 酒墨; no modern disease terminology used to choose."
-        },
-        {
-          "id": "U1845-fig10-乳",
-          "unit_id": "b03-f061-L-panel三-label04",
-          "span": "乳",
-          "preferred": "乳",
-          "candidates": [
-            "孔"
-          ],
-          "reason": "Slanted lower left label initial glyph visually read 乳; fine strokes uncertain."
-        }
-      ]
-    },
-    {
-      "token": "[[G1845-fig10-01]]",
-      "unit_id": "b03-f061-L-panel三-label02",
-      "page_id": "b03-f061-L",
-      "start": 2,
-      "end": 20,
-      "offset_basis": "0-based Unicode codepoints, half-open",
-      "source": {
-        "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/f65bba22-578a-44d3-a4c5-c00201528863.json",
-        "image_uri": "https://iiif.bodleian.ox.ac.uk/iiif/image/f65bba22-578a-44d3-a4c5-c00201528863/full/1000,/0/default.jpg",
-        "sha256": "ba8d9d0f45e554b7a297a855a6577addb31f8b0e0643bc8c87675dab7c2207b7",
-        "width": 1000,
-        "height": 1054
-      },
-      "unit_bbox": null,
-      "unit_layer": "diagram-text-label",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [
-        {
-          "id": "G1845-fig10-01",
-          "unit_ids": [
-            "b03-f061-L-panel一-label01",
-            "b03-f061-L-panel三-label02"
-          ],
-          "extent_original_glyphs": 1,
-          "candidates": [
-            "稿",
-            "槁",
-            "稠"
-          ],
-          "reason": "Repeated printed glyph after 酒墨; no modern disease terminology used to choose."
+          "id": "q-g-adj-f061L-orientation",
+          "unit_id": "b03-f061-L-panel三-label03",
+          "start": 0,
+          "end": 25,
+          "span": "⟦g-adj-f061L-orientation⟧",
+          "gaiji_id": "g-adj-f061L-orientation",
+          "status": "unresolved-local-source-glyph-or-mark",
+          "reason": "左側一字可見大形加上方短筆，不能確定是大／天／夭形；保留一字形，不用方向常識修字。"
         }
       ],
-      "page_uncertainties": [
-        {
-          "id": "b03-f061-L-U-imprintpunct",
-          "unit_id": "b03-f061-L-imprint",
-          "start": 21,
-          "end": 21,
-          "span": "",
-          "preferred": "",
-          "candidates": [
-            "."
-          ],
-          "reason": "Tiny dot after superscript rs not confidently separated from ink; not supplied."
-        },
-        {
-          "id": "U1845-fig10-01",
-          "unit_ids": [
-            "b03-f061-L-panel一-label01",
-            "b03-f061-L-panel三-label02"
-          ],
-          "extent_original_glyphs": 1,
-          "candidates": [
-            "稿",
-            "槁",
-            "稠"
-          ],
-          "reason": "Repeated printed glyph after 酒墨; no modern disease terminology used to choose."
-        },
-        {
-          "id": "U1845-fig10-乳",
-          "unit_id": "b03-f061-L-panel三-label04",
-          "span": "乳",
-          "preferred": "乳",
-          "candidates": [
-            "孔"
-          ],
-          "reason": "Slanted lower left label initial glyph visually read 乳; fine strokes uncertain."
-        }
-      ]
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     },
     {
-      "token": "[[G1845-fig11-01]]",
+      "token": "⟦g-adj-f063L-marker⟧",
       "unit_id": "b03-f063-L-panel一-label01",
       "page_id": "b03-f063-L",
       "start": 0,
-      "end": 18,
+      "end": 20,
       "offset_basis": "0-based Unicode codepoints, half-open",
       "source": {
         "uri": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/80c125b6-7453-4dd6-ac85-c3628fc5685f.json",
@@ -2573,43 +3802,34 @@
       },
       "unit_bbox": null,
       "unit_layer": "diagram-text-label",
-      "encoding_status": "stable source-glyph or source-mark placeholder, not an established Unicode reading",
-      "unit_candidates": [
+      "native_records": [
         {
-          "id": "G1845-fig11-01",
+          "id": "g-adj-f063L-marker",
+          "page_id": "b03-f063-L",
           "unit_id": "b03-f063-L-panel一-label01",
           "extent_original_glyphs": 1,
-          "candidates": [
-            "H",
-            "W"
-          ],
-          "reason": "Small tilted Latin marker near finger; preserved as unresolved, distinct from lower H."
+          "locator": {},
+          "observation": "上側微小H/W樣形與器具畫線緊鄰；仍難定印刷字母或構件形體，暫存一個局部標記gaiji；不延伸推測其他線點。",
+          "start": 0,
+          "end": 20,
+          "token": "⟦g-adj-f063L-marker⟧",
+          "source_responsibility": "original-print"
         }
       ],
-      "page_uncertainties": [
+      "unit_candidates": [],
+      "uncertainties": [
         {
-          "id": "b03-f063-L-U-imprintpunct",
-          "unit_id": "b03-f063-L-imprint",
-          "start": 21,
-          "end": 21,
-          "span": "",
-          "preferred": "",
-          "candidates": [
-            "."
-          ],
-          "reason": "Tiny dot after superscript rs not confidently separated from ink; not supplied."
-        },
-        {
-          "id": "U1845-fig11-01",
+          "id": "q-g-adj-f063L-marker",
           "unit_id": "b03-f063-L-panel一-label01",
-          "extent_original_glyphs": 1,
-          "candidates": [
-            "H",
-            "W"
-          ],
-          "reason": "Small tilted Latin marker near finger; preserved as unresolved, distinct from lower H."
+          "start": 0,
+          "end": 20,
+          "span": "⟦g-adj-f063L-marker⟧",
+          "gaiji_id": "g-adj-f063L-marker",
+          "status": "unresolved-local-source-glyph-or-mark",
+          "reason": "上側微小H/W樣形與器具畫線緊鄰；仍難定印刷字母或構件形體，暫存一個局部標記gaiji；不延伸推測其他線點。"
         }
-      ]
+      ],
+      "encoding_status": "stable unresolved source-glyph or source-mark token; not an established Unicode reading"
     }
   ]
 }

@@ -1,14 +1,14 @@
 cff-version: 1.2.0
 type: dataset
 title: '腎囊醫訣（1874；Bodleian Sinica 1845） / Shen nang yi jue: Transcription dataset'
-message: Please cite this fixed initial-transcription version and retain its quality
-  statement. Zenodo DOI is pending.
+message: Please cite the fixed version used and retain the AI nonblind source-adjudication
+  and human-review limitations. The DOI of this new version is pending verified reservation.
 authors:
 - family-names: Chu
   given-names: Chen-Yu
   orcid: https://orcid.org/0009-0003-9738-6914
   website: https://github.com/poplolioi11
-version: 0.1.0
+version: 0.2.0
 abstract: Shen nang yi jue (1874), published by Ji ao xuan at [Amoy] according to
   the Bodleian catalogue, is Patrick Manson’s Chinese translation and adaptation of
   a work by Thomas Blizard Curling. Its English preface, signed at Amoy, describes
@@ -19,9 +19,9 @@ abstract: Shen nang yi jue (1874), published by Ji ao xuan at [Amoy] according t
   terminology and medical illustration. This version provides JSON, TXT and TEI for
   497 original printed text, caption and labelled illustration faces from the three
   bound volumes of Bodleian Sinica 1845, retaining their physical order and conflicting
-  printed volume numbers. It is an AI-assisted initial transcription with uncertain
-  and unresolved readings; comparison with independent readings and full human collation
-  have not been completed for this version.
+  printed volume numbers. This version follows comparison of AI readings and checks
+  against the source images; uncertain readings remain marked, full human collation
+  is pending, and methods and limitations are described in METHODS.md.
 keywords:
 - 腎囊醫訣
 - Shen nang yi jue
@@ -42,6 +42,6 @@ keywords:
 - '1874'
 - TEI
 license: CC-BY-4.0
-url: https://github.com/poplolioi11/bodleian-sinica1845-shennang-yijue-1874/releases/tag/v0.1.0
+url: https://github.com/poplolioi11/bodleian-sinica1845-shennang-yijue-1874/releases/tag/v0.2.0
 repository-code: https://github.com/poplolioi11/bodleian-sinica1845-shennang-yijue-1874
 date-released: '2026-11-12'

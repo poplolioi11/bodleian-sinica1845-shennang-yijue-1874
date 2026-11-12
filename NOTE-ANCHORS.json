@@ -1,829 +1,4379 @@
 {
-  "offset_basis": "Unicode codepoints; named1basedanchorsretainoriginalbasis",
+  "schema": "sinica1845-note-anchors/2",
+  "offset_basis": "Native explicit codepoint-boundary bases preserved; see READING-GUIDE.md",
   "relationships": [
     {
       "unit_id": "b01-f015-L-n01",
       "page_id": "b01-f015-L",
+      "layer": "small-note",
+      "fragments": [
+        {
+          "bbox": [
+            216,
+            785,
+            255,
+            813
+          ],
+          "text": "腎在"
+        },
+        {
+          "bbox": [
+            174,
+            272,
+            213,
+            368
+          ],
+          "text": "腹內見第八圖其一"
+        }
+      ],
       "parent_unit": "b01-f015-L-c06",
       "anchor_after_text": "肉膜裹之",
       "anchor_after_codepoint_1based": 21,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f015-L-c06",
+        "offset": 21,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "肉膜裹之",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "腎",
+          "bbox_whole_preview_xywh": [
+            234,
+            781,
+            20,
+            29
+          ],
+          "order": 1
+        },
+        {
+          "text": "在",
+          "bbox_whole_preview_xywh": [
+            211,
+            781,
+            20,
+            29
+          ],
+          "order": 2
+        },
+        {
+          "text": "腹內見第",
+          "bbox_whole_preview_xywh": [
+            178,
+            271,
+            22,
+            110
+          ],
+          "order": 3
+        },
+        {
+          "text": "八圖其一",
+          "bbox_whole_preview_xywh": [
+            152,
+            271,
+            22,
+            110
+          ],
+          "order": 4
+        }
+      ]
     },
     {
       "unit_id": "b01-f017-R-n01",
       "page_id": "b01-f017-R",
+      "layer": "small-note",
       "parent_unit": "b01-f017-R-c05",
       "anchor_after_text": "血脈管",
       "anchor_after_codepoint_1based": 3,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f017-R-c05",
+        "offset": 3,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "血脈管",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "見第",
+          "bbox_whole_preview_xywh": [
+            724,
+            367,
+            18,
+            51
+          ],
+          "order": 1
+        },
+        {
+          "text": "二圖",
+          "bbox_whole_preview_xywh": [
+            707,
+            367,
+            18,
+            51
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f017-R-n02",
       "page_id": "b01-f017-R",
+      "layer": "small-note",
       "parent_unit": "b01-f017-R-c05",
       "anchor_after_text": "腦氣筋",
       "anchor_after_codepoint_1based": 6,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f017-R-c05",
+        "offset": 6,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "腦氣筋",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "見第",
+          "bbox_whole_preview_xywh": [
+            724,
+            476,
+            18,
+            51
+          ],
+          "order": 1
+        },
+        {
+          "text": "一圖",
+          "bbox_whole_preview_xywh": [
+            707,
+            476,
+            18,
+            51
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f020-R-n01",
       "page_id": "b01-f020-R",
+      "layer": "small-note",
       "parent_unit": "b01-f020-R-c07",
       "anchor_after_text": "直管",
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "腎精管間隔"
+        },
+        {
+          "order": 2,
+          "text": "見第五圖"
+        }
+      ],
       "anchor_after_codepoint_1based": 2,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f020-R-c07",
+        "offset": 2,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "直管",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "腎精管間隔",
+          "bbox_whole_preview_xywh": [
+            640,
+            346,
+            19,
+            120
+          ],
+          "order": 1
+        },
+        {
+          "text": "見第五圖",
+          "bbox_whole_preview_xywh": [
+            621,
+            346,
+            19,
+            120
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f021-R-n01",
       "page_id": "b01-f021-R",
+      "layer": "small-note",
       "parent_unit": "b01-f021-R-c09",
       "anchor_after_text": "肉曳腎而下",
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "此肉英話曰俄勿"
+        },
+        {
+          "order": 2,
+          "text": "那加喇譯卽舵也"
+        }
+      ],
       "anchor_after_codepoint_1based": 5,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f021-R-c09",
+        "offset": 5,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "肉曳腎而下",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "此肉英話曰俄勿",
+          "bbox_whole_preview_xywh": [
+            556,
+            381,
+            19,
+            182
+          ],
+          "order": 1
+        },
+        {
+          "text": "那加喃譯卽舵也",
+          "bbox_whole_preview_xywh": [
+            536,
+            381,
+            19,
+            182
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f022-R-n01",
       "page_id": "b01-f022-R",
+      "layer": "small-note",
       "parent_unit": "b01-f022-R-c01",
       "anchor_after_text": "下至囊中",
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "腎已下囊見"
+        },
+        {
+          "order": 2,
+          "text": "第八圖其二"
+        }
+      ],
       "anchor_after_codepoint_1based": 13,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f022-R-c01",
+        "offset": 13,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "下至囊中",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "腎已下囊見",
+          "bbox_whole_preview_xywh": [
+            885,
+            600,
+            19,
+            125
+          ],
+          "order": 1
+        },
+        {
+          "text": "第八圖其二",
+          "bbox_whole_preview_xywh": [
+            865,
+            600,
+            19,
+            125
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f024-R-n01",
       "page_id": "b01-f024-R",
+      "layer": "small-note",
       "parent_unit": "b01-f024-R-c02",
-      "anchor_after_text": "而半出",
+      "anchor_after_text": "半出",
       "anchor_after_codepoint_1based": 11,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f024-R-c02",
+        "offset": 11,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "半出",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "猶未入囊",
+          "bbox_whole_preview_xywh": [
+            802,
+            535,
+            30,
+            68
+          ],
+          "order": 1
+        }
+      ]
     },
     {
       "unit_id": "b01-f024-R-n02",
       "page_id": "b01-f024-R",
+      "layer": "small-note",
       "parent_unit": "b01-f024-R-c02",
-      "anchor_after_text": "陽蒂之旁",
+      "anchor_after_text": "之旁",
       "anchor_after_codepoint_1based": 20,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f024-R-c02",
+        "offset": 20,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "之旁",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "略近肛門",
+          "bbox_whole_preview_xywh": [
+            784,
+            262,
+            20,
+            73
+          ],
+          "order": 1
+        }
+      ]
     },
     {
       "unit_id": "b01-f024-R-n03",
       "page_id": "b01-f024-R",
+      "layer": "small-note",
       "parent_unit": "b01-f024-R-c03",
-      "anchor_after_text": "腿之處",
+      "anchor_after_text": "之處",
       "anchor_after_codepoint_1based": 13,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f024-R-c03",
+        "offset": 13,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "之處",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "腿大脈管",
+          "bbox_whole_preview_xywh": [
+            784,
+            642,
+            20,
+            84
+          ],
+          "order": 1
+        },
+        {
+          "text": "見第三圖",
+          "bbox_whole_preview_xywh": [
+            765,
+            642,
+            20,
+            84
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f024-R-n04",
       "page_id": "b01-f024-R",
+      "layer": "small-note",
+      "fragments": [
+        {
+          "bbox": [
+            652,
+            641,
+            692,
+            808
+          ],
+          "text": "中有五人兩腎居于胯中七人右腎"
+        },
+        {
+          "bbox": [
+            616,
+            264,
+            654,
+            555
+          ],
+          "text": "居於胯中九人各一枚居于左胯中合二十一人之數"
+        }
+      ],
       "parent_unit": "b01-f024-R-c06",
       "anchor_after_text": "二十一人",
       "anchor_after_codepoint_1based": 15,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f024-R-c06",
+        "offset": 15,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "二十一人",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "中有五人兩腎居",
+          "bbox_whole_preview_xywh": [
+            726,
+            677,
+            18,
+            131
+          ],
+          "order": 1
+        },
+        {
+          "text": "于胯中七人右腎",
+          "bbox_whole_preview_xywh": [
+            708,
+            677,
+            18,
+            131
+          ],
+          "order": 2
+        },
+        {
+          "text": "居於胯中九人各一枚居于",
+          "bbox_whole_preview_xywh": [
+            676,
+            262,
+            18,
+            255
+          ],
+          "order": 3
+        },
+        {
+          "text": "左胯中合二十一人之數",
+          "bbox_whole_preview_xywh": [
+            658,
+            262,
+            18,
+            235
+          ],
+          "order": 4
+        }
+      ]
     },
     {
       "unit_id": "b01-f024-R-n05",
       "page_id": "b01-f024-R",
+      "layer": "small-note",
       "parent_unit": "b01-f024-R-c08",
       "anchor_after_text": "者五人",
       "anchor_after_codepoint_1based": 18,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f024-R-c08",
+        "offset": 18,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "者五人",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "適合十二",
+          "bbox_whole_preview_xywh": [
+            637,
+            716,
+            17,
+            87
+          ],
+          "order": 1
+        },
+        {
+          "text": "人之數",
+          "bbox_whole_preview_xywh": [
+            619,
+            716,
+            17,
+            68
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f024-L-n01",
       "page_id": "b01-f024-L",
+      "layer": "small-note",
       "parent_unit": "b01-f024-L-c01",
       "anchor_after_text": "二十五人",
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "右腎不下者十三人"
+        },
+        {
+          "order": 2,
+          "text": "左腎不下者十二人"
+        }
+      ],
       "anchor_after_codepoint_1based": 7,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f024-L-c01",
+        "offset": 7,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "二十五人",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "右腎不下者十三人",
+          "bbox_whole_preview_xywh": [
+            430,
+            445,
+            18,
+            170
+          ],
+          "order": 1
+        },
+        {
+          "text": "左腎不下者十二人",
+          "bbox_whole_preview_xywh": [
+            412,
+            445,
+            18,
+            170
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f025-R-n01",
       "page_id": "b01-f025-R",
+      "layer": "small-note",
       "parent_unit": "b01-f025-R-c05",
-      "anchor_after_text": "略下",
+      "anchor_after_text": "畧下",
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "隨呼吸而上苦"
+        },
+        {
+          "order": 2,
+          "text": "下是以有痛"
+        }
+      ],
       "anchor_after_codepoint_1based": 7,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f025-R-c05",
+        "offset": 7,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "畧下",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "隨呼吸而上苦",
+          "bbox_whole_preview_xywh": [
+            730,
+            449,
+            20,
+            131
+          ],
+          "order": 1
+        },
+        {
+          "text": "下是以有痛",
+          "bbox_whole_preview_xywh": [
+            709,
+            449,
+            20,
+            104
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f025-R-n02",
       "page_id": "b01-f025-R",
+      "layer": "small-note",
       "parent_unit": "b01-f025-R-c09",
       "anchor_after_text": "外",
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "言帕膜全包腎體其形圓"
+        },
+        {
+          "order": 2,
+          "text": "密無復系帶懸于腹內"
+        }
+      ],
       "anchor_after_codepoint_1based": 1,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f025-R-c09",
+        "offset": 1,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "外",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "言帕膜全包腎體其形圓",
+          "bbox_whole_preview_xywh": [
+            555,
+            300,
+            20,
+            226
+          ],
+          "order": 1
+        },
+        {
+          "text": "密無復系帶懸于腹內",
+          "bbox_whole_preview_xywh": [
+            536,
+            300,
+            20,
+            207
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f025-L-n01",
       "page_id": "b01-f025-L",
+      "layer": "small-note",
       "parent_unit": "b01-f025-L-c02",
       "anchor_after_text": "肉",
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "動肉卽上所云"
+        },
+        {
+          "order": 2,
+          "text": "縮肉其形如舵"
+        }
+      ],
       "anchor_after_codepoint_1based": 1,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f025-L-c02",
+        "offset": 1,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "肉",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "動肉卽上所云",
+          "bbox_whole_preview_xywh": [
+            387,
+            299,
+            20,
+            115
+          ],
+          "order": 1
+        },
+        {
+          "text": "縮肉其形如舵",
+          "bbox_whole_preview_xywh": [
+            368,
+            299,
+            20,
+            115
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f026-L-n01",
       "page_id": "b01-f026-L",
+      "layer": "small-note",
       "parent_unit": "b01-f026-L-c04",
       "anchor_after_text": "垂下",
       "anchor_after_codepoint_1based": 16,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f026-L-c04",
+        "offset": 16,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "垂下",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "將近",
+          "bbox_whole_preview_xywh": [
+            327,
+            641,
+            18,
+            42
+          ],
+          "order": 1
+        },
+        {
+          "text": "囊處",
+          "bbox_whole_preview_xywh": [
+            309,
+            641,
+            18,
+            42
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f026-L-n02",
       "page_id": "b01-f026-L",
+      "layer": "small-note",
       "parent_unit": "b01-f026-L-c09",
-      "anchor_after_text": "何能自下",
+      "anchor_after_text": "自下",
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "動肉卽縮肉因縮"
+        },
+        {
+          "order": 2,
+          "text": "肉穿入于附肉"
+        }
+      ],
       "anchor_after_codepoint_1based": 4,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f026-L-c09",
+        "offset": 4,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "自下",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "動肉卽縮肉因縮",
+          "bbox_whole_preview_xywh": [
+            110,
+            377,
+            18,
+            158
+          ],
+          "order": 1
+        },
+        {
+          "text": "肉穿入于附肉",
+          "bbox_whole_preview_xywh": [
+            92,
+            377,
+            18,
+            136
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f027-L-n01",
       "page_id": "b01-f027-L",
+      "layer": "small-note",
+      "fragments": [
+        {
+          "bbox": [
+            170,
+            666,
+            208,
+            813
+          ],
+          "text": "受制壓猶言受拘束未能"
+        },
+        {
+          "bbox": [
+            153,
+            270,
+            174,
+            300
+          ],
+          "text": "走"
+        }
+      ],
       "parent_unit": "b01-f027-L-c07",
-      "anchor_after_text": "制壓腎枚",
+      "anchor_after_text": "腎枚",
       "anchor_after_codepoint_1based": 17,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f027-L-c07",
+        "offset": 17,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "腎枚",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "受制壓猶言",
+          "bbox_whole_preview_xywh": [
+            205,
+            700,
+            18,
+            105
+          ],
+          "order": 1
+        },
+        {
+          "text": "受拘束未能",
+          "bbox_whole_preview_xywh": [
+            187,
+            700,
+            18,
+            105
+          ],
+          "order": 2
+        },
+        {
+          "text": "滑",
+          "bbox_whole_preview_xywh": [
+            155,
+            274,
+            18,
+            22
+          ],
+          "order": 3
+        },
+        {
+          "text": "走",
+          "bbox_whole_preview_xywh": [
+            137,
+            274,
+            18,
+            22
+          ],
+          "order": 4
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "受制壓猶言"
+        },
+        {
+          "order": 2,
+          "text": "受拘束未能"
+        },
+        {
+          "order": 3,
+          "text": "滑"
+        },
+        {
+          "order": 4,
+          "text": "走"
+        }
+      ]
     },
     {
       "unit_id": "b01-f028-L-n01",
       "page_id": "b01-f028-L",
+      "layer": "small-note",
       "parent_unit": "b01-f028-L-c08",
-      "anchor_after_text": "下于胯",
-      "anchor_after_codepoint_1based": 3,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor_after_text": "小腸墜",
+      "anchor_after_codepoint_1based": 13,
+      "anchor": {
+        "parent_unit_id": "b01-f028-L-c08",
+        "offset": 13,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "小腸墜",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "意將墜",
+          "bbox_whole_preview_xywh": [
+            161,
+            642,
+            18,
+            64
+          ],
+          "order": 1
+        },
+        {
+          "text": "下于囊",
+          "bbox_whole_preview_xywh": [
+            143,
+            642,
+            18,
+            64
+          ],
+          "order": 2
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "意將墜"
+        },
+        {
+          "order": 2,
+          "text": "下于囊"
+        }
+      ]
     },
     {
       "unit_id": "b01-f028-L-n02",
       "page_id": "b01-f028-L",
+      "layer": "small-note",
       "parent_unit": "b01-f028-L-c09",
-      "anchor_after_text": "連痛極",
+      "anchor_after_text": "痛極",
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "至此未能則下似"
+        },
+        {
+          "order": 2,
+          "text": "望升提復轉于腹"
+        }
+      ],
       "anchor_after_codepoint_1based": 3,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f028-L-c09",
+        "offset": 3,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "痛極",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "至此未能則下似",
+          "bbox_whole_preview_xywh": [
+            110,
+            348,
+            18,
+            151
+          ],
+          "order": 1
+        },
+        {
+          "text": "望升提復轉于腹",
+          "bbox_whole_preview_xywh": [
+            92,
+            348,
+            18,
+            151
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f030-L-n01",
       "page_id": "b01-f030-L",
+      "layer": "small-note",
       "parent_unit": "b01-f030-L-c06",
       "anchor_after_text": "肉絲",
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "西語曰費皮連"
+        },
+        {
+          "order": 2,
+          "text": "譯卽肉絲是也"
+        }
+      ],
       "anchor_after_codepoint_1based": 14,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f030-L-c06",
+        "offset": 14,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "肉絲",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "西語曰費皮連",
+          "bbox_whole_preview_xywh": [
+            230,
+            644,
+            18,
+            133
+          ],
+          "order": 1
+        },
+        {
+          "text": "譯卽肉絲是也",
+          "bbox_whole_preview_xywh": [
+            211,
+            644,
+            18,
+            133
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f033-R-n01",
       "page_id": "b01-f033-R",
+      "layer": "small-note",
       "parent_unit": "b01-f033-R-c01",
-      "anchor_after_text": "下一寸",
+      "anchor_after_text": "一寸",
       "anchor_after_codepoint_1based": 8,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f033-R-c01",
+        "offset": 8,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "一寸",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "卽陽蒂",
+          "bbox_whole_preview_xywh": [
+            887,
+            471,
+            18,
+            65
+          ],
+          "order": 1
+        },
+        {
+          "text": "之處",
+          "bbox_whole_preview_xywh": [
+            869,
+            471,
+            18,
+            43
+          ],
+          "order": 2
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "卽陽蒂"
+        },
+        {
+          "order": 2,
+          "text": "之處"
+        }
+      ]
     },
     {
       "unit_id": "b01-f034-R-mark01",
       "page_id": "b01-f034-R",
+      "layer": "nontext-source-mark",
       "parent_unit": "b01-f034-R-c04",
       "anchor_after_text": "一",
-      "anchor_after_codepoint_1based": 1,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor_after_codepoint_1based": 1
     },
     {
       "unit_id": "b01-f034-L-mark01",
       "page_id": "b01-f034-L",
+      "layer": "nontext-source-mark",
       "parent_unit": "b01-f034-L-c07",
       "anchor_after_text": "腎肉",
-      "anchor_after_codepoint_1based": 2,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor_after_codepoint_1based": 2
     },
     {
       "unit_id": "b01-f035-R-mark01",
       "page_id": "b01-f035-R",
+      "layer": "nontext-source-mark",
       "parent_unit": "b01-f035-R-c04",
       "anchor_after_text": "童稚",
-      "anchor_after_codepoint_1based": 2,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor_after_codepoint_1based": 2
     },
     {
       "unit_id": "b01-f038-R-overwrite01",
       "page_id": "b01-f038-R",
+      "layer": "later-manuscript-mark",
       "parent_unit": "b01-f038-R-c06",
       "anchor_after_text": "又",
       "anchor_after_codepoint_1based": 10,
-      "basis": "Unicode codepoints; not source glyph count"
+      "related_unit_id": "b01-f038-R-c06"
     },
     {
       "unit_id": "b01-f039-R-overwrite01",
       "page_id": "b01-f039-R",
+      "layer": "later-manuscript-mark",
       "parent_unit": "b01-f039-R-c06",
       "anchor_after_text": "埃阿",
       "anchor_after_codepoint_1based": 9,
-      "basis": "Unicode codepoints; not source glyph count"
+      "related_unit_id": "b01-f039-R-c06"
     },
     {
       "unit_id": "b01-f041-L-n01",
       "page_id": "b01-f041-L",
+      "layer": "small-note",
       "parent_unit": "b01-f041-L-c03",
-      "anchor_after_text": "損壞腎體",
+      "anchor_after_text": "腎體",
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "或壞少許"
+        },
+        {
+          "order": 2,
+          "text": "或致全壞"
+        }
+      ],
       "anchor_after_codepoint_1based": 10,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f041-L-c03",
+        "offset": 10,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "腎體",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "或壞少許",
+          "bbox_whole_preview_xywh": [
+            328,
+            523,
+            18,
+            90
+          ],
+          "order": 1
+        },
+        {
+          "text": "或致全壞",
+          "bbox_whole_preview_xywh": [
+            309,
+            523,
+            18,
+            90
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f043-L-n01",
       "page_id": "b01-f043-L",
+      "layer": "small-note",
+      "fragments": [
+        {
+          "bbox": [
+            381,
+            769,
+            418,
+            811
+          ],
+          "text": "慢慢而來"
+        },
+        {
+          "bbox": [
+            339,
+            272,
+            376,
+            355
+          ],
+          "text": "慢慢而去謂之舊"
+        }
+      ],
       "parent_unit": "b01-f043-L-c02",
       "anchor_after_text": "舊症",
       "anchor_after_codepoint_1based": 20,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f043-L-c02",
+        "offset": 20,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "舊症",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "慢慢",
+          "bbox_whole_preview_xywh": [
+            420,
+            768,
+            17,
+            44
+          ],
+          "order": 1
+        },
+        {
+          "text": "而來",
+          "bbox_whole_preview_xywh": [
+            403,
+            768,
+            17,
+            44
+          ],
+          "order": 2
+        },
+        {
+          "text": "慢慢而去",
+          "bbox_whole_preview_xywh": [
+            369,
+            273,
+            17,
+            83
+          ],
+          "order": 3
+        },
+        {
+          "text": "謂之舊",
+          "bbox_whole_preview_xywh": [
+            351,
+            273,
+            17,
+            64
+          ],
+          "order": 4
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "慢慢"
+        },
+        {
+          "order": 2,
+          "text": "而來"
+        },
+        {
+          "order": 3,
+          "text": "慢慢而去"
+        },
+        {
+          "order": 4,
+          "text": "謂之舊"
+        }
+      ]
     },
     {
       "unit_id": "b01-f044-R-n01",
       "page_id": "b01-f044-R",
+      "layer": "small-note",
       "parent_unit": "b01-f044-R-c06",
-      "anchor_after_text": "諸處之炎爲最",
+      "anchor_after_text": "爲最",
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "言他處之炎不若腎"
+        },
+        {
+          "order": 2,
+          "text": "夾膜之炎爲最平常"
+        }
+      ],
       "anchor_after_codepoint_1based": 6,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f044-R-c06",
+        "offset": 6,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "爲最",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "言他處之炎不若腎",
+          "bbox_whole_preview_xywh": [
+            694,
+            421,
+            18,
+            187
+          ],
+          "order": 1
+        },
+        {
+          "text": "夾膜之炎爲最平常",
+          "bbox_whole_preview_xywh": [
+            675,
+            421,
+            18,
+            187
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f045-R-n01",
       "page_id": "b01-f045-R",
+      "layer": "small-note",
       "parent_unit": "b01-f045-R-c01",
-      "anchor_after_text": "加重廿四分",
+      "anchor_after_text": "廿四分",
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "較法如前清水一千分"
+        },
+        {
+          "order": 2,
+          "text": "疝水得一千零廿四分"
+        }
+      ],
       "anchor_after_codepoint_1based": 8,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f045-R-c01",
+        "offset": 8,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "廿四分",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "較法如前清水一千分",
+          "bbox_whole_preview_xywh": [
+            886,
+            453,
+            18,
+            199
+          ],
+          "order": 1
+        },
+        {
+          "text": "疝水得一千零廿四分",
+          "bbox_whole_preview_xywh": [
+            868,
+            453,
+            18,
+            199
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f045-R-n02",
       "page_id": "b01-f045-R",
+      "layer": "small-note",
       "parent_unit": "b01-f045-R-c05",
-      "anchor_after_text": "人",
-      "anchor_after_codepoint_1based": 1,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor_after_text": "金點",
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "英語名曰故列失打"
+        },
+        {
+          "order": 2,
+          "text": "燐譯則金點如星"
+        }
+      ],
+      "anchor_after_codepoint_1based": 9,
+      "anchor": {
+        "parent_unit_id": "b01-f045-R-c05",
+        "offset": 9,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "金點",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "英語名曰故列失打",
+          "bbox_whole_preview_xywh": [
+            696,
+            260,
+            18,
+            178
+          ],
+          "order": 1
+        },
+        {
+          "text": "燐譯則金點如星",
+          "bbox_whole_preview_xywh": [
+            677,
+            260,
+            18,
+            155
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f045-R-n03",
       "page_id": "b01-f045-R",
+      "layer": "small-note",
       "parent_unit": "b01-f045-R-c07",
       "anchor_after_text": "老人",
       "anchor_after_codepoint_1based": 5,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f045-R-c07",
+        "offset": 5,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "老人",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "其人全",
+          "bbox_whole_preview_xywh": [
+            646,
+            383,
+            18,
+            65
+          ],
+          "order": 1
+        },
+        {
+          "text": "體皆黑",
+          "bbox_whole_preview_xywh": [
+            628,
+            383,
+            18,
+            65
+          ],
+          "order": 2
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "其人全"
+        },
+        {
+          "order": 2,
+          "text": "體皆黑"
+        }
+      ]
     },
     {
       "unit_id": "b01-f045-L-n01",
       "page_id": "b01-f045-L",
+      "layer": "small-note",
       "parent_unit": "b01-f045-L-c04",
-      "anchor_after_text": "餘兩者",
-      "anchor_after_codepoint_1based": 3,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor_after_text": "高滑叮",
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "卽印度"
+        },
+        {
+          "order": 2,
+          "text": "省屬國"
+        }
+      ],
+      "anchor_after_codepoint_1based": 6,
+      "anchor": {
+        "parent_unit_id": "b01-f045-L-c04",
+        "offset": 6,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "高滑叮",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "卽印度",
+          "bbox_whole_preview_xywh": [
+            325,
+            418,
+            18,
+            66
+          ],
+          "order": 1
+        },
+        {
+          "text": "省屬國",
+          "bbox_whole_preview_xywh": [
+            307,
+            418,
+            18,
+            66
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f045-L-n02",
       "page_id": "b01-f045-L",
+      "layer": "small-note",
       "parent_unit": "b01-f045-L-c07",
-      "anchor_after_text": "其大相若",
+      "anchor_after_text": "相若",
       "anchor_after_codepoint_1based": 16,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f045-L-c07",
+        "offset": 16,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "相若",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "卽壹百三",
+          "bbox_whole_preview_xywh": [
+            201,
+            685,
+            18,
+            87
+          ],
+          "order": 1
+        },
+        {
+          "text": "十三人",
+          "bbox_whole_preview_xywh": [
+            183,
+            685,
+            18,
+            66
+          ],
+          "order": 2
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "卽壹百三"
+        },
+        {
+          "order": 2,
+          "text": "十三人"
+        }
+      ]
     },
     {
       "unit_id": "b01-f047-L-n01",
       "page_id": "b01-f047-L",
+      "layer": "small-note",
       "parent_unit": "b01-f047-L-c06",
       "anchor_after_text": "十六人",
       "anchor_after_codepoint_1based": 16,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f047-L-c06",
+        "offset": 16,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "十六人",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "合四十",
+          "bbox_whole_preview_xywh": [
+            244,
+            668,
+            18,
+            64
+          ],
+          "order": 1
+        },
+        {
+          "text": "一人",
+          "bbox_whole_preview_xywh": [
+            226,
+            668,
+            18,
+            43
+          ],
+          "order": 2
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "合四十"
+        },
+        {
+          "order": 2,
+          "text": "一人"
+        }
+      ]
     },
     {
       "unit_id": "b01-f047-L-n02",
       "page_id": "b01-f047-L",
+      "layer": "small-note",
       "parent_unit": "b01-f047-L-c08",
       "anchor_after_text": "六十四人",
       "anchor_after_codepoint_1based": 8,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f047-L-c08",
+        "offset": 8,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "六十四人",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "合一百七",
+          "bbox_whole_preview_xywh": [
+            160,
+            501,
+            18,
+            86
+          ],
+          "order": 1
+        },
+        {
+          "text": "十三人",
+          "bbox_whole_preview_xywh": [
+            142,
+            501,
+            18,
+            65
+          ],
+          "order": 2
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "合一百七"
+        },
+        {
+          "order": 2,
+          "text": "十三人"
+        }
+      ]
     },
     {
       "unit_id": "b01-f048-R-n01",
       "page_id": "b01-f048-R",
+      "layer": "small-note",
       "parent_unit": "b01-f048-R-c01",
       "anchor_after_text": "十九人",
       "anchor_after_codepoint_1based": 3,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f048-R-c01",
+        "offset": 3,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "十九人",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "合四百七",
+          "bbox_whole_preview_xywh": [
+            888,
+            316,
+            18,
+            85
+          ],
+          "order": 1
+        },
+        {
+          "text": "十三人",
+          "bbox_whole_preview_xywh": [
+            870,
+            316,
+            18,
+            64
+          ],
+          "order": 2
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "合四百七"
+        },
+        {
+          "order": 2,
+          "text": "十三人"
+        }
+      ]
     },
     {
       "unit_id": "b01-f048-R-n02",
       "page_id": "b01-f048-R",
+      "layer": "small-note",
+      "fragments": [
+        {
+          "bbox": [
+            818,
+            772,
+            838,
+            810
+          ],
+          "text": "合"
+        },
+        {
+          "bbox": [
+            783,
+            275,
+            821,
+            352
+          ],
+          "text": "二百五十七人"
+        }
+      ],
       "parent_unit": "b01-f048-R-c02",
       "anchor_after_text": "九十九人",
       "anchor_after_codepoint_1based": 21,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f048-R-c02",
+        "offset": 21,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "九十九人",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "合二",
+          "bbox_whole_preview_xywh": [
+            846,
+            749,
+            18,
+            44
+          ],
+          "order": 1
+        },
+        {
+          "text": "百五十",
+          "bbox_whole_preview_xywh": [
+            804,
+            272,
+            18,
+            65
+          ],
+          "order": 2
+        },
+        {
+          "text": "七人",
+          "bbox_whole_preview_xywh": [
+            786,
+            272,
+            18,
+            44
+          ],
+          "order": 3
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "合二"
+        },
+        {
+          "order": 2,
+          "text": "百五十"
+        },
+        {
+          "order": 3,
+          "text": "七人"
+        }
+      ]
     },
     {
       "unit_id": "b01-f048-R-n03",
       "page_id": "b01-f048-R",
+      "layer": "small-note",
       "parent_unit": "b01-f048-R-c04",
-      "anchor_after_text": "二十八人",
-      "anchor_after_codepoint_1based": 14,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor_after_text": "二十人",
+      "anchor_after_codepoint_1based": 13,
+      "anchor": {
+        "parent_unit_id": "b01-f048-R-c04",
+        "offset": 13,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "二十人",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "合四十",
+          "bbox_whole_preview_xywh": [
+            760,
+            528,
+            18,
+            65
+          ],
+          "order": 1
+        },
+        {
+          "text": "三人",
+          "bbox_whole_preview_xywh": [
+            742,
+            528,
+            18,
+            44
+          ],
+          "order": 2
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "合四十"
+        },
+        {
+          "order": 2,
+          "text": "三人"
+        }
+      ]
     },
     {
       "unit_id": "b01-f048-R-n04",
       "page_id": "b01-f048-R",
+      "layer": "small-note",
       "parent_unit": "b01-f048-R-c05",
       "anchor_after_text": "一人",
       "anchor_after_codepoint_1based": 22,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f048-R-c05",
+        "offset": 22,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "一人",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "合十",
+          "bbox_whole_preview_xywh": [
+            717,
+            273,
+            18,
+            44
+          ],
+          "order": 1
+        },
+        {
+          "text": "三人",
+          "bbox_whole_preview_xywh": [
+            699,
+            273,
+            18,
+            44
+          ],
+          "order": 2
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "合十"
+        },
+        {
+          "order": 2,
+          "text": "三人"
+        }
+      ]
     },
     {
       "unit_id": "b01-f050-R-n01",
       "page_id": "b01-f050-R",
+      "layer": "small-note",
+      "fragments": [
+        {
+          "bbox": [
+            622,
+            738,
+            660,
+            811
+          ],
+          "text": "未水疝之前生"
+        },
+        {
+          "bbox": [
+            578,
+            271,
+            611,
+            323
+          ],
+          "text": "成而"
+        }
+      ],
       "parent_unit": "b01-f050-R-c07",
       "anchor_after_text": "腎系",
       "anchor_after_codepoint_1based": 19,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f050-R-c07",
+        "offset": 19,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "腎系",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "未水疝",
+          "bbox_whole_preview_xywh": [
+            650,
+            742,
+            17,
+            65
+          ],
+          "order": 1
+        },
+        {
+          "text": "之前生",
+          "bbox_whole_preview_xywh": [
+            632,
+            742,
+            17,
+            65
+          ],
+          "order": 2
+        },
+        {
+          "text": "成",
+          "bbox_whole_preview_xywh": [
+            609,
+            272,
+            17,
+            22
+          ],
+          "order": 3
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "未水疝"
+        },
+        {
+          "order": 2,
+          "text": "之前生"
+        },
+        {
+          "order": 3,
+          "text": "成"
+        }
+      ]
     },
     {
       "unit_id": "b01-f050-L-n01",
       "page_id": "b01-f050-L",
+      "layer": "small-note",
       "parent_unit": "b01-f050-L-c01",
-      "anchor_after_text": "如瓠",
+      "anchor_after_text": "匏",
       "anchor_after_codepoint_1based": 9,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f050-L-c01",
+        "offset": 9,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "匏",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "上狹",
+          "bbox_whole_preview_xywh": [
+            447,
+            492,
+            17,
+            44
+          ],
+          "order": 1
+        },
+        {
+          "text": "下闊",
+          "bbox_whole_preview_xywh": [
+            429,
+            492,
+            17,
+            44
+          ],
+          "order": 2
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "上狹"
+        },
+        {
+          "order": 2,
+          "text": "下闊"
+        }
+      ]
     },
     {
       "unit_id": "b01-f051-R-n01",
       "page_id": "b01-f051-R",
+      "layer": "small-note",
+      "fragments": [
+        {
+          "bbox": [
+            669,
+            697,
+            710,
+            814
+          ],
+          "text": "平常水疝見第七圖"
+        },
+        {
+          "bbox": [
+            629,
+            273,
+            660,
+            321
+          ],
+          "text": "其一"
+        }
+      ],
       "parent_unit": "b01-f051-R-c06",
       "anchor_after_text": "可辨",
       "anchor_after_codepoint_1based": 18,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f051-R-c06",
+        "offset": 18,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "可辨",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "平常水疝",
+          "bbox_whole_preview_xywh": [
+            680,
+            712,
+            18,
+            103
+          ],
+          "order": 1
+        },
+        {
+          "text": "見第七圖",
+          "bbox_whole_preview_xywh": [
+            661,
+            712,
+            18,
+            103
+          ],
+          "order": 2
+        },
+        {
+          "text": "其一",
+          "bbox_whole_preview_xywh": [
+            640,
+            267,
+            18,
+            50
+          ],
+          "order": 3
+        },
+        {
+          "text": "其二",
+          "bbox_whole_preview_xywh": [
+            621,
+            267,
+            18,
+            50
+          ],
+          "order": 4
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "平常水疝"
+        },
+        {
+          "order": 2,
+          "text": "見第七圖"
+        },
+        {
+          "order": 3,
+          "text": "其一"
+        },
+        {
+          "order": 4,
+          "text": "其二"
+        }
+      ]
     },
     {
       "unit_id": "b01-f054-L-circle01",
       "page_id": "b01-f054-L",
+      "layer": "later-manuscript-mark",
       "parent_unit": "b01-f054-L-c06",
       "anchor_after_text": "細心深究",
       "anchor_after_codepoint_1based": 4,
-      "basis": "Unicode codepoints; not source glyph count"
+      "related_unit_ids": [
+        "b01-f054-L-c06",
+        "b01-f054-L-c07"
+      ]
+    },
+    {
+      "unit_id": "b01-f054-L-ms02",
+      "page_id": "b01-f054-L",
+      "layer": "later-manuscript",
+      "insertion_after_unit_id": "b01-f054-L-circle01",
+      "anchor": {
+        "parent_unit_id": "b01-f054-L-c07",
+        "offset": 5,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "用",
+        "state": "spatially-adjacent-not-asserted-replacement"
+      },
+      "parent_unit": "b01-f054-L-c07",
+      "anchor_after_text": "用",
+      "anchor_after_codepoint_1based": 5
     },
     {
       "unit_id": "b01-f056-L-circle01",
       "page_id": "b01-f056-L",
+      "layer": "later-manuscript-mark",
       "parent_unit": "b01-f056-L-c06",
       "anchor_after_text": "因",
       "anchor_after_codepoint_1based": 5,
-      "basis": "Unicode codepoints; not source glyph count"
+      "related_unit_id": "b01-f056-L-c06"
     },
     {
       "unit_id": "b01-f056-L-n01",
       "page_id": "b01-f056-L",
+      "layer": "small-note",
       "parent_unit": "b01-f056-L-c01",
-      "anchor_after_text": "暢適矣",
+      "anchor_after_text": "矣",
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "不宜射藥"
+        },
+        {
+          "order": 2,
+          "text": "以增其苦"
+        }
+      ],
       "anchor_after_codepoint_1based": 6,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f056-L-c01",
+        "offset": 6,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "矣",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "不宜射藥",
+          "bbox_whole_preview_xywh": [
+            442,
+            386,
+            18,
+            87
+          ],
+          "order": 1
+        },
+        {
+          "text": "以增其苦",
+          "bbox_whole_preview_xywh": [
+            424,
+            386,
+            18,
+            87
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f057-R-n01",
       "page_id": "b01-f057-R",
+      "layer": "small-note",
       "parent_unit": "b01-f057-R-c03",
       "anchor_after_text": "小子",
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "有數種水疝"
+        },
+        {
+          "order": 2,
+          "text": "未及敘明"
+        }
+      ],
       "anchor_after_codepoint_1based": 10,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f057-R-c03",
+        "offset": 10,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "小子",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "有數種水疝",
+          "bbox_whole_preview_xywh": [
+            824,
+            467,
+            18,
+            112
+          ],
+          "order": 1
+        },
+        {
+          "text": "未及敘明",
+          "bbox_whole_preview_xywh": [
+            806,
+            467,
+            18,
+            91
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f057-L-n01",
       "page_id": "b01-f057-L",
+      "layer": "small-note",
       "parent_unit": "b01-f057-L-c06",
       "anchor_after_text": "至下",
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "至牛管針"
+        },
+        {
+          "order": 2,
+          "text": "尾爲度"
+        }
+      ],
       "anchor_after_codepoint_1based": 8,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f057-L-c06",
+        "offset": 8,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "至下",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "至牛管針",
+          "bbox_whole_preview_xywh": [
+            240,
+            476,
+            18,
+            89
+          ],
+          "order": 1
+        },
+        {
+          "text": "尾爲度",
+          "bbox_whole_preview_xywh": [
+            222,
+            476,
+            18,
+            67
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f058-R-mark01",
       "page_id": "b01-f058-R",
+      "layer": "later-manuscript-overprint",
       "parent_unit": "b01-f058-R-c07",
       "anchor_after_text": "如此",
       "anchor_after_codepoint_1based": 17,
-      "basis": "Unicode codepoints; not source glyph count"
+      "related_unit_id": "b01-f058-R-c07"
     },
     {
       "unit_id": "b01-f059-R-n01",
       "page_id": "b01-f059-R",
+      "layer": "small-note",
       "parent_unit": "b01-f059-R-c06",
-      "anchor_after_text": "穿雙線",
+      "anchor_after_text": "雙線",
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "其針穿"
+        },
+        {
+          "order": 2,
+          "text": "至線中"
+        }
+      ],
       "anchor_after_codepoint_1based": 8,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f059-R-c06",
+        "offset": 8,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "雙線",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "其針穿",
+          "bbox_whole_preview_xywh": [
+            692,
+            448,
+            18,
+            65
+          ],
+          "order": 1
+        },
+        {
+          "text": "至線中",
+          "bbox_whole_preview_xywh": [
+            674,
+            448,
+            18,
+            65
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f059-L-n01",
       "page_id": "b01-f059-L",
+      "layer": "small-note",
       "parent_unit": "b01-f059-L-c05",
-      "anchor_after_text": "變成膿",
-      "anchor_after_codepoint_1based": 15,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor_after_text": "膿",
+      "anchor_after_codepoint_1based": 16,
+      "anchor": {
+        "parent_unit_id": "b01-f059-L-c05",
+        "offset": 16,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "膿",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "針線之法炎常",
+          "bbox_whole_preview_xywh": [
+            280,
+            668,
+            18,
+            133
+          ],
+          "order": 1
+        },
+        {
+          "text": "適宜間有能發",
+          "bbox_whole_preview_xywh": [
+            262,
+            668,
+            18,
+            133
+          ],
+          "order": 2
+        },
+        {
+          "text": "重炎",
+          "bbox_whole_preview_xywh": [
+            241,
+            275,
+            18,
+            43
+          ],
+          "order": 3
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "針線之法炎常"
+        },
+        {
+          "order": 2,
+          "text": "適宜間有能發"
+        },
+        {
+          "order": 3,
+          "text": "重炎"
+        }
+      ],
+      "note_group_id": "b01-f059-L-longnote01"
     },
     {
       "unit_id": "b01-f059-L-n02",
       "page_id": "b01-f059-L",
-      "parent_unit": "b01-f059-L-c06",
-      "anchor_after_text": "重炎",
-      "anchor_after_codepoint_1based": 2,
-      "basis": "Unicode codepoints; not source glyph count"
+      "layer": "small-note",
+      "parent_unit": "b01-f059-L-c05",
+      "anchor_after_text": "膿",
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "恐逢此患故云有壹端不"
+        },
+        {
+          "order": 2,
+          "text": "可爲苟能免者寧勿爲之更妙"
+        }
+      ],
+      "anchor_after_codepoint_1based": 16,
+      "anchor": {
+        "parent_unit_id": "b01-f059-L-c05",
+        "offset": 16,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "膿",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "恐逢此患故云有壹端不",
+          "bbox_whole_preview_xywh": [
+            241,
+            319,
+            18,
+            244
+          ],
+          "order": 1
+        },
+        {
+          "text": "可爲苟能免者寧勿爲之更妙",
+          "bbox_whole_preview_xywh": [
+            223,
+            275,
+            18,
+            288
+          ],
+          "order": 2
+        }
+      ],
+      "note_group_id": "b01-f059-L-longnote01"
     },
     {
       "unit_id": "b01-f059-L-n03",
       "page_id": "b01-f059-L",
+      "layer": "small-note",
       "parent_unit": "b01-f059-L-c09",
-      "anchor_after_text": "牙硝或",
+      "anchor_after_text": "或牙硝或",
       "anchor_after_codepoint_1based": 17,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f059-L-c09",
+        "offset": 17,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "或牙硝或",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "加多習拾",
+          "bbox_whole_preview_xywh": [
+            109,
+            709,
+            18,
+            89
+          ],
+          "order": 1
+        },
+        {
+          "text": "勿里嗎",
+          "bbox_whole_preview_xywh": [
+            91,
+            709,
+            18,
+            67
+          ],
+          "order": 2
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "加多習拾"
+        },
+        {
+          "order": 2,
+          "text": "勿里嗎"
+        }
+      ]
     },
     {
       "unit_id": "b01-f060-L-n01",
       "page_id": "b01-f060-L",
+      "layer": "small-note",
       "parent_unit": "b01-f060-L-c04",
-      "anchor_after_text": "巴禮林爲之",
-      "anchor_after_codepoint_1based": 10,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor_after_text": "巴禮林",
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "巴禮林"
+        },
+        {
+          "order": 2,
+          "text": "□語"
+        }
+      ],
+      "anchor_after_codepoint_1based": 8,
+      "anchor": {
+        "parent_unit_id": "b01-f060-L-c04",
+        "offset": 8,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "巴禮林",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "巴禮林",
+          "bbox_whole_preview_xywh": [
+            318,
+            480,
+            18,
+            66
+          ],
+          "order": 1
+        },
+        {
+          "text": "□語",
+          "bbox_whole_preview_xywh": [
+            298,
+            546,
+            18,
+            44
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f061-L-circle01",
       "page_id": "b01-f061-L",
+      "layer": "source-mark",
       "parent_unit": "b01-f061-L-c03",
       "anchor_after_text": "他起",
-      "anchor_after_codepoint_1based": 2,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor_after_codepoint_1based": 2
+    },
+    {
+      "unit_id": "b01-f061-L-side01",
+      "page_id": "b01-f061-L",
+      "layer": "later-manuscript",
+      "anchor": {
+        "parent_unit_id": "b01-f061-L-c03",
+        "offset": 2,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "他起",
+        "state": "nonblind-source-located"
+      },
+      "parent_unit": "b01-f061-L-c03",
+      "anchor_after_text": "他起",
+      "anchor_after_codepoint_1based": 2
     },
     {
       "unit_id": "b01-f061-L-n01",
       "page_id": "b01-f061-L",
+      "layer": "small-note",
+      "fragments": [
+        {
+          "bbox": [
+            191,
+            743,
+            233,
+            813
+          ],
+          "text": "慮其患未得痊"
+        },
+        {
+          "bbox": [
+            157,
+            274,
+            197,
+            377
+          ],
+          "text": "醫者之心不自安"
+        }
+      ],
       "parent_unit": "b01-f061-L-c06",
       "anchor_after_text": "疑慮",
       "anchor_after_codepoint_1based": 19,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f061-L-c06",
+        "offset": 19,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "疑慮",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "慮其患",
+          "bbox_whole_preview_xywh": [
+            227,
+            735,
+            18,
+            65
+          ],
+          "order": 1
+        },
+        {
+          "text": "未得痊",
+          "bbox_whole_preview_xywh": [
+            209,
+            735,
+            18,
+            65
+          ],
+          "order": 2
+        },
+        {
+          "text": "醫者之心",
+          "bbox_whole_preview_xywh": [
+            188,
+            276,
+            18,
+            88
+          ],
+          "order": 3
+        },
+        {
+          "text": "不自安",
+          "bbox_whole_preview_xywh": [
+            170,
+            276,
+            18,
+            65
+          ],
+          "order": 4
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "慮其患"
+        },
+        {
+          "order": 2,
+          "text": "未得痊"
+        },
+        {
+          "order": 3,
+          "text": "醫者之心"
+        },
+        {
+          "order": 4,
+          "text": "不自安"
+        }
+      ]
     },
     {
       "unit_id": "b01-f062-R-n01",
       "page_id": "b01-f062-R",
+      "layer": "small-note",
       "parent_unit": "b01-f062-R-c04",
-      "anchor_after_text": "證其畧",
+      "anchor_after_text": "略",
       "anchor_after_codepoint_1based": 9,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f062-R-c04",
+        "offset": 9,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "略",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "證其炎",
+          "bbox_whole_preview_xywh": [
+            780,
+            488,
+            18,
+            66
+          ],
+          "order": 1
+        },
+        {
+          "text": "難發",
+          "bbox_whole_preview_xywh": [
+            761,
+            488,
+            18,
+            44
+          ],
+          "order": 2
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "證其炎"
+        },
+        {
+          "order": 2,
+          "text": "難發"
+        }
+      ]
     },
     {
       "unit_id": "b01-f062-L-n01",
       "page_id": "b01-f062-L",
+      "layer": "small-note",
       "parent_unit": "b01-f062-L-c06",
       "anchor_after_text": "所致",
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "言腎體有病"
+        },
+        {
+          "order": 2,
+          "text": "不宜射藥"
+        }
+      ],
       "anchor_after_codepoint_1based": 14,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f062-L-c06",
+        "offset": 14,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "所致",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "言腎體有病",
+          "bbox_whole_preview_xywh": [
+            239,
+            651,
+            18,
+            110
+          ],
+          "order": 1
+        },
+        {
+          "text": "不宜射藥",
+          "bbox_whole_preview_xywh": [
+            221,
+            651,
+            18,
+            88
+          ],
+          "order": 2
+        }
+      ]
+    },
+    {
+      "unit_id": "b01-f063-R-n03",
+      "page_id": "b01-f063-R",
+      "layer": "small-note",
+      "insertion_after_unit_id": "b01-f063-R-c01",
+      "anchor": {
+        "parent_unit_id": "b01-f063-R-c01",
+        "offset": 14,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "病",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "order": 1,
+          "text": "斷",
+          "bbox_whole_preview_xywh": [
+            882,
+            700,
+            17,
+            21
+          ]
+        }
+      ],
+      "parent_unit": "b01-f063-R-c01",
+      "anchor_after_text": "病",
+      "anchor_after_codepoint_1based": 14
     },
     {
       "unit_id": "b01-f063-R-n01",
       "page_id": "b01-f063-R",
+      "layer": "small-note",
       "parent_unit": "b01-f063-R-c01",
       "anchor_after_text": "物",
       "anchor_after_codepoint_1based": 6,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f063-R-c01",
+        "offset": 6,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "物",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "order": 1,
+          "text": "必有穢膿",
+          "bbox_whole_preview_xywh": [
+            882,
+            397,
+            18,
+            88
+          ]
+        },
+        {
+          "order": 2,
+          "text": "雜在其中",
+          "bbox_whole_preview_xywh": [
+            864,
+            397,
+            18,
+            88
+          ]
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "必有穢膿"
+        },
+        {
+          "order": 2,
+          "text": "雜在其中"
+        }
+      ]
     },
     {
       "unit_id": "b01-f063-R-n02",
       "page_id": "b01-f063-R",
+      "layer": "small-note",
       "parent_unit": "b01-f063-R-c05",
       "anchor_after_text": "加路米",
       "anchor_after_codepoint_1based": 19,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f063-R-c05",
+        "offset": 19,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "加路米",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "卽洋",
+          "bbox_whole_preview_xywh": [
+            723,
+            750,
+            18,
+            44
+          ],
+          "order": 1
+        },
+        {
+          "text": "輕粉",
+          "bbox_whole_preview_xywh": [
+            705,
+            750,
+            18,
+            44
+          ],
+          "order": 2
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "卽洋"
+        },
+        {
+          "order": 2,
+          "text": "輕粉"
+        }
+      ]
     },
     {
       "unit_id": "b01-f064-R-n01",
       "page_id": "b01-f064-R",
+      "layer": "small-note",
       "parent_unit": "b01-f064-R-c02",
       "anchor_after_text": "復作",
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "譬昔時因跌撞致水疝得"
+        },
+        {
+          "order": 2,
+          "text": "愈之後復撞跌因而再作"
+        }
+      ],
       "anchor_after_codepoint_1based": 3,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f064-R-c02",
+        "offset": 3,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "復作",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "譬昔時因跌撞致水疝得",
+          "bbox_whole_preview_xywh": [
+            862,
+            350,
+            18,
+            242
+          ],
+          "order": 1
+        },
+        {
+          "text": "愈之後復撞跌因而再作",
+          "bbox_whole_preview_xywh": [
+            844,
+            350,
+            18,
+            242
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f066-R-n01",
       "page_id": "b01-f066-R",
+      "layer": "small-note",
       "parent_unit": "b01-f066-R-c02",
-      "anchor_after_text": "入腹之症",
+      "anchor_after_text": "症",
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "水疝由囊入"
+        },
+        {
+          "order": 2,
+          "text": "腹詳于前"
+        }
+      ],
       "anchor_after_codepoint_1based": 6,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f066-R-c02",
+        "offset": 6,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "症",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "水疝由囊入",
+          "bbox_whole_preview_xywh": [
+            860,
+            390,
+            18,
+            110
+          ],
+          "order": 1
+        },
+        {
+          "text": "腹詳于前",
+          "bbox_whole_preview_xywh": [
+            842,
+            390,
+            18,
+            88
+          ],
+          "order": 2
+        }
+      ]
+    },
+    {
+      "unit_id": "b01-f068-L-ordinal01",
+      "page_id": "b01-f068-L",
+      "layer": "original-print-small-label",
+      "insertion_after_unit_id": "b01-f068-L-c07",
+      "anchor": {
+        "parent_unit_id": "b01-f068-L-c08",
+        "offset": 0,
+        "basis": "unicode-codepoint-0-boundary",
+        "state": "nonblind-source-located"
+      },
+      "parent_unit": "b01-f068-L-c08",
+      "anchor_after_text": "",
+      "anchor_after_codepoint_1based": 0
     },
     {
       "unit_id": "b01-f068-L-n01",
       "page_id": "b01-f068-L",
+      "layer": "small-note",
       "parent_unit": "b01-f068-L-c07",
       "anchor_after_text": "他處",
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "胞水疝發于附"
+        },
+        {
+          "order": 2,
+          "text": "肉中見第七圖"
+        }
+      ],
       "anchor_after_codepoint_1based": 16,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f068-L-c07",
+        "offset": 16,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "他處",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "胞水疝發于附",
+          "bbox_whole_preview_xywh": [
+            196,
+            670,
+            18,
+            132
+          ],
+          "order": 1
+        },
+        {
+          "text": "肉中見第七圖",
+          "bbox_whole_preview_xywh": [
+            178,
+            670,
+            18,
+            132
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f069-L-circle01",
       "page_id": "b01-f069-L",
+      "layer": "later-manuscript-overprint",
       "parent_unit": "b01-f069-L-c02",
       "anchor_after_text": "三人之",
       "anchor_after_codepoint_1based": 19,
-      "basis": "Unicode codepoints; not source glyph count"
+      "related_unit_id": "b01-f069-L-c02"
     },
     {
       "unit_id": "b01-f069-L-n01",
       "page_id": "b01-f069-L",
+      "layer": "small-note",
       "parent_unit": "b01-f069-L-c09",
       "anchor_after_text": "斜立",
       "anchor_after_codepoint_1based": 6,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f069-L-c09",
+        "offset": 6,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "斜立",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "見第七",
+          "bbox_whole_preview_xywh": [
+            97,
+            424,
+            18,
+            66
+          ],
+          "order": 1
+        },
+        {
+          "text": "圖其二",
+          "bbox_whole_preview_xywh": [
+            79,
+            424,
+            18,
+            66
+          ],
+          "order": 2
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "見第七"
+        },
+        {
+          "order": 2,
+          "text": "圖其二"
+        }
+      ]
     },
     {
       "unit_id": "b01-f070-R-n01",
       "page_id": "b01-f070-R",
+      "layer": "small-note",
       "parent_unit": "b01-f070-R-c02",
       "anchor_after_text": "不平",
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "胞水疝發于附肉"
+        },
+        {
+          "order": 2,
+          "text": "內見第七圖其四"
+        }
+      ],
       "anchor_after_codepoint_1based": 5,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f070-R-c02",
+        "offset": 5,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "不平",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "胞水疝發于附肉",
+          "bbox_whole_preview_xywh": [
+            862,
+            364,
+            18,
+            154
+          ],
+          "order": 1
+        },
+        {
+          "text": "內見第七圖其四",
+          "bbox_whole_preview_xywh": [
+            844,
+            364,
+            18,
+            154
+          ],
+          "order": 2
+        }
+      ]
     },
     {
       "unit_id": "b01-f073-L-circle01",
       "page_id": "b01-f073-L",
+      "layer": "later-manuscript-mark",
       "parent_unit": "b01-f073-L-c05",
       "anchor_after_text": "再射可",
       "anchor_after_codepoint_1based": 9,
-      "basis": "Unicode codepoints; not source glyph count"
+      "related_unit_id": "b01-f073-L-c05"
     },
     {
       "unit_id": "b01-f073-L-n01",
       "page_id": "b01-f073-L",
+      "layer": "small-note",
+      "fragments": [
+        {
+          "bbox": [
+            368,
+            730,
+            408,
+            820
+          ],
+          "text": "因穿線之路由胞透"
+        },
+        {
+          "bbox": [
+            328,
+            279,
+            364,
+            324
+          ],
+          "text": "過夾膜"
+        }
+      ],
       "parent_unit": "b01-f073-L-c02",
-      "anchor_after_text": "更危險",
+      "anchor_after_text": "危險",
       "anchor_after_codepoint_1based": 18,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f073-L-c02",
+        "offset": 18,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "危險",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "因穿線之",
+          "bbox_whole_preview_xywh": [
+            402,
+            724,
+            18,
+            88
+          ],
+          "order": 1
+        },
+        {
+          "text": "路由胞透",
+          "bbox_whole_preview_xywh": [
+            384,
+            724,
+            18,
+            88
+          ],
+          "order": 2
+        },
+        {
+          "text": "過夾",
+          "bbox_whole_preview_xywh": [
+            361,
+            280,
+            18,
+            44
+          ],
+          "order": 3
+        },
+        {
+          "text": "膜",
+          "bbox_whole_preview_xywh": [
+            343,
+            280,
+            18,
+            22
+          ],
+          "order": 4
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "因穿線之"
+        },
+        {
+          "order": 2,
+          "text": "路由胞透"
+        },
+        {
+          "order": 3,
+          "text": "過夾"
+        },
+        {
+          "order": 4,
+          "text": "膜"
+        }
+      ]
     },
     {
       "unit_id": "b01-f075-R-n01",
       "page_id": "b01-f075-R",
+      "layer": "small-note",
       "parent_unit": "b01-f075-R-c03",
       "anchor_after_text": "之形",
       "anchor_after_codepoint_1based": 11,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f075-R-c03",
+        "offset": 11,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "之形",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "中大",
+          "bbox_whole_preview_xywh": [
+            786,
+            519,
+            18,
+            44
+          ],
+          "order": 1
+        },
+        {
+          "text": "者",
+          "bbox_whole_preview_xywh": [
+            768,
+            519,
+            18,
+            22
+          ],
+          "order": 2
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "中大"
+        },
+        {
+          "order": 2,
+          "text": "者"
+        }
+      ]
+    },
+    {
+      "unit_id": "b01-f076-R-n01",
+      "page_id": "b01-f076-R",
+      "layer": "small-note",
+      "insertion_after_unit_id": "b01-f076-R-c03",
+      "anchor": {
+        "parent_unit_id": "b01-f076-R-c03",
+        "offset": 12,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "針",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "order": 1,
+          "text": "割",
+          "bbox_whole_preview_xywh": [
+            802,
+            547,
+            17,
+            23
+          ]
+        }
+      ],
+      "parent_unit": "b01-f076-R-c03",
+      "anchor_after_text": "針",
+      "anchor_after_codepoint_1based": 12
     },
     {
       "unit_id": "b01-f084-R-n01",
       "page_id": "b01-f084-R",
+      "layer": "small-note",
       "parent_unit": "b01-f084-R-section01",
       "anchor_after_text": "八節",
       "anchor_after_codepoint_1based": 10,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f084-R-section01",
+        "offset": 10,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "八節",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "亦可謂",
+          "bbox_whole_preview_xywh": [
+            579,
+            542,
+            18,
+            66
+          ],
+          "order": 1
+        },
+        {
+          "text": "之水疝",
+          "bbox_whole_preview_xywh": [
+            561,
+            542,
+            18,
+            66
+          ],
+          "order": 2
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "亦可謂"
+        },
+        {
+          "order": 2,
+          "text": "之水疝"
+        }
+      ]
+    },
+    {
+      "unit_id": "b01-f084-L-ms01",
+      "page_id": "b01-f084-L",
+      "layer": "later-manuscript",
+      "insertion_after_unit_id": "b01-f084-L-c03",
+      "anchor": {
+        "parent_unit_id": "b01-f084-L-c03",
+        "offset": 4,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "成",
+        "state": "nonblind-source-located"
+      },
+      "parent_unit": "b01-f084-L-c03",
+      "anchor_after_text": "成",
+      "anchor_after_codepoint_1based": 4
     },
     {
       "unit_id": "b01-f084-L-n01",
       "page_id": "b01-f084-L",
+      "layer": "small-note",
       "parent_unit": "b01-f084-L-c09",
       "anchor_after_text": "震動",
       "anchor_after_codepoint_1based": 13,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f084-L-c09",
+        "offset": 13,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "震動",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "由腹動",
+          "bbox_whole_preview_xywh": [
+            96,
+            737,
+            18,
+            66
+          ],
+          "order": 1
+        },
+        {
+          "text": "所迫",
+          "bbox_whole_preview_xywh": [
+            78,
+            737,
+            18,
+            44
+          ],
+          "order": 2
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "由腹動"
+        },
+        {
+          "order": 2,
+          "text": "所迫"
+        }
+      ]
     },
     {
       "unit_id": "b01-f086-R-n01",
       "page_id": "b01-f086-R",
+      "layer": "diagram-text",
       "parent_unit": "b01-f086-R-list01",
       "anchor_after_text": "血疝",
       "anchor_after_codepoint_1based": 2,
-      "basis": "Unicode codepoints; not source glyph count"
+      "source_segments": [
+        {
+          "order": 1,
+          "text": "在外腎",
+          "bbox_whole_preview_xywh": [
+            696,
+            365,
+            18,
+            66
+          ]
+        },
+        {
+          "order": 2,
+          "text": "在腎系",
+          "bbox_whole_preview_xywh": [
+            678,
+            365,
+            18,
+            66
+          ]
+        }
+      ]
     },
     {
       "unit_id": "b01-f086-R-n02",
       "page_id": "b01-f086-R",
-      "parent_unit": "b01-f086-R-u06",
-      "anchor_after_text": "論夾膜之血疝",
-      "anchor_after_codepoint_1based": 6,
-      "basis": "Unicode codepoints; not source glyph count"
+      "layer": "section-number",
+      "parent_unit": "b01-f086-R-u07",
+      "anchor_after_text": "",
+      "anchor_after_codepoint_1based": 0,
+      "anchor": {
+        "parent_unit_id": "b01-f086-R-u07",
+        "offset": 0,
+        "basis": "unicode-codepoint-0-boundary",
+        "state": "nonblind-source-located"
+      }
+    },
+    {
+      "unit_id": "b01-f087-R-section01",
+      "page_id": "b01-f087-R",
+      "layer": "section-number",
+      "parent_unit": "b01-f087-R-c06"
     },
     {
       "unit_id": "b01-f087-R-n01",
       "page_id": "b01-f087-R",
+      "layer": "small-note",
       "parent_unit": "b01-f087-R-c01",
       "anchor_after_text": "壓住",
       "anchor_after_codepoint_1based": 13,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f087-R-c01",
+        "offset": 13,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "壓住",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "相粘",
+          "bbox_whole_preview_xywh": [
+            881,
+            530,
+            18,
+            44
+          ],
+          "order": 1
+        },
+        {
+          "text": "爲一",
+          "bbox_whole_preview_xywh": [
+            863,
+            530,
+            18,
+            44
+          ],
+          "order": 2
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "相粘"
+        },
+        {
+          "order": 2,
+          "text": "爲一"
+        }
+      ]
+    },
+    {
+      "unit_id": "b01-f093-R-side01",
+      "page_id": "b01-f093-R",
+      "layer": "later-manuscript",
+      "anchor": {
+        "parent_unit_id": "b01-f093-R-c03",
+        "offset": 2,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "可以",
+        "state": "nonblind-source-located"
+      },
+      "parent_unit": "b01-f093-R-c03",
+      "anchor_after_text": "可以",
+      "anchor_after_codepoint_1based": 2
     },
     {
       "unit_id": "b01-f094-R-n01",
       "page_id": "b01-f094-R",
+      "layer": "small-note",
       "parent_unit": "b01-f094-R-c06",
       "anchor_after_text": "金點",
       "anchor_after_codepoint_1based": 20,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f094-R-c06",
+        "offset": 20,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "金點",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "order": 1,
+          "text": "英曰",
+          "bbox_whole_preview_xywh": [
+            697,
+            766,
+            18,
+            44
+          ]
+        },
+        {
+          "order": 2,
+          "text": "哥力",
+          "bbox_whole_preview_xywh": [
+            679,
+            766,
+            18,
+            44
+          ]
+        },
+        {
+          "order": 3,
+          "text": "氏打",
+          "bbox_whole_preview_xywh": [
+            649,
+            270,
+            18,
+            44
+          ]
+        },
+        {
+          "order": 4,
+          "text": "燐",
+          "bbox_whole_preview_xywh": [
+            627,
+            270,
+            18,
+            22
+          ]
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "英曰"
+        },
+        {
+          "order": 2,
+          "text": "哥力"
+        },
+        {
+          "order": 3,
+          "text": "氏打"
+        },
+        {
+          "order": 4,
+          "text": "燐"
+        }
+      ]
     },
     {
       "unit_id": "b01-f096-R-section01",
       "page_id": "b01-f096-R",
+      "layer": "section-number",
       "parent_unit": "b01-f096-R-c05",
       "anchor_after_text": "論腎胞血疝",
-      "anchor_after_codepoint_1based": 5,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor_after_codepoint_1based": 5
     },
     {
       "unit_id": "b01-f097-L-section01",
       "page_id": "b01-f097-L",
+      "layer": "section-number",
       "parent_unit": "b01-f097-L-c04",
       "anchor_after_text": "論腎系血疝",
-      "anchor_after_codepoint_1based": 5,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor_after_codepoint_1based": 5
     },
     {
       "unit_id": "b01-f097-L-n01",
       "page_id": "b01-f097-L",
+      "layer": "small-note",
       "parent_unit": "b01-f097-L-c04",
-      "anchor_after_text": "論腎系血疝",
+      "anchor_after_text": "血疝",
       "anchor_after_codepoint_1based": 5,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor": {
+        "parent_unit_id": "b01-f097-L-c04",
+        "offset": 5,
+        "basis": "unicode-codepoint-0-boundary",
+        "after_text": "血疝",
+        "state": "nonblind-source-located"
+      },
+      "source_segments": [
+        {
+          "text": "腎系血疝有有",
+          "bbox_whole_preview_xywh": [
+            320,
+            436,
+            18,
+            132
+          ],
+          "order": 1
+        },
+        {
+          "text": "胞者有無胞者",
+          "bbox_whole_preview_xywh": [
+            302,
+            436,
+            18,
+            132
+          ],
+          "order": 2
+        }
+      ],
+      "subcolumns": [
+        {
+          "order": 1,
+          "text": "腎系血疝有有"
+        },
+        {
+          "order": 2,
+          "text": "胞者有無胞者"
+        }
+      ]
     },
     {
       "unit_id": "b02-f005-R-n01",
       "page_id": "b02-f005-R",
+      "layer": "small-note",
       "parent_unit": "b02-f005-R-c08",
       "anchor_after_text": "糟",
       "anchor_after_codepoint_1based": 3,
-      "basis": "Unicode codepoints; not source glyph count"
+      "parent_anchor": {
+        "unit_id": "b02-f005-R-c08",
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "unit_id": "b02-f005-R-n01-sub02",
+      "page_id": "b02-f005-R",
+      "layer": "small-note",
+      "parent_unit": "b02-f005-R-c08",
+      "anchor_after_text": "糟",
+      "anchor_after_codepoint_1based": 3,
+      "parent_anchor": {
+        "unit_id": "b02-f005-R-c08",
+        "start": 3,
+        "end": 3
+      }
     },
     {
       "unit_id": "b02-f006-L-n01",
       "page_id": "b02-f006-L",
+      "layer": "small-note",
       "parent_unit": "b02-f006-L-c09",
-      "anchor_after_text": "疝腫",
+      "anchor_after_text": "腮",
       "anchor_after_codepoint_1based": 4,
-      "basis": "Unicode codepoints; not source glyph count"
+      "parent_anchor": {
+        "unit_id": "b02-f006-L-c09",
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "unit_id": "b02-f006-L-n01-sub02",
+      "page_id": "b02-f006-L",
+      "layer": "small-note",
+      "parent_unit": "b02-f006-L-c09",
+      "anchor_after_text": "腮",
+      "anchor_after_codepoint_1based": 4,
+      "parent_anchor": {
+        "unit_id": "b02-f006-L-c09",
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "unit_id": "b02-f018-L-side01",
+      "page_id": "b02-f018-L",
+      "layer": "marginal-writing",
+      "parent_anchor": {
+        "unit_id": "b02-f018-L-c05",
+        "start": 0,
+        "end": 0
+      },
+      "parent_unit": "b02-f018-L-c05",
+      "anchor_after_codepoint_1based": 0,
+      "anchor_after_text": ""
     },
     {
       "unit_id": "b02-f021-L-n01",
       "page_id": "b02-f021-L",
+      "layer": "small-note",
       "parent_unit": "b02-f021-L-c01",
       "anchor_after_text": "腎",
       "anchor_after_codepoint_1based": 3,
-      "basis": "Unicode codepoints; not source glyph count"
+      "parent_anchor": {
+        "unit_id": "b02-f021-L-c01",
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "unit_id": "b02-f021-L-n01-sub02",
+      "page_id": "b02-f021-L",
+      "layer": "small-note",
+      "parent_unit": "b02-f021-L-c01",
+      "anchor_after_text": "腎",
+      "anchor_after_codepoint_1based": 3,
+      "parent_anchor": {
+        "unit_id": "b02-f021-L-c01",
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "unit_id": "b02-f023-R-side01",
+      "page_id": "b02-f023-R",
+      "layer": "marginal-writing",
+      "parent_anchor": {
+        "unit_id": "b02-f023-R-c08",
+        "start": 4,
+        "end": 6
+      },
+      "parent_anchor_text": "囊之"
     },
     {
       "unit_id": "b02-f032-R-n01",
       "page_id": "b02-f032-R",
+      "layer": "small-note",
       "parent_unit": "b02-f032-R-c03",
-      "anchor_after_text": "之水",
-      "anchor_after_codepoint_1based": 2,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor_after_text": "之",
+      "anchor_after_codepoint_1based": 1,
+      "parent_anchor": {
+        "unit_id": "b02-f032-R-c03",
+        "start": 0,
+        "end": 1
+      }
+    },
+    {
+      "unit_id": "b02-f032-R-n01-sub02",
+      "page_id": "b02-f032-R",
+      "layer": "small-note",
+      "parent_unit": "b02-f032-R-c03",
+      "anchor_after_text": "之",
+      "anchor_after_codepoint_1based": 1,
+      "parent_anchor": {
+        "unit_id": "b02-f032-R-c03",
+        "start": 0,
+        "end": 1
+      }
     },
     {
       "unit_id": "b02-f037-L-n01",
       "page_id": "b02-f037-L",
+      "layer": "small-note",
       "parent_unit": "b02-f037-L-c07",
       "anchor_after_text": "薰",
       "anchor_after_codepoint_1based": 7,
-      "basis": "Unicode codepoints; not source glyph count"
+      "initial_anchor_after_codepoint_1based_preserved": 7,
+      "anchor_after_codepoint_0based": 7,
+      "anchor_basis": "Unicode codepoint boundary in exact corrected parent; after end of anchor_after_text",
+      "fragments": [
+        {
+          "text": "其法如前",
+          "subcolumn_order": "right then left",
+          "bbox": null,
+          "locator": "source small-note unit b02-f037-L-n01"
+        }
+      ]
     },
     {
       "unit_id": "b02-f038-R-n01",
       "page_id": "b02-f038-R",
+      "layer": "small-note",
       "parent_unit": "b02-f038-R-c05",
       "anchor_after_text": "嗎",
       "anchor_after_codepoint_1based": 11,
-      "basis": "Unicode codepoints; not source glyph count"
+      "initial_anchor_after_codepoint_1based_preserved": 11,
+      "anchor_after_codepoint_0based": 11,
+      "anchor_basis": "Unicode codepoint boundary in exact corrected parent; after end of anchor_after_text",
+      "fragments": [
+        {
+          "text": "每釐分作十六次",
+          "subcolumn_order": "right then left",
+          "bbox": null,
+          "locator": "source small-note unit b02-f038-R-n01"
+        }
+      ]
     },
     {
       "unit_id": "b02-f040-L-n01",
       "page_id": "b02-f040-L",
+      "layer": "small-note",
       "parent_unit": "b02-f040-L-c03",
       "anchor_after_text": "物",
       "anchor_after_codepoint_1based": 16,
-      "basis": "Unicode codepoints; not source glyph count"
+      "initial_anchor_after_codepoint_1based_preserved": 16,
+      "anchor_after_codepoint_0based": 16,
+      "anchor_basis": "Unicode codepoint boundary in exact corrected parent; after end of anchor_after_text",
+      "fragments": [
+        {
+          "text": "英語曰酒墨稿",
+          "subcolumn_order": "right then left",
+          "bbox": null,
+          "locator": "source small-note unit b02-f040-L-n01"
+        }
+      ]
     },
     {
       "unit_id": "b02-f040-L-n02",
       "page_id": "b02-f040-L",
+      "layer": "small-note",
       "parent_unit": "b02-f040-L-c07",
       "anchor_after_text": "膿瘡",
       "anchor_after_codepoint_1based": 12,
-      "basis": "Unicode codepoints; not source glyph count"
+      "initial_anchor_after_codepoint_1based_preserved": 12,
+      "anchor_after_codepoint_0based": 12,
+      "anchor_basis": "Unicode codepoint boundary in exact corrected parent; after end of anchor_after_text",
+      "fragments": [
+        {
+          "text": "其膿略稀淡中有白點",
+          "subcolumn_order": "right then left",
+          "bbox": null,
+          "locator": "source small-note unit b02-f040-L-n02"
+        }
+      ]
     },
     {
       "unit_id": "b02-f041-L-n01",
       "page_id": "b02-f041-L",
+      "layer": "small-note",
       "parent_unit": "b02-f041-L-c05",
       "anchor_after_text": "他質",
       "anchor_after_codepoint_1based": 17,
-      "basis": "Unicode codepoints; not source glyph count"
+      "initial_anchor_after_codepoint_1based_preserved": 17,
+      "anchor_after_codepoint_0based": 17,
+      "anchor_basis": "Unicode codepoint boundary in exact corrected parent; after end of anchor_after_text",
+      "fragments": [
+        {
+          "text": "卽酒墨稿",
+          "subcolumn_order": "right then left",
+          "bbox": null,
+          "locator": "source small-note unit b02-f041-L-n01"
+        }
+      ]
     },
     {
       "unit_id": "b02-f052-L-n01",
       "page_id": "b02-f052-L",
+      "layer": "small-note",
       "parent_unit": "b02-f052-L-c03",
-      "anchor_after_text": "炎",
+      "anchor_after_text": "袋之症或悞為新舊炎",
       "anchor_after_codepoint_1based": 9,
-      "basis": "Unicode codepoints; not source glyph count"
+      "parent_unit_id": "b02-f052-L-c03",
+      "anchor": {
+        "unicode_offset": 9,
+        "relation": "after"
+      }
     },
     {
       "unit_id": "b02-f053-R-n01",
       "page_id": "b02-f053-R",
+      "layer": "small-note",
       "parent_unit": "b02-f053-R-c04",
-      "anchor_after_text": "腎袋",
-      "anchor_after_codepoint_1based": 10,
-      "basis": "Unicode codepoints; not source glyph count"
+      "anchor_after_text": "癰之症最易悞為腎袋",
+      "anchor_after_codepoint_1based": 9,
+      "parent_unit_id": "b02-f053-R-c04",
+      "anchor": {
+        "unicode_offset": 9,
+        "relation": "after"
+      }
+    },
+    {
+      "unit_id": "b02-f056-R-side01",
+      "page_id": "b02-f056-R",
+      "layer": "marginal-writing",
+      "parent_unit_id": "b02-f056-R-c04",
+      "parent_unit": "b02-f056-R-c04",
+      "anchor": {
+        "unicode_offset": 16,
+        "relation": "near-after-prefix-not-editorial-insertion"
+      },
+      "anchor_after_codepoint_1based": 16,
+      "anchor_after_text": "但亦略望無可必也有某者四十四歲□"
     },
     {
       "unit_id": "b02-f056-L-n01",
       "page_id": "b02-f056-L",
+      "layer": "small-note",
       "parent_unit": "b02-f056-L-c08",
-      "anchor_after_text": "耳",
+      "anchor_after_text": "內部而死者較外部亦稍安耳",
+      "fragments": [
+        {
+          "text": "外部如木",
+          "bbox": [
+            153,
+            548,
+            180,
+            650
+          ]
+        },
+        {
+          "text": "形是也",
+          "bbox": [
+            127,
+            574,
+            153,
+            650
+          ]
+        }
+      ],
       "anchor_after_codepoint_1based": 12,
-      "basis": "Unicode codepoints; not source glyph count"
+      "parent_unit_id": "b02-f056-L-c08",
+      "anchor": {
+        "unicode_offset": 12,
+        "relation": "after"
+      }
+    },
+    {
+      "unit_id": "b02-f057-R-n02",
+      "page_id": "b02-f057-R",
+      "layer": "marginal-writing",
+      "parent_unit_id": "b02-f057-R-c09",
+      "parent_unit": "b02-f057-R-c09",
+      "anchor": {
+        "unicode_offset": 13,
+        "relation": "near-after-prefix-not-editorial-insertion"
+      },
+      "anchor_after_codepoint_1based": 13,
+      "anchor_after_text": "癰疽割後復發恆更速于此人□"
     },
     {
       "unit_id": "b02-f057-R-n01",
       "page_id": "b02-f057-R",
+      "layer": "small-note",
       "parent_unit": "b02-f057-R-c03",
       "anchor_after_text": "濟",
       "anchor_after_codepoint_1based": 1,
-      "basis": "Unicode codepoints; not source glyph count"
+      "parent_unit_id": "b02-f057-R-c03",
+      "anchor": {
+        "unicode_offset": 1,
+        "relation": "after"
+      }
+    },
+    {
+      "unit_id": "b02-f058-R-n01",
+      "page_id": "b02-f058-R",
+      "layer": "later-ink-responsibility-unknown",
+      "parent_unit_id": "b02-f058-R-c04",
+      "anchor": {
+        "unicode_offset": 12,
+        "relation": "near-after-prefix-not-editorial-insertion"
+      },
+      "parent_unit": "b02-f058-R-c04",
+      "anchor_after_codepoint_1based": 12,
+      "anchor_after_text": "其腎腫經五年矣其人體瘦搜"
     },
     {
       "unit_id": "b02-f063-L-n01",
       "page_id": "b02-f063-L",
+      "layer": "small-note",
       "parent_unit": "b02-f063-L-c03",
-      "anchor_after_text": "六磅",
+      "anchor_after_text": "人重至六磅",
       "anchor_after_codepoint_1based": 5,
-      "basis": "Unicode codepoints; not source glyph count"
+      "parent_unit_id": "b02-f063-L-c03",
+      "anchor": {
+        "unicode_offset": 5,
+        "relation": "after"
+      }
+    },
+    {
+      "unit_id": "b02-f068-L-n01",
+      "page_id": "b02-f068-L",
+      "layer": "later-ink-responsibility-unknown",
+      "parent_unit_id": "b02-f068-L-c09",
+      "anchor": {
+        "unicode_offset": 4,
+        "relation": "after"
+      },
+      "parent_unit": "b02-f068-L-c09",
+      "anchor_after_text": "以其略重",
+      "anchor_after_codepoint_1based": 4
+    },
+    {
+      "unit_id": "b02-f076-L-sourcemark01",
+      "page_id": "b02-f076-L",
+      "layer": "print-source-mark",
+      "parent_unit_id": "b02-f076-L-c05",
+      "anchor": {
+        "unicode_offset": 18,
+        "relation": "after"
+      },
+      "anchor_after_codepoint_1based": 18,
+      "anchor_after_text": "由是遺精之患腰骨及外腎之痛俱獲痊安頭"
     },
     {
       "unit_id": "b02-f076-L-n01",
       "page_id": "b02-f076-L",
+      "layer": "small-note",
       "parent_unit": "b02-f076-L-c04",
-      "anchor_after_text": "不省人事",
+      "anchor_after_text": "捼膀脫蒂少頃痛極非常至眩暈不省人事",
       "anchor_after_codepoint_1based": 17,
-      "basis": "Unicode codepoints; not source glyph count"
+      "parent_unit_id": "b02-f076-L-c04",
+      "anchor": {
+        "unicode_offset": 17,
+        "relation": "after"
+      },
+      "subcolumns": [
+        "應知此藥之",
+        "性甚關係必",
+        "經六七日",
+        "之久乃應"
+      ]
     },
     {
       "unit_id": "b02-f078-R-n01",
       "page_id": "b02-f078-R",
+      "layer": "small-note",
       "parent_unit": "b02-f078-R-c06",
       "anchor_after_text": "病",
       "anchor_after_codepoint_1based": 1,
-      "basis": "Unicode codepoints; not source glyph count"
+      "parent_unit_id": "b02-f078-R-c06",
+      "anchor": {
+        "unicode_offset": 1,
+        "relation": "after"
+      }
     },
     {
       "unit_id": "b02-f078-L-n01",
       "page_id": "b02-f078-L",
+      "layer": "small-note",
       "parent_unit": "b02-f078-L-c07",
-      "anchor_after_text": "藥油抹之",
+      "anchor_after_text": "班螫膏貼囊越日去其皮以藥油抹之",
       "anchor_after_codepoint_1based": 15,
-      "basis": "Unicode codepoints; not source glyph count"
+      "parent_unit_id": "b02-f078-L-c07",
+      "anchor": {
+        "unicode_offset": 15,
+        "relation": "after"
+      }
     },
     {
       "unit_id": "b02-f079-R-n01",
       "page_id": "b02-f079-R",
+      "layer": "small-note",
       "parent_unit": "b02-f079-R-c09",
       "anchor_after_text": "因里加膏",
       "anchor_after_codepoint_1based": 4,
-      "basis": "Unicode codepoints; not source glyph count"
+      "parent_unit_id": "b02-f079-R-c09",
+      "anchor": {
+        "unicode_offset": 4,
+        "relation": "after"
+      },
+      "subcolumns": [
+        "每壹分",
+        "三次服"
+      ]
     },
     {
       "unit_id": "b02-f080-L-n01",
       "page_id": "b02-f080-L",
+      "layer": "small-note",
       "parent_unit": "b02-f080-L-c05",
       "anchor_after_text": "棹上",
       "anchor_after_codepoint_1based": 2,
-      "basis": "Unicode codepoints; not source glyph count"
+      "parent_unit_id": "b02-f080-L-c05",
+      "anchor": {
+        "unicode_offset": 2,
+        "relation": "after"
+      },
+      "subcolumns": [
+        "棹宜高低",
+        "適合為當"
+      ]
+    },
+    {
+      "unit_id": "b02-f085-R-side02",
+      "page_id": "b02-f085-R",
+      "layer": "later-ink-responsibility-unknown",
+      "parent_unit_id": "b02-f085-R-c07",
+      "anchor": {
+        "unicode_offset": 22,
+        "relation": "after"
+      },
+      "anchor_after_codepoint_1based": 22,
+      "anchor_after_text": "此症中有一人足上迴管亦腫凸又有廿人足上迴血腫"
     },
     {
       "unit_id": "b02-f085-R-n01",
       "page_id": "b02-f085-R",
+      "layer": "small-note",
       "parent_unit": "b02-f085-R-c02",
-      "anchor_after_text": "此",
+      "anchor_after_text": "二十人在右者惟一人耳但罕見其少至于此",
       "anchor_after_codepoint_1based": 18,
-      "basis": "Unicode codepoints; not source glyph count"
+      "parent_unit_id": "b02-f085-R-c02",
+      "anchor": {
+        "unicode_offset": 18,
+        "relation": "after"
+      }
     },
     {
       "unit_id": "b02-f085-R-n02",
       "page_id": "b02-f085-R",
+      "layer": "small-note",
       "parent_unit": "b02-f085-R-c09",
-      "anchor_after_text": "干涉",
+      "anchor_after_text": "腫凸與直腸迴血管腫凸亦不與干涉",
       "anchor_after_codepoint_1based": 15,
-      "basis": "Unicode codepoints; not source glyph count"
+      "parent_unit_id": "b02-f085-R-c09",
+      "anchor": {
+        "unicode_offset": 15,
+        "relation": "after"
+      },
+      "subcolumns": [
+        "直腸迴血管腫凸",
+        "則是內痔"
+      ]
     },
     {
       "unit_id": "b02-f096-R-n01",
       "page_id": "b02-f096-R",
+      "layer": "small-note",
       "parent_unit": "b02-f096-R-c03",
-      "anchor_after_text": "寸窄過",
+      "anchor_after_text": "寸穿過",
       "anchor_after_codepoint_1based": 3,
-      "basis": "Unicode codepoints; not source glyph count"
+      "parent_unit_id": "b02-f096-R-c03",
+      "anchor": {
+        "unicode_offset": 3,
+        "relation": "after"
+      },
+      "subcolumns": [
+        "其法",
+        "如右"
+      ]
+    },
+    {
+      "unit_id": "b03-f023-R-side01",
+      "page_id": "b03-f023-R",
+      "layer": "marginal-writing",
+      "parent_unit_id": "b03-f023-R-c05",
+      "parent_offset": 4,
+      "anchor_quote": "者或當用|結",
+      "parent_offset_basis": "0-based Unicode codepoint offset in stored final parent text, including gaiji token notation; not physical glyph count",
+      "parent_anchor_context": {
+        "before": "者或當用",
+        "after": "結應隨機而行有某醫者言有一人瘤生于腎"
+      }
+    },
+    {
+      "unit_id": "b03-f027-R-side01",
+      "page_id": "b03-f027-R",
+      "layer": "marginal-writing",
+      "parent_unit_id": "b03-f027-R-c04",
+      "parent_offset": 1,
+      "anchor_quote": "取|gaiji",
+      "parent_offset_basis": "0-based Unicode codepoint offset in stored final parent text, including gaiji token notation; not physical glyph count",
+      "parent_anchor_context": {
+        "before": "取",
+        "after": "⟦g-adj-f027R-covered"
+      }
+    },
+    {
+      "unit_id": "b03-f027-R-ins01",
+      "page_id": "b03-f027-R",
+      "layer": "marginal-writing",
+      "parent_unit_id": "b03-f027-R-c03",
+      "parent_offset": 2,
+      "anchor_quote": "有某|言",
+      "parent_offset_basis": "0-based Unicode codepoint offset in stored final parent text, including gaiji token notation; not physical glyph count",
+      "parent_anchor_context": {
+        "before": "有某",
+        "after": "言曾割一人之症此人未嘗作掃烟工惟歷年堀"
+      }
+    },
+    {
+      "unit_id": "b03-f031-R-note01",
+      "page_id": "b03-f031-R",
+      "layer": "original-print-small-character",
+      "parent_unit_id": "b03-f031-R-c08",
+      "anchor_after": "盛",
+      "anchor_before": "主",
+      "parent_offset": 14,
+      "parent_offset_basis": "0-based Unicode codepoint offset in stored final parent text, including gaiji token notation; not physical glyph count",
+      "parent_anchor_context": {
+        "before": "志者諒之赤瘋之症中土最盛",
+        "after": "主廈醫館三年經"
+      }
+    },
+    {
+      "unit_id": "b03-f031-L-note01",
+      "page_id": "b03-f031-L",
+      "layer": "original-print-small-character",
+      "parent_unit_id": "b03-f031-L-c08",
+      "parent_offset": 0,
+      "anchor_quote": "|不得已",
+      "parent_offset_basis": "0-based Unicode codepoint offset in stored final parent text, including gaiji token notation; not physical glyph count",
+      "parent_anchor_context": {
+        "before": "",
+        "after": "不得已割去若不割去有遺後患故也"
+      }
+    },
+    {
+      "unit_id": "b03-f032-R-note01",
+      "page_id": "b03-f032-R",
+      "layer": "original-print-small-character",
+      "parent_unit_id": "b03-f032-R-c07",
+      "anchor_after": "此二法",
+      "anchor_before": "曾試",
+      "parent_offset": 11,
+      "parent_offset_basis": "0-based Unicode codepoint offset in stored final parent text, including gaiji token notation; not physical glyph count",
+      "parent_anchor_context": {
+        "before": "貫過腎囊推緊數處此二法",
+        "after": "曾試一二次貫針之法不"
+      }
+    },
+    {
+      "unit_id": "b03-f032-L-note01",
+      "page_id": "b03-f032-L",
+      "layer": "original-print-small-character",
+      "parent_unit_id": "b03-f032-L-c09",
+      "parent_offset": 1,
+      "anchor_quote": "是|設方法",
+      "parent_offset_basis": "0-based Unicode codepoint offset in stored final parent text, including gaiji token notation; not physical glyph count",
+      "parent_anchor_context": {
+        "before": "是",
+        "after": "設方法足以禦之割時頭向榻尾而垂下使血倒轉"
+      }
     },
     {
       "unit_id": "b03-f033-L-n01",
       "page_id": "b03-f033-L",
-      "parent_unit": "b03-f033-L-c03",
-      "anchor_after_text": "腎囊",
-      "anchor_after_codepoint_1based": 7,
-      "basis": "Unicode codepoints; not source glyph count"
+      "layer": "original-print-small-note",
+      "parent_unit_id": "b03-f033-L-c03",
+      "anchor_after": "腎囊",
+      "anchor_before": "",
+      "parent_offset": 7,
+      "parent_offset_basis": "0-based Unicode codepoint offset in stored final parent text, including gaiji token notation; not physical glyph count",
+      "parent_anchor_context": {
+        "before": "以穿繩縛住腎囊",
+        "after": ""
+      }
     },
     {
       "unit_id": "b03-f037-L-n01",
       "page_id": "b03-f037-L",
-      "parent_unit": "b03-f037-L-c09",
-      "anchor_after_text": "加勿力油",
-      "anchor_after_codepoint_1based": 8,
-      "basis": "Unicode codepoints; not source glyph count"
+      "layer": "original-print-small-note",
+      "parent_unit_id": "b03-f037-L-c09",
+      "anchor_after": "油",
+      "anchor_before": "溫水",
+      "note_columns": [
+        "加勿力亞實一",
+        "分胡麻油十分"
+      ],
+      "parent_offset": 8,
+      "parent_offset_basis": "0-based Unicode codepoint offset in stored final parent text, including gaiji token notation; not physical glyph count",
+      "parent_anchor_context": {
+        "before": "其中乃用加勿力油",
+        "after": "溫水咩纏其陽物並"
+      }
+    },
+    {
+      "unit_id": "b03-f039-R-mark02",
+      "page_id": "b03-f039-R",
+      "layer": "marginal-writing",
+      "parent_unit_id": "b03-f039-R-c01",
+      "anchor_after": "過多",
+      "anchor_before": "溺死",
+      "parent_offset": 20,
+      "parent_offset_basis": "0-based Unicode codepoint offset in stored final parent text, including gaiji token notation; not physical glyph count",
+      "parent_anchor_context": {
+        "before": "臨時錯愕難尋若遇血流過多",
+        "after": "溺死"
+      }
+    },
+    {
+      "unit_id": "b03-f039-R-note01",
+      "page_id": "b03-f039-R",
+      "layer": "original-print-small-character",
+      "parent_unit_id": "b03-f039-R-c07",
+      "anchor_after": "症",
+      "anchor_before": "主",
+      "parent_offset": 6,
+      "parent_offset_basis": "0-based Unicode codepoint offset in stored final parent text, including gaiji token notation; not physical glyph count",
+      "parent_anchor_context": {
+        "before": "腎囊液管之症",
+        "after": "主鷺江醫館約三年嘗遇數人腎囊奇"
+      }
+    },
+    {
+      "unit_id": "b03-f039-L-note01",
+      "page_id": "b03-f039-L",
+      "layer": "original-print-small-character",
+      "parent_unit_id": "b03-f039-L-c01",
+      "anchor_after": "實",
+      "anchor_before": "之鄙願",
+      "parent_offset": 15,
+      "parent_offset_basis": "0-based Unicode codepoint offset in stored final parent text, including gaiji token notation; not physical glyph count",
+      "parent_anchor_context": {
+        "before": "獲悉其詳載諸書以公同好實",
+        "after": "之鄙願也客"
+      }
+    },
+    {
+      "unit_id": "b03-f039-L-note02",
+      "page_id": "b03-f039-L",
+      "layer": "original-print-small-character",
+      "parent_unit_id": "b03-f039-L-c01",
+      "anchor_after": "願也",
+      "anchor_before": "客",
+      "parent_offset": 19,
+      "parent_offset_basis": "0-based Unicode codepoint offset in stored final parent text, including gaiji token notation; not physical glyph count",
+      "parent_anchor_context": {
+        "before": "載諸書以公同好實之鄙願也",
+        "after": "客"
+      }
+    },
+    {
+      "unit_id": "b03-f039-L-note03",
+      "page_id": "b03-f039-L",
+      "layer": "original-print-small-character",
+      "parent_unit_id": "b03-f039-L-c03",
+      "anchor_after": "亦遇一",
+      "anchor_before": "所有",
+      "parent_offset": 9,
+      "parent_offset_basis": "0-based Unicode codepoint offset in stored final parent text, including gaiji token notation; not physical glyph count",
+      "parent_anchor_context": {
+        "before": "又聞汕頭醫士亦遇一",
+        "after": "所有聞見俱為華人豈中土自"
+      }
+    },
+    {
+      "unit_id": "b03-f040-R-note01",
+      "page_id": "b03-f040-R",
+      "layer": "original-print-small-character",
+      "parent_unit_id": "b03-f040-R-c03",
+      "anchor_after": "兩",
+      "anchor_before": "曾遇",
+      "parent_offset": 1,
+      "parent_offset_basis": "0-based Unicode codepoint offset in stored final parent text, including gaiji token notation; not physical glyph count",
+      "parent_anchor_context": {
+        "before": "兩",
+        "after": "曾遇一人初次就醫挑出紅色之水廿八兩流止囊"
+      }
+    },
+    {
+      "unit_id": "b03-f040-L-note01",
+      "page_id": "b03-f040-L",
+      "layer": "original-print-small-character",
+      "parent_unit_id": "b03-f040-L-c09",
+      "anchor_after": "就醫",
+      "anchor_before": "叩其",
+      "parent_offset": 16,
+      "parent_offset_basis": "0-based Unicode codepoint offset in stored final parent text, including gaiji token notation; not physical glyph count",
+      "parent_anchor_context": {
+        "before": "常人其腎囊致此症而來就醫",
+        "after": "叩其顛末得"
+      }
+    },
+    {
+      "unit_id": "b03-f042-R-note01",
+      "page_id": "b03-f042-R",
+      "layer": "original-print-small-character",
+      "parent_unit_id": "b03-f042-R-c03",
+      "parent_offset": 0,
+      "anchor_quote": "|嘗治療",
+      "parent_offset_basis": "0-based Unicode codepoint offset in stored final parent text, including gaiji token notation; not physical glyph count",
+      "parent_anchor_context": {
+        "before": "",
+        "after": "嘗治療此症二人其一割去囊下病皮令服補劑不"
+      }
     }
   ]
 }

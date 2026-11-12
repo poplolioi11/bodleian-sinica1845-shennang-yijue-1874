@@ -1,0 +1,899 @@
+{
+  "schema": "initial-source-addenda-public/1",
+  "role": "same-reader initial local source rereads; not independent collation",
+  "events": [
+    {
+      "event_id": "f073L-split-merged-columns",
+      "page_id": "b01-f073-L",
+      "operation": "replace-units",
+      "before_units": [
+        {
+          "id": "b01-f073-L-c07",
+          "layer": "body",
+          "text": "兩尚有一顆其大如李針其中有活物其腎系由胞之",
+          "bbox": [
+            173,
+            265,
+            207,
+            817
+          ],
+          "bbox_precision": "observed-column-envelope",
+          "reading_order": 7
+        },
+        {
+          "id": "b01-f073-L-c08",
+          "layer": "body",
+          "text": "前而上針後其水再脹醫者以六線穿最大之胞不見重",
+          "bbox": [
+            133,
+            265,
+            167,
+            817
+          ],
+          "bbox_precision": "observed-column-envelope",
+          "reading_order": 8
+        }
+      ],
+      "after_units": [
+        {
+          "id": "b01-f073-L-c07",
+          "layer": "body",
+          "text": "兩尚有一顆其大如李針其一",
+          "bbox": [
+            173,
+            265,
+            207,
+            817
+          ],
+          "bbox_precision": "approximate-column-location"
+        },
+        {
+          "id": "b01-f073-L-c08",
+          "layer": "body",
+          "text": "中有活物其腎系由胞之",
+          "bbox": [
+            133,
+            265,
+            167,
+            817
+          ],
+          "bbox_precision": "approximate-column-location"
+        },
+        {
+          "id": "b01-f073-L-c09",
+          "layer": "body",
+          "text": "前而上針後其水再脹醫者以六線穿最大之胞不見重",
+          "bbox": [
+            93,
+            265,
+            127,
+            817
+          ],
+          "bbox_precision": "approximate-column-location"
+        }
+      ],
+      "observation": "原初錄將第7、8物理欄合在c07並漏其後一字，末欄編為c08。本次回完整半面重新定位：分開兩欄並補可見一，末欄重定位c09。原raw保留；新單位仍是目視欄定位，不宣稱逐字框。",
+      "before_concat": "兩尚有一顆其大如李針其中有活物其腎系由胞之前而上針後其水再脹醫者以六線穿最大之胞不見重",
+      "after_concat": "兩尚有一顆其大如李針其一中有活物其腎系由胞之前而上針後其水再脹醫者以六線穿最大之胞不見重"
+    },
+    {
+      "event_id": "f068L-c08-source-reread",
+      "page_id": "b01-f068-L",
+      "unit_id": "b01-f068-L-c08",
+      "before": "衆多者但罕見耳胞或一或更多其腫大者在囊中能同",
+      "after": "其發在夾膜與附肉交界之處其狀若卵形或圓或長而小",
+      "decision": "accept-source-reread-correction",
+      "observation": "段題讀序整理時回完整固定半面，發現原c08文字與該物理欄不符；依本次實見整欄另錄。原字串及原批保留，不把替換藏在格式處理。c05施／與仍未定，未因句法刪換。"
+    },
+    {
+      "event_id": "roi1c-f038-you",
+      "page_id": "b01-f038-R",
+      "unit_id": "b01-f038-R-c06",
+      "before": "腎不復由此房事遂絕又□一人其腰骨畧脫因此致成",
+      "after": "腎不復由此房事遂絕又有一人其腰骨畧脫因此致成",
+      "changed_range_unicode_1based": [
+        11,
+        11
+      ],
+      "before_glyph": "□",
+      "after_glyph": "有",
+      "decision": "accept-new-source-local-reading",
+      "observation": "正確窄區見又後為有：上𠂇及下月部輪廓仍可辨，黑墨是繞字圈記；保留圈記獨立層，不把圈記刪作噪點。",
+      "evidence_ids": [
+        "b01-f038-overwrite-corrected"
+      ]
+    },
+    {
+      "event_id": "roi1c-f038-circle",
+      "page_id": "b01-f038-R",
+      "unit_id": "b01-f038-R-overwrite01",
+      "before": "⟦g-f038R-overwrite01⟧",
+      "after": "○",
+      "decision": "encode-observed-source-mark-separately",
+      "observation": "黑墨環繞有字形成圈記，Unicode ○僅為該圈記的文字表示，責任unknown；不當作原印標點或作者校訂。",
+      "evidence_ids": [
+        "b01-f038-overwrite-corrected"
+      ]
+    },
+    {
+      "event_id": "roi2e-f053-dian",
+      "page_id": "b01-f053-L",
+      "unit_id": "b01-f053-L-c03",
+      "before": "和匀敷之又方薄的埃阿嗅酒或用薄的迷蒙水和樹乳",
+      "after": "和匀敷之又方薄的埃阿顛酒或用薄的迷蒙水和樹乳",
+      "decision": "accept-new-source-local-reading",
+      "observation": "酒前一字見真與頁，原初讀嗅改顛；薄的埃阿等可見部分照原，未以藥學名稱改字。",
+      "evidence_ids": [
+        "b01-f053-translit-band1"
+      ]
+    },
+    {
+      "event_id": "roi2e-f053-mie",
+      "page_id": "b01-f053-L",
+      "unit_id": "b01-f053-L-c02",
+      "before": "加以袋帕之一方枯老啦亞毛咄亞二兩醋四兩水六兩",
+      "after": "加以袋帕之一方枯老啦亞毛咩亞二兩醋四兩水六兩",
+      "decision": "accept-new-source-local-reading",
+      "observation": "毛後一字左口右羊，原初讀咄改咩。歷史音譯依可見刻字，不據現代術語推校；框線留作原印非詞彙版式。",
+      "evidence_ids": [
+        "b01-f053-translit-band2"
+      ]
+    },
+    {
+      "event_id": "roi3-f015-note-confirm",
+      "page_id": "b01-f015-L",
+      "unit_id": "b01-f015-L-n01",
+      "before": "腎在腹內見第八圖其一",
+      "after": "腎在腹內見第八圖其一",
+      "decision": "preserved-after-new-source-reread",
+      "evidence_ids": [
+        "b01-f015-note-top",
+        "b01-f015-note-foot"
+      ],
+      "observation": "原像素窄區見右腎左在，跨欄接右腹內見第、左八圖其一；與初稿相同。僅本處影像補讀，不代表全文正確。"
+    },
+    {
+      "event_id": "roi3-f016-skin-liquid",
+      "page_id": "b01-f016-R",
+      "unit_id": "b01-f016-R-c09",
+      "before": "其皮薄色黧黑質鬆而綢皺管甚多其味與各汗液不同",
+      "after": "其皮薄色黧黑質鬆而綢液管甚多其味與各汗液不同",
+      "changed_range_unicode_1based": [
+        11,
+        11
+      ],
+      "before_glyph": "皺",
+      "after_glyph": "液",
+      "decision": "accept-local-initial-reread-correction",
+      "evidence_ids": [
+        "b01-f016-skin"
+      ],
+      "observation": "新窄區在綢後可見三點水及夜部，應讀液；保留前綢字初錄候選，不依文義將整詞現代化。",
+      "remaining_uncertainty": [
+        "黧之上部未全收入此窄區；仍回固定半面",
+        "綢精確碼位／字形仍供後續校訂，不以讀法核定Unicode字樣"
+      ]
+    },
+    {
+      "event_id": "roi3b-f036-marginal",
+      "page_id": "b01-f036-R",
+      "unit_ids": [
+        "b01-f036-R-margin01",
+        "b01-f036-R-interlinear01"
+      ],
+      "decision": "preserve-initial-candidate-after-new-source-reread",
+      "before": [
+        "癱",
+        "癱"
+      ],
+      "after": [
+        "癱",
+        "癱"
+      ],
+      "observation": "上緣大字及旁添小字新圖均見疒旁與難部，讀癱；責任仍未知，不能移入原刻正文。印字覆墨部分仍未裁定。",
+      "evidence_ids": [
+        "b01-f036-overwrite-margin"
+      ]
+    },
+    {
+      "event_id": "roi3b-f036-print-huan",
+      "page_id": "b01-f036-R",
+      "unit_id": "b01-f036-R-c01",
+      "before": "歲致□痪而死其人身長六尺一寸儀容溫婉態度柔媚",
+      "after": "歲致□瘓而死其人身長六尺一寸儀容溫婉態度柔媚",
+      "changed_range_unicode_1based": [
+        4,
+        4
+      ],
+      "before_glyph": "痪",
+      "after_glyph": "瘓",
+      "decision": "accept-source-reread-correction",
+      "observation": "新窄區見下一印字為疒旁、奐部，先前初錄痪未保留該部件，本次依圖訂為瘓；上字仍保留□。",
+      "evidence_ids": [
+        "b01-f036-overwrite-margin"
+      ]
+    },
+    {
+      "event_id": "roi3b-f038-wrong-column",
+      "page_id": "b01-f038-R",
+      "unit_id": "b01-f038-R-overwrite01",
+      "decision": "unresolved-request-corrected-narrow-ROI",
+      "observation": "本次請求座標偏右，新圖主要顯示相鄰印欄致癱症兩腎齊，未完整包括欲核的又後覆墨字；不得假稱已解。保留錯取收據並請中央修正窄區。",
+      "evidence_ids": [
+        "b01-f038-overwrite"
+      ]
+    },
+    {
+      "event_id": "roi3b-f039-sideword",
+      "page_id": "b01-f039-R",
+      "unit_id": "b01-f039-R-side01",
+      "before": "⟦g-f039R-side01⟧",
+      "after": "空",
+      "decision": "accept-local-handwriting-reading-candidate",
+      "observation": "旁寫字新圖下部見工形，初讀空；仍為責任unknown筆記，未採為印字校訂。原覆墨印字外框似甸，暫列候選而不取代正文□。",
+      "remaining_candidates": {
+        "overwritten_print": [
+          "甸"
+        ],
+        "sideword": [
+          "空"
+        ]
+      },
+      "evidence_ids": [
+        "b01-f039-drug-overwrite"
+      ]
+    },
+    {
+      "event_id": "roi3d-f061-print-shen",
+      "page_id": "b01-f061-L",
+      "unit_id": "b01-f061-L-c03",
+      "before": "他起□醫者復當以手研之使之發炎嘗觀用他藥射入",
+      "after": "他起身醫者復當以手研之使之發炎嘗觀用他藥射入",
+      "decision": "accept-new-source-local-reading",
+      "observation": "起下一原印字可見身之框、斜撇與內橫；墨筆與旁字另層保存，不以旁寫代正文。",
+      "evidence_ids": [
+        "b01-f061-circle"
+      ]
+    },
+    {
+      "event_id": "roi3d-f061-side-xing",
+      "page_id": "b01-f061-L",
+      "unit_id": "b01-f061-L-side01",
+      "before": "身",
+      "after": "行",
+      "decision": "accept-new-source-local-reading",
+      "observation": "原旁寫初讀身，窄區可辨左彳與右亍，改候選行；責任unknown，不稱作者註。",
+      "evidence_ids": [
+        "b01-f061-circle"
+      ]
+    },
+    {
+      "event_id": "roi3d-f061-circle-keep",
+      "page_id": "b01-f061-L",
+      "unit_id": "b01-f061-L-circle01",
+      "before": "○",
+      "after": "○",
+      "decision": "keep-separate-observed-source-mark",
+      "observation": "原圈記表示仍保存；此ROI未取盡環線，不據局部刪除原圈記。",
+      "evidence_ids": [
+        "b01-f061-circle"
+      ]
+    },
+    {
+      "event_id": "roi3d-f062-margin-shape",
+      "page_id": "b01-f062-R",
+      "unit_id": "b01-f062-R-margin11",
+      "before": "亟望過反印度任",
+      "after": "亟望遄反印度任",
+      "decision": "provisional-new-source-reading-candidate",
+      "retained_candidates": [
+        "遄",
+        "過"
+      ],
+      "observation": "第三字核心見山與而（耑），較支持遄；窄區左緣切及辶一側，故仍為局部候選。整欄仍屬欄外文字、責任unknown。",
+      "evidence_ids": [
+        "b01-f062-margin11"
+      ]
+    },
+    {
+      "event_id": "roi1-note-clipped",
+      "page_id": "b02-f005-R",
+      "unit_id": "b02-f005-R-n01",
+      "decision": "unresolved-request-corrected-narrow-ROI",
+      "observation": "新圖可見糟下有卽形字，左側小字被截、上緣亦未取盡；不能用此圖確認整個俗語也候選。保留原小註疑義並提出精確補區。"
+    },
+    {
+      "event_id": "roi2-print-bing",
+      "page_id": "b02-f005-L",
+      "unit_id": "b02-f005-L-c08",
+      "before": "久致溺管變狹之患繼而染腎炎因久□不止醫者以利",
+      "after": "久致溺管變狹之患繼而染腎炎因久病不止醫者以利",
+      "decision": "accept-new-source-local-reading",
+      "observation": "印字疒及丙部可辨，圈墨繞其內；原□讀病，旁寫痛不移入原印。"
+    },
+    {
+      "event_id": "roi2-side-tong",
+      "page_id": "b02-f005-L",
+      "unit_id": "b02-f005-L-side01",
+      "before": "痛",
+      "after": "痛",
+      "decision": "preserved-after-new-source-reread",
+      "observation": "旁寫痛可見疒與甬，責任unknown，原圈記○另層留存。"
+    },
+    {
+      "event_id": "roi3-print-tuo-yan",
+      "page_id": "b02-f007-R",
+      "unit_id": "b02-f007-R-c03",
+      "before": "稍輕罕見有病形如由墜精而致□附腎□有時略腫腎",
+      "after": "稍輕罕見有病形如由墜精而致□脫腎炎有時略腫腎",
+      "decision": "accept-new-source-local-reading",
+      "observation": "源窄區顯示致下一字仍受圈墨，疒內部未定暫□；下接字見月旁與兌，讀脫，腎下炎可辨。前初錄附與缺字位置不合，另存本回讀而不覆raw。",
+      "remaining_candidates": {
+        "first_covered_print": [
+          "疝"
+        ]
+      }
+    },
+    {
+      "event_id": "roi3-foot-fei",
+      "page_id": "b02-f007-R",
+      "unit_id": "b02-f007-R-foot01",
+      "before": "腺",
+      "after": "肥",
+      "decision": "accept-local-handwriting-reading-candidate",
+      "observation": "下框外大字左月右部近巴，初讀肥；右緣仍有裁切，原腺候選不作確定。",
+      "remaining_candidates": [
+        "肥",
+        "腺"
+      ]
+    },
+    {
+      "event_id": "roi3-mark-keep",
+      "page_id": "b02-f007-R",
+      "decision": "observation-no-text-replacement",
+      "observation": "可見兩個圈墨分別繞致後一字與脫，原ink02 bbox偏低涵及炎；應定位脫附近。腎旁細墨與框外肥須另層，右邊細墨未取盡，待極窄補區，不假稱已讀全。"
+    },
+    {
+      "event_id": "roi-next2-f005-note",
+      "page_id": "b02-f005-R",
+      "unit_id": "b02-f005-R-n01",
+      "before": "俗語也",
+      "after": "卽語也",
+      "decision": "accept-local-initial-reread-candidate",
+      "retained_candidates": [
+        "卽語也",
+        "俗語也"
+      ],
+      "observation": "較寬源區右小字明見皀與卩形，初讀卽，左小欄見語也。原俗字候選改卽語也仍留疑，不據通順改成俗語也；初錄正文未因此補入字符。",
+      "bbox_after": [
+        90,
+        346,
+        129,
+        392
+      ]
+    },
+    {
+      "event_id": "roi-next2-f005-new-ink",
+      "page_id": "b02-f005-R",
+      "operation": "add-unit",
+      "unit": {
+        "id": "b02-f005-R-side01",
+        "layer": "marginal-writing",
+        "text": "墨",
+        "bbox": [
+          117,
+          310,
+          142,
+          344
+        ],
+        "bbox_precision": "manual-approximate-source-locator",
+        "responsibility": "unknown",
+        "status": "initial-reading-candidate",
+        "relationship": "adjacent to printed 糟 and small note; no automatic correction of print"
+      },
+      "observation": "原過緊ROI未取全，寬區見糟旁另加墨形字；獨立層，不稱作者改字。"
+    },
+    {
+      "event_id": "roi-next2-f007-foot",
+      "page_id": "b02-f007-R",
+      "unit_id": "b02-f007-R-foot01",
+      "before": "肥",
+      "after": "腮",
+      "decision": "accept-local-handwriting-reading-candidate",
+      "retained_candidates": [
+        "腮",
+        "肥",
+        "腺"
+      ],
+      "observation": "補區現含全字，左月與右田、心部件可見，初讀腮；前次腺、肥為舊候選保留於事件鏈，不以醫學詞義決字。",
+      "bbox_after": [
+        325,
+        822,
+        353,
+        852
+      ]
+    },
+    {
+      "event_id": "roi-next2-f007-fine-ink",
+      "page_id": "b02-f007-R",
+      "operation": "add-unit",
+      "unit": {
+        "id": "b02-f007-R-smallside01",
+        "layer": "marginal-writing",
+        "text": "⟦g-b02f007R-smallside01⟧",
+        "bbox": [
+          318,
+          785,
+          350,
+          820
+        ],
+        "bbox_precision": "manual-approximate-source-locator",
+        "responsibility": "unknown",
+        "status": "unresolved-local-handwriting",
+        "representation_note": "One fine ink character beside final printed 腎, above lower rule; candidate unresolved, not merged into body"
+      },
+      "observation": "此小墨字先前源區右緣不全，新區收入但手寫細部仍未定，保留局部gaiji並定位，不把整面或整欄當缺文。"
+    },
+    {
+      "event_id": "covered3-f020-jia",
+      "page_id": "b02-f020-L",
+      "unit_id": "b02-f020-L-c06",
+      "before": "割裂□膜之法亦罕用之惟遇腎炎極重或變潰爛或變",
+      "after": "割裂夾膜之法亦罕用之惟遇腎炎極重或變潰爛或變",
+      "decision": "provisional-source-reread-candidate",
+      "retained_candidates": [
+        "夾",
+        "□"
+      ],
+      "observation": "新源區見圈後原印外框及左右人形殘筆較支持夾，核心仍受墨，先補候選夾而不稱人工定字；旁單獨立。"
+    },
+    {
+      "event_id": "covered3-f020-circle",
+      "page_id": "b02-f020-L",
+      "unit_id": "b02-f020-L-ink01",
+      "before": "⟦g-b02f020L-ink01⟧",
+      "after": "○",
+      "decision": "encode-observed-source-mark-separately",
+      "observation": "新區見黑墨圓環，文字○只表示圈記，不當原印詞或作者校訂。"
+    },
+    {
+      "event_id": "covered3-f020-side",
+      "page_id": "b02-f020-L",
+      "unit_id": "b02-f020-L-side01",
+      "before": "單",
+      "after": "單",
+      "decision": "preserved-after-new-source-reread",
+      "observation": "旁寫單可辨，責任unknown；不以此替原印夾候選。"
+    },
+    {
+      "event_id": "covered3-f024-wrong-height",
+      "page_id": "b02-f024-R",
+      "unit_id": "b02-f024-R-c02",
+      "decision": "unresolved-request-corrected-narrow-ROI",
+      "observation": "實得源區顯示系之精管，垂直座標未達目標腎若後圈字；不能聲稱讀得目標。原請求／成功收據保留，依已見相鄰字符位置向下修正小區。"
+    },
+    {
+      "event_id": "covered3-f033-keep-gap",
+      "page_id": "b02-f033-L",
+      "unit_id": "b02-f033-L-c06",
+      "before": "亦罔效或不痛或微痛令人心神不安嘗懷此症□憂意",
+      "after": "亦罔效或不痛或微痛令人心神不安嘗懷此症□憂意",
+      "decision": "preserve-local-gap-after-new-source-reread",
+      "remaining_candidates": [
+        "不",
+        "而"
+      ],
+      "observation": "圈下字可見上橫與斜筆但核心被墨遮，尚不足定字；維持單字□，不以憂意句法補字，原圈另層。"
+    },
+    {
+      "event_id": "f024-corrected-source-still-covered",
+      "page_id": "b02-f024-R",
+      "unit_id": "b02-f024-R-c02",
+      "decision": "retain-one-gap",
+      "extent": 1,
+      "retained_candidates": [
+        "再",
+        "石",
+        "□"
+      ],
+      "observation": "正確窄區已達腎若與腫之間。墨圈覆蓋字心，上部橫斜及內部折橫可見，仍不足可靠定一字；保留單字□，不以文意補。"
+    },
+    {
+      "event_id": "f051-note-to-body",
+      "page_id": "b02-f051-R",
+      "unit_id": "b02-f051-R-c06",
+      "operation": "replace-text",
+      "before": "能上行足亦腫脹若病者瘦腹內之核摸其腫近脊",
+      "after": "能上行足亦腫脹若病者瘦腹內之核可得摸其腫近脊",
+      "decision": "source-supported-reclassification",
+      "observation": "高解析源圖顯示核、可、得、摸位於同一印刷大字縱欄，字號與間隔相同；可得屬正文，不是雙行小註。"
+    },
+    {
+      "event_id": "f051-remove-false-note-in-derived",
+      "page_id": "b02-f051-R",
+      "unit_id": "b02-f051-R-n01",
+      "operation": "remove-unit",
+      "before": "可得",
+      "decision": "source-supported-layer-reclassification",
+      "observation": "原初讀把可得誤分小註；僅在另存衍生稿移除此重複小註單元，原raw及批次不動。"
+    },
+    {
+      "event_id": "f051-add-side-ink",
+      "page_id": "b02-f051-R",
+      "unit_id": "b02-f051-R-side01",
+      "operation": "add-unit",
+      "after_unit": {
+        "id": "b02-f051-R-side01",
+        "layer": "marginal-writing",
+        "text": "無恙",
+        "bbox": [
+          163,
+          638,
+          217,
+          704
+        ],
+        "responsibility": "unknown",
+        "status": "source-assisted-initial-reading-candidate"
+      },
+      "decision": "source-supported-separate-layer",
+      "observation": "兩印刷欄間可見手寫無恙，字號及筆畫不同，獨立保存，不替代圈下正文。"
+    },
+    {
+      "event_id": "f051-covered-two-print-glyphs",
+      "page_id": "b02-f051-R",
+      "unit_id": "b02-f051-R-c07",
+      "decision": "retain-two-gaps",
+      "extent": 2,
+      "retained_candidates": [
+        "健壯",
+        "壯健",
+        "□□"
+      ],
+      "observation": "身雖下兩個印刷字受重墨圈蓋，局部筆畫不足定讀，保留兩個□。欄側無恙責任未知，不能直接拿來補印刷底字。"
+    },
+    {
+      "event_id": "f056-note-still-clipped",
+      "page_id": "b02-f056-L",
+      "unit_id": "b02-f056-L-n01",
+      "decision": "unresolved-request-corrected-minimal-ROI",
+      "observation": "實得窄區可讀右小欄外部如木，下接一形近旦字，但左小欄被裁切且下緣未完整，不能以此確認原候選外部如木形是也。保留原候選，重新請求稍向左下延伸的單個局部，不把整面當未讀。"
+    },
+    {
+      "event_id": "f069-covered-still-unknown",
+      "page_id": "b02-f069-L",
+      "unit_id": "b02-f069-L-c08",
+      "decision": "retain-one-gap",
+      "extent": 1,
+      "retained_candidates": [
+        "營",
+        "宮",
+        "□"
+      ],
+      "observation": "孔前底字外框與內橫可見，但中心圈墨仍遮，未能可靠定字，保留單□。"
+    },
+    {
+      "event_id": "f069-side-confirm",
+      "page_id": "b02-f069-L",
+      "unit_id": "b02-f069-L-side01",
+      "before": "管",
+      "after": "管",
+      "decision": "preserved-after-new-source-reread",
+      "observation": "欄側墨管字可見竹頭與官，獨立層責任未知，不代入原印。"
+    },
+    {
+      "event_id": "f070-covered-still-unknown",
+      "page_id": "b02-f070-R",
+      "unit_id": "b02-f070-R-c09",
+      "decision": "retain-one-gap",
+      "extent": 1,
+      "retained_candidates": [
+        "營",
+        "□"
+      ],
+      "observation": "圈上可見密集筆畫但字心有重墨，不能可靠定字，保留單□。"
+    },
+    {
+      "event_id": "f070-side-confirm",
+      "page_id": "b02-f070-R",
+      "unit_id": "b02-f070-R-side01",
+      "before": "管",
+      "after": "管",
+      "decision": "preserved-after-new-source-reread",
+      "observation": "欄側手寫管仍獨立。"
+    },
+    {
+      "event_id": "f070-layer-boundary-confirm",
+      "page_id": "b02-f070-R",
+      "unit_id": "b02-f070-R-c08",
+      "decision": "body-layer-confirmed-no-small-note",
+      "observation": "右鄰欄裏護字號與下接自滲相同，屬印刷正文，不是雙行小註；原raw已置正文，不作文字替換。"
+    },
+    {
+      "event_id": "f056-full-smallnote-confirmed",
+      "page_id": "b02-f056-L",
+      "unit_id": "b02-f056-L-n01",
+      "before": "外部如木形是也",
+      "after": "外部如木形是也",
+      "bbox_after": [
+        127,
+        548,
+        180,
+        650
+      ],
+      "decision": "confirmed-same-initial-reading-after-source-completion",
+      "observation": "修正源區現含雙行細字：右欄外部如木，左欄形是也；左上耳字是正文安耳的末字，不收入小註。原候選字串可保留；補讀只確認分層及定位，不將耳錯併小註，不冒稱先前截邊區完整。",
+      "note_fragments_after": [
+        {
+          "text": "外部如木",
+          "bbox": [
+            153,
+            548,
+            180,
+            650
+          ]
+        },
+        {
+          "text": "形是也",
+          "bbox": [
+            127,
+            574,
+            153,
+            650
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "f102R-physical-column-c05",
+      "page_id": "b02-f102-R",
+      "unit_id": "b02-f102-R-c05",
+      "operation": "replace-text",
+      "before": "腎縮至胯亦猶生時不下屢欲發炎因是處不論何物壓",
+      "after": "之大得中其腎易迫而下則此可知非由生時不下明矣",
+      "decision": "correct-recording-column-transposition",
+      "observation": "實看全幀與完整半面後記錄時，兩實體欄字串錯互換。另存此修補使c05為之大得中...、c06為腎縮至胯...；不依語義改寫其他字，原raw不變。"
+    },
+    {
+      "event_id": "f102R-physical-column-c06",
+      "page_id": "b02-f102-R",
+      "unit_id": "b02-f102-R-c06",
+      "operation": "replace-text",
+      "before": "之大得中其腎易迫而下則此可知非由生時不下明矣",
+      "after": "腎縮至胯亦猶生時不下屢欲發炎因是處不論何物壓",
+      "decision": "correct-recording-column-transposition",
+      "observation": "實看全幀與完整半面後記錄時，兩實體欄字串錯互換。另存此修補使c05為之大得中...、c06為腎縮至胯...；不依語義改寫其他字，原raw不變。"
+    },
+    {
+      "event_id": "f005-box-column-source-reading",
+      "page_id": "b03-f005-L",
+      "unit_id": "b03-f005-L-c04",
+      "before": "雪文注律每體拜坐溫水三次癢憊皆用加多習拾勿里",
+      "after": "雪文洗淨每禮拜坐溫水三次癢極者用加多習拾勿里",
+      "decision": "accept-new-source-local-initial-reading",
+      "observation": "源字可見洗之氵先、淨之氵爭、禮部及極者。初注律/體/憊皆等改為所見洗淨/禮/極者。雪文及末音譯逐字原見，不按現代藥名正規化。"
+    },
+    {
+      "event_id": "f005-side-box-description",
+      "page_id": "b03-f005-L",
+      "unit_id": "b03-f005-L-box01",
+      "decision": "source-observation-no-text-replacement",
+      "observation": "放大源圖顯示細長矩形／括線沿相鄰欄分段，並非可確言一整欄處方框；保留原痕跡單元及坐標，原raw框線描述僅初觀察。"
+    },
+    {
+      "event_id": "f007-covered-extent-correction",
+      "page_id": "b03-f007-L",
+      "unit_id": "b03-f007-L-c07",
+      "before": "常在一邊按之堅緊以其有□□而有定形上有頭可辨水",
+      "after": "常在一邊按之堅緊以其有□而有定形上有頭可辨水",
+      "decision": "correct-gap-extent-source-geometry",
+      "extent_after": 1,
+      "retained_candidates": [
+        "色",
+        "□"
+      ],
+      "observation": "印刷縱欄由有到而之間只有一個字位。兩個墨圈第二圈伸入欄間，不能把兩圈當兩印字；原raw兩□的extent2更正為衍生稿單□。核心被圈覆仍不定字，候選色不填入。"
+    },
+    {
+      "event_id": "f007-side-bao-source-reading",
+      "page_id": "b03-f007-L",
+      "unit_id": "b03-f007-L-side01",
+      "before": "⟦g-b03f007L-side01⟧",
+      "after": "包",
+      "decision": "accept-local-handwriting-reading-candidate",
+      "observation": "旁墨見勹及巳形，讀包，獨立層責任未知，不拿來替代圈下印刷字。"
+    },
+    {
+      "event_id": "f007-double-circle-observed",
+      "page_id": "b03-f007-L",
+      "unit_id": "b03-f007-L-ink01",
+      "before": "⟦g-b03f007L-ink01⟧",
+      "after": "○○",
+      "decision": "encode-observed-marks-separately",
+      "observation": "兩個黑環是來源圈記，不是兩個底本文字；不以此推斷作者修字。"
+    },
+    {
+      "event_id": "f013-printed-han-re-source",
+      "page_id": "b03-f013-R",
+      "unit_id": "b03-f013-R-c05",
+      "before": "身中增寒壯熱經二三天□□退腫略消以後寒熱",
+      "after": "身中增寒壯熱經二三天寒熱退腫略消以後寒熱",
+      "decision": "accept-new-source-local-initial-reading",
+      "observation": "窄圖可見第一字宀下交筆與末兩點，第二字埶/灬筆形，讀寒熱。底印有磨損與細弧線穿過，但兩字主要輪廓可辨；不是用病程或旁寫補。"
+    },
+    {
+      "event_id": "f013-oval-observation",
+      "page_id": "b03-f013-R",
+      "unit_id": "b03-f013-R-stamp01",
+      "decision": "source-observation-no-text-replacement",
+      "observation": "源圖見一條細弧線及印刷磨損，不能確定為可分字的橢圓印文字。原stamp標籤是初觀察，痕跡責任未知，無新增印文猜讀。"
+    },
+    {
+      "event_id": "f015-crop-bottom-clipped",
+      "page_id": "b03-f015-L",
+      "unit_id": "b03-f015-L-c03",
+      "decision": "unresolved-request-corrected-minimal-ROI",
+      "observation": "實得窄圖只完整涵去、不兩字，目標不下的一字及旁寫宜在下緣被截，不能用此圖定底字。原局部□不變，修正垂直座標只補單區。"
+    },
+    {
+      "event_id": "f019-printed-long-over",
+      "page_id": "b03-f019-R",
+      "unit_id": "b03-f019-R-c05",
+      "before": "七旬致此瘤重四十四磅提在腿上高出于乳□□□膝",
+      "after": "七旬致此瘤重四十四磅提在腿上高出于乳長過□膝",
+      "decision": "partial-source-supported-local-reading",
+      "extent_remaining": 1,
+      "retained_candidates": {
+        "remaining_glyph": [
+          "于",
+          "□"
+        ]
+      },
+      "observation": "源區乳下第一印字長的長橫及豎捺可辨，第二字見辶及冎輪廓，讀長過。第三字核心受重墨尚不能確定，留單□，不以旁寫下/兩代替原印。"
+    },
+    {
+      "event_id": "f019-side-ink-reading",
+      "page_id": "b03-f019-R",
+      "unit_id": "b03-f019-R-side01",
+      "before": "⟦g-b03f019R-side01⟧",
+      "after": "垂下兩",
+      "decision": "accept-local-handwriting-candidate-separate-layer",
+      "retained_candidates": [
+        "垂下兩",
+        "⟦g-b03f019R-side01⟧"
+      ],
+      "observation": "欄間細墨可見垂形多橫、下及兩形，初讀垂下兩，責任未知，與正文長過□分開。",
+      "bbox_after": [
+        228,
+        711,
+        254,
+        803
+      ]
+    },
+    {
+      "event_id": "f026-covered-still-unknown",
+      "page_id": "b03-f026-R",
+      "unit_id": "b03-f026-R-c03",
+      "decision": "retain-one-gap",
+      "extent": 1,
+      "retained_candidates": [
+        "灰",
+        "炭",
+        "□"
+      ],
+      "observation": "印字有火形斜筆但重墨圈覆蓋字心，尚不足可靠定字，維持單□，不得用旁灰替印字。"
+    },
+    {
+      "event_id": "f026-side-gray-confirm",
+      "page_id": "b03-f026-R",
+      "unit_id": "b03-f026-R-side01",
+      "before": "灰",
+      "after": "灰",
+      "decision": "preserved-after-new-source-reread",
+      "observation": "旁寫灰可辨，獨立層責任未知。"
+    },
+    {
+      "event_id": "f015-printed-neng-source-reading",
+      "page_id": "b03-f015-L",
+      "unit_id": "b03-f015-L-c03",
+      "before": "腎囊苟大令人不安宜早割去不□待至極大",
+      "after": "腎囊苟大令人不安宜早割去不能待至極大",
+      "decision": "source-supported-initial-reading-candidate",
+      "retained_candidates": [
+        "能",
+        "□"
+      ],
+      "observation": "下移源區完整含目標及待。底字可見左月形與右兩匕，較支持能；圈墨仍覆中部，保留候選□，此讀能來自印字可見部件，不取旁宜替代。"
+    },
+    {
+      "event_id": "f015-side-yi-preserve",
+      "page_id": "b03-f015-L",
+      "unit_id": "b03-f015-L-side01",
+      "before": "宜",
+      "after": "宜",
+      "decision": "preserved-after-new-source-reread",
+      "observation": "欄側手寫宜可辨，責任未知，獨立層不移入正文。"
+    },
+    {
+      "event_id": "f028-initial-printed-yin",
+      "page_id": "b03-f028-R",
+      "unit_id": "b03-f028-R-c04",
+      "before": "□言少時作掃烟工迨後作手水不復染烟黶病經廿二",
+      "after": "因言少時作掃烟工迨後作手水不復染烟黶病經廿二",
+      "decision": "accept-new-source-local-initial-reading",
+      "observation": "原圖圈墨仍在，底印外囗及內大交叉、撇捺可見，初讀因；旁寫自另層保存，不替代底印。原手水順序未改。"
+    },
+    {
+      "event_id": "f028-side-zi-confirm",
+      "page_id": "b03-f028-R",
+      "unit_id": "b03-f028-R-side01",
+      "before": "自",
+      "after": "自",
+      "decision": "preserved-after-source-reread",
+      "observation": "旁自筆形可辨，責任未知，與正文因分開。"
+    },
+    {
+      "event_id": "f038-covered-core-remains",
+      "page_id": "b03-f038-L",
+      "unit_id": "b03-f038-L-c06",
+      "decision": "retain-one-gap",
+      "extent": 1,
+      "retained_candidates": [
+        "雜",
+        "□"
+      ],
+      "observation": "相下一字受重墨圈穿過核心，局部輪廓不足可靠定印字；仍單□，不取旁字直接代印。"
+    },
+    {
+      "event_id": "f038-side-reading",
+      "page_id": "b03-f038-L",
+      "unit_id": "b03-f038-L-side01",
+      "before": "⟦g-b03f038L-side01⟧",
+      "after": "雜",
+      "decision": "accept-local-handwriting-candidate-separate-layer",
+      "retained_candidates": [
+        "雜",
+        "⟦g-b03f038L-side01⟧"
+      ],
+      "observation": "旁寫左右細筆初讀雜，候選而非裁定，責任未知。"
+    },
+    {
+      "event_id": "f038-circle-reading",
+      "page_id": "b03-f038-L",
+      "unit_id": "b03-f038-L-ink01",
+      "before": "⟦g-b03f038L-ink01⟧",
+      "after": "○",
+      "decision": "classify-source-circle-separately",
+      "observation": "圈墨覆字另記○，非另一印字。"
+    },
+    {
+      "event_id": "f039-remove-unconfirmed-side-lexeme",
+      "page_id": "b03-f039-R",
+      "unit_id": "b03-f039-R-side01",
+      "operation": "remove-unit",
+      "before": "⟦g-b03f039R-side01⟧",
+      "decision": "reclassify-overlapping-source-observation",
+      "observation": "原side01大部分框住版心葉碼及其暗影，不能確證為另一可讀旁寫字；不重抄葉碼作旁字。葉碼原初讀卅六仍保留待覆核，未按頁序改號。"
+    },
+    {
+      "event_id": "f039-preserve-lower-dark-trace",
+      "page_id": "b03-f039-R",
+      "operation": "add-unit",
+      "decision": "preserve-source-mark-unresolved",
+      "unit": {
+        "id": "b03-f039-R-mark02",
+        "layer": "source-mark",
+        "text": "⟦g-b03f039R-mark02⟧",
+        "bbox": [
+          392,
+          723,
+          412,
+          738
+        ],
+        "responsibility": "unknown",
+        "representation_note": "Native ROI shows dark short strokes below/left of printed folio, at crop lower edge; no secure lexical reading. Source mark only, not an inferred author note."
+      },
+      "observation": "葉碼下左短黑筆痕仍獨立保存，裁片下緣未全盡，未判可讀字或筆者。"
+    }
+  ],
+  "event_coordinate_basis": "Event before/after-unit bboxes and fragments retain the original half-face coordinate system of the initial reader (500px wide; actual height per source page). document.json unit bboxes are separately translated to whole fixed1000px source coordinates. No event geometry is claimed to be exact glyph segmentation."
+}

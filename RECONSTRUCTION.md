@@ -1,0 +1,7 @@
+# 公開資料精確回讀
+
+只需本包即可恢復宣告的公開主本：讀取text.sidecar.json的document_structure_without_unit_text，依units陣列及相同ID的start/end，從UTF-8解碼後的text.txt擷取0起算、end不含的Unicode碼位範圍，插回每個unit的text欄位。JSON以UTF-8、ensure_ascii=false、indent=2輸出並附一個檔尾換行；語義與主本完全相同。位元組雜湊請以主本既有欄位順序為準，text欄位插入位置可能影響bytes，語義雜湊另見VALIDATION.json。
+
+TXT分隔換行不屬正文，不能逐行猜單位。TEI對每個單位以單一seg保存原字串，tei.sidecar.json把XML IDs對到原page/unit ID；安全解析後依sidecar順序讀回seg文字，並與TXT及document.json的每個字串逐項比對。原有換行與XML特殊字元由XML編碼處理，不是正規化。
+
+主本與結構sidecar保留全部公開欄位；TEI的最小交換結構未獨立承載完整校勘語義。原圖、提示、專用程式及完整私有歷程不在本包，故本說明不是完整影像到文字重跑方法。
