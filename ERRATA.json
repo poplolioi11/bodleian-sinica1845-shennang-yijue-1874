@@ -1,0 +1,78 @@
+{
+  "title": "腎囊醫訣（Bodleian Sinica 1845）",
+  "version": "0.2.1",
+  "type": "transcription-correction-overlay",
+  "base": {
+    "version": "0.2.0",
+    "github": "https://github.com/poplolioi11/bodleian-sinica1845-shennang-yijue-1874/releases/tag/v0.2.0",
+    "zenodo_doi": "10.5281/zenodo.24149581",
+    "archive_sha256": "812853a0bd540baea462b5ddec07309fb5242456b97554480a2f83e0414d736b",
+    "document_json_sha256": "bbaa5fd16f42074e2d4e78d660100b3485e1c1e6160de84509d8b58cf0bae292"
+  },
+  "offsets": "Zero-based Unicode code points in units[].text, end exclusive.",
+  "operations": [
+    {
+      "review_item": 24,
+      "unit_id": "b01-f047-L-c09",
+      "start": 19,
+      "end": 20,
+      "before": "二",
+      "after": "一",
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/713500d6-3262-46bf-8e41-36455f48cc74.json"
+    },
+    {
+      "review_item": 27,
+      "unit_id": "b03-f003-L-c03",
+      "start": 6,
+      "end": 7,
+      "before": "硼",
+      "after": "碍",
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/4031e71a-5faa-4217-b98d-35cbfbd96d9d.json"
+    },
+    {
+      "review_item": 29,
+      "unit_id": "b01-f010-R-c05",
+      "start": 3,
+      "end": 5,
+      "before": "腎乳",
+      "after": "胯孔",
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2fd0fe48-552b-4504-9fdb-2282584714ad.json"
+    },
+    {
+      "review_item": 31,
+      "unit_id": "b01-f024-R-c05",
+      "start": 0,
+      "end": 1,
+      "before": "曾",
+      "after": "會",
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/84f731ad-6120-4f1e-a78a-7d5c4dde12fc.json"
+    },
+    {
+      "review_item": 33,
+      "unit_id": "b02-f045-L-c02",
+      "start": 5,
+      "end": 6,
+      "before": "螺",
+      "after": "蜞",
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/ec06d988-2e15-4efa-b551-97b78c6042d9.json"
+    },
+    {
+      "review_item": 33,
+      "unit_id": "b02-f102-L-c08",
+      "start": 15,
+      "end": 16,
+      "before": "螺",
+      "after": "蜞",
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/ce9a96d7-5571-4f24-9064-4ad999defbdc.json"
+    },
+    {
+      "review_item": 36,
+      "unit_id": "b01-f005-L-r25-zh",
+      "start": 19,
+      "end": 20,
+      "before": "沆",
+      "after": "吮",
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/580f311c-f32f-4b0f-8576-8be710097bc1.json"
+    }
+  ]
+}
